@@ -646,15 +646,24 @@
         "filename": "Splonkematics.kicad_sch",
         "name": "Root",
         "uuid": "ff1cc28c-697f-410d-b622-22b82951e423"
+      },
+      {
+        "filename": "splonkpad.kicad_sch",
+        "name": "SplonkPad",
+        "uuid": "35a7509c-d76e-4fb3-b4f7-64fd88d057bd"
       }
     ],
-    "used_designators": "J2-3",
+    "used_designators": "R2-4,C3-9,#PWR8-19,U2,J2-4",
     "variants": []
   },
   "sheets": [
     [
       "ff1cc28c-697f-410d-b622-22b82951e423",
       "Root"
+    ],
+    [
+      "35a7509c-d76e-4fb3-b4f7-64fd88d057bd",
+      "SplonkPad"
     ]
   ],
   "text_variables": {},
