@@ -1145,6 +1145,108 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "megasyms:PAD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PAD_0_1"
+				(polyline
+					(pts
+						(xy 0 4.445) (xy -4.445 0) (xy 0 -4.445) (xy 4.445 0) (xy 0 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PAD_1_1"
+				(pin input line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -1400,6 +1502,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 27.94 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e96d226-edb5-4d66-a1e0-26188d837ff4")
+	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 55.626 27.432 0)
@@ -1412,7 +1524,7 @@
 	)
 	(text "SENSOR GRID"
 		(exclude_from_sim no)
-		(at 108.712 65.278 0)
+		(at 73.152 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1461,16 +1573,70 @@
 		(uuid "da6bcfe3-515d-4ef3-9e10-13880dd6c93c")
 	)
 	(junction
+		(at 106.68 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "031fd31c-8b97-45ef-a500-f3f494eb7c22")
+	)
+	(junction
+		(at 76.2 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03a097a0-eb7b-4e2d-b7ce-da78d4f23c88")
+	)
+	(junction
+		(at 137.16 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "059648cd-870c-486b-8960-e9e43e181596")
+	)
+	(junction
 		(at 92.71 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06199ef6-8224-4889-9bc4-09c02e4bd98e")
 	)
 	(junction
-		(at 50.8 113.03)
+		(at 43.18 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06e09ba6-24e8-404f-b5db-90c7501b1c65")
+	)
+	(junction
+		(at 118.11 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1019ebc5-564c-436d-a676-764f63aed2f7")
+	)
+	(junction
+		(at 77.47 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10e25318-00d7-4f88-a202-844deb213663")
+	)
+	(junction
+		(at 107.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16318fde-31c2-432d-bcd7-a6c8a32e2f72")
+	)
+	(junction
+		(at 116.84 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17841f1e-357a-4de4-8e4c-97fecb739914")
+	)
+	(junction
+		(at 86.36 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1971583d-d295-4b3d-a763-b8595a76d8d0")
+	)
+	(junction
+		(at 76.2 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e3f315b-bf2f-4085-94a4-070033560819")
 	)
 	(junction
 		(at 64.77 30.48)
@@ -1479,10 +1645,58 @@
 		(uuid "20fa847b-c026-4824-902b-21cc5c55095b")
 	)
 	(junction
+		(at 116.84 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ab34214-67c7-4fb8-86ca-596d56b9b9f5")
+	)
+	(junction
 		(at 120.65 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cd04a9f-10cf-473f-a9bb-2c25b6f2421e")
+	)
+	(junction
+		(at 87.63 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2df5a9a3-b7c0-4127-8e6a-850cd7be6d45")
+	)
+	(junction
+		(at 97.79 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36b0c018-6694-469a-8f74-42adecf7fc84")
+	)
+	(junction
+		(at 96.52 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36def93a-c62c-454d-b874-d6b45df37084")
+	)
+	(junction
+		(at 86.36 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ecbeedc-3eac-4a05-80ef-05abdc13314f")
+	)
+	(junction
+		(at 107.95 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "425ca43e-a86b-4070-96cd-22a4216e050e")
+	)
+	(junction
+		(at 97.79 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "453553b0-66f5-4d33-a557-d01e7151fb21")
+	)
+	(junction
+		(at 76.2 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47829dbc-4c6d-492f-8a56-eb38625d1fad")
 	)
 	(junction
 		(at 120.65 40.64)
@@ -1491,10 +1705,88 @@
 		(uuid "4f795e58-074e-4cd7-883a-f19694c1a21c")
 	)
 	(junction
+		(at 97.79 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5239f42c-5154-4dc7-a906-7c7efdbf61ce")
+	)
+	(junction
+		(at 87.63 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56ae8298-1424-4fbe-98bd-dfe1ca536ac5")
+	)
+	(junction
+		(at 76.2 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58627a55-7f32-4b4c-809d-56a042091a15")
+	)
+	(junction
+		(at 77.47 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64fa62a1-18f7-4c5d-8e19-5faa2327f069")
+	)
+	(junction
+		(at 107.95 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d5db65a-50c5-4f4d-961c-1248abe6e1d9")
+	)
+	(junction
+		(at 77.47 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75466cb7-3afc-405a-9161-e7c913b2068c")
+	)
+	(junction
+		(at 107.95 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "774d3859-b9cf-4da4-b359-356eb133d345")
+	)
+	(junction
+		(at 97.79 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b78cfed-4ca6-4c40-baa6-0052c63b69af")
+	)
+	(junction
+		(at 137.16 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bc2deba-301e-4148-a65c-1275b8b1122c")
+	)
+	(junction
+		(at 87.63 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849fd626-92d1-4acb-a91f-6a8540e0c008")
+	)
+	(junction
 		(at 92.71 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88180dc5-1c90-4428-84de-d0617d9d7e55")
+	)
+	(junction
+		(at 116.84 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa03916-48d1-46a6-8816-57592f955df5")
+	)
+	(junction
+		(at 116.84 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e1e0466-cce8-4900-885c-c25d3494bff3")
+	)
+	(junction
+		(at 106.68 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "909dc2a2-e9ca-44fd-8a5c-e89ad25c0cd1")
 	)
 	(junction
 		(at 64.77 40.64)
@@ -1508,61 +1800,279 @@
 		(color 0 0 0 0)
 		(uuid "9762574f-19d4-4049-ac35-95637e4a0c58")
 	)
-	(no_connect
-		(at 127 97.79)
-		(uuid "15dfe8f3-c48a-40c5-b383-7cab247a3a97")
+	(junction
+		(at 107.95 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9762cc5c-3a23-43ba-8478-a388443756f0")
 	)
-	(no_connect
-		(at 137.16 80.01)
-		(uuid "1a7f80fd-0def-4d7c-a137-e7cdf5937374")
-	)
-	(no_connect
-		(at 134.62 97.79)
-		(uuid "24a09f69-772c-4de2-9156-1a9bcb8f6d93")
-	)
-	(no_connect
-		(at 115.57 97.79)
-		(uuid "31c1c223-1b42-46f5-8732-6b00dcd53713")
-	)
-	(no_connect
-		(at 137.16 76.2)
-		(uuid "8075570c-4826-41d2-aac2-a8f9a2f7c4dc")
-	)
-	(no_connect
-		(at 137.16 91.44)
-		(uuid "834ca92f-a99f-4924-9b0c-f5405cf81879")
-	)
-	(no_connect
-		(at 137.16 83.82)
-		(uuid "d2f25cad-bbc0-4d4d-afda-633ca13fd360")
-	)
-	(no_connect
+	(junction
 		(at 137.16 87.63)
-		(uuid "ddae6fa0-ea81-4964-a5e2-5ae3562a2390")
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9827e430-41b5-4210-8060-5fc738b29aeb")
 	)
-	(no_connect
-		(at 130.81 97.79)
-		(uuid "e43a45e0-8283-4295-bd81-0f93f91f2c50")
+	(junction
+		(at 107.95 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ae84582-fcc6-4740-9982-0113e8b6d2d6")
 	)
-	(no_connect
-		(at 137.16 95.25)
-		(uuid "efe73082-0f4c-4d52-958f-ee394fe7bcc7")
+	(junction
+		(at 86.36 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b2eed60-a449-4927-9894-c1321ffb1b7a")
 	)
-	(no_connect
-		(at 119.38 97.79)
-		(uuid "f0bfd40e-dc68-4fc8-a2a3-acdd55c65f94")
+	(junction
+		(at 96.52 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cbc7e64-7f14-438f-b669-bbd9565aeb11")
 	)
-	(no_connect
-		(at 123.19 97.79)
-		(uuid "f2c084d0-5c15-40ef-96ff-233b8f79ab32")
+	(junction
+		(at 106.68 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d9827e6-a833-4c66-b468-2e134acf4ea7")
 	)
-	(no_connect
-		(at 111.76 97.79)
-		(uuid "fb554163-c9a0-4027-9465-f1ed01d4574d")
+	(junction
+		(at 106.68 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f36741d-218e-4837-98ea-dedd587d0f2f")
+	)
+	(junction
+		(at 97.79 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1d34d3c-1e01-455f-b98b-f55887bb8159")
+	)
+	(junction
+		(at 77.47 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2a1e8f1-beb0-41c2-b45b-4fca6f09b8db")
+	)
+	(junction
+		(at 127 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a44da7bc-f567-4aa3-aaa5-fb414df071a1")
+	)
+	(junction
+		(at 97.79 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9a65713-19a4-49b0-9bcd-4458a7093aa9")
+	)
+	(junction
+		(at 87.63 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9ac0fdd-3768-49f2-9eaf-f8f647df35d0")
+	)
+	(junction
+		(at 127 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b39beb15-d1b2-4f85-9923-c0fb58e2ea5b")
+	)
+	(junction
+		(at 127 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b75489b5-ed22-4e3e-9ada-09f8fe8f9ee7")
+	)
+	(junction
+		(at 106.68 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8f4fdd3-8864-4384-96ee-2cdb8f5fab9a")
+	)
+	(junction
+		(at 96.52 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd009262-168c-4c4a-bde0-5ebb71e1714e")
+	)
+	(junction
+		(at 118.11 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bea7a052-6763-4a9b-876e-5569efbc212a")
+	)
+	(junction
+		(at 118.11 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8dfd67f-a0cf-4164-a9b4-aa189422297b")
+	)
+	(junction
+		(at 116.84 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd6e88f8-ba8c-4970-92f5-59a75d261f2e")
+	)
+	(junction
+		(at 87.63 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d699fce8-f8b7-4164-a71e-132246037f04")
+	)
+	(junction
+		(at 137.16 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6e4506f-a50d-4ca8-952e-6c61e2250d84")
+	)
+	(junction
+		(at 86.36 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6f591aa-156b-4876-9d2a-d04d5cc46a37")
+	)
+	(junction
+		(at 96.52 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8856e3a-8f5e-4afd-9f5f-b0703b0f914d")
+	)
+	(junction
+		(at 127 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ee6167-7db8-4337-9e80-57afa924a5ef")
+	)
+	(junction
+		(at 77.47 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da8dff20-0b2f-4101-a33f-c52b13ccc922")
+	)
+	(junction
+		(at 77.47 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbf7f747-4981-40da-b4b5-aae1999c256f")
+	)
+	(junction
+		(at 118.11 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5226530-f756-478b-b153-e2558547d4d4")
+	)
+	(junction
+		(at 127 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7a1f59a-a234-4c8b-9c09-4a0510c236d6")
+	)
+	(junction
+		(at 118.11 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec845193-b39b-4a33-adca-9ecb01415539")
+	)
+	(junction
+		(at 137.16 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed058221-8eca-45d3-9fe5-576ad017cbc0")
+	)
+	(junction
+		(at 86.36 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef8bdc0f-52e1-4b01-b73b-2a63e379ccc8")
+	)
+	(junction
+		(at 96.52 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6136a56-1696-48d6-9f6b-4022559bf517")
+	)
+	(junction
+		(at 118.11 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7a81094-0784-473e-a6c7-a06e18b4cbbe")
+	)
+	(junction
+		(at 87.63 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b5baee-71a1-4f39-a594-4ff7c4ce2f03")
+	)
+	(junction
+		(at 76.2 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f90d1fa2-dfc7-48dc-9be2-a57ab9fd12d0")
 	)
 	(wire
 		(pts
-			(xy 66.04 91.44) (xy 63.5 91.44)
+			(xy 137.16 97.79) (xy 137.16 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0465da2f-e67d-4037-b53f-a211022e041e")
+	)
+	(wire
+		(pts
+			(xy 76.2 57.15) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082ff2e5-caf9-4eea-ba10-36a72db5be97")
+	)
+	(wire
+		(pts
+			(xy 86.36 97.79) (xy 86.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2a1094-d9da-41d6-a99b-38b34edadc6d")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106e03d2-183a-4efd-9753-13106cb1027d")
+	)
+	(wire
+		(pts
+			(xy 96.52 53.34) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10bf6222-825c-4e97-80c3-314cde1494e1")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 87.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f0fd18-b4d5-474b-891b-343c6ce0a76b")
+	)
+	(wire
+		(pts
+			(xy 57.15 92.71) (xy 55.88 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1582,13 +2092,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 86.36) (xy 63.5 86.36)
+			(xy 57.15 87.63) (xy 55.88 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "18178ecb-7855-4ae0-b197-0cfe87844814")
+	)
+	(wire
+		(pts
+			(xy 77.47 106.68) (xy 87.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a54b643-09cd-453a-8680-6933a3991d63")
 	)
 	(wire
 		(pts
@@ -1599,6 +2119,46 @@
 			(type default)
 		)
 		(uuid "1a74e087-732c-4d73-ac5d-c20970f80514")
+	)
+	(wire
+		(pts
+			(xy 87.63 116.84) (xy 97.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9296d4-3a23-4d71-bfd6-9a3069b77f8e")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc942be-baff-4a3c-8824-6b1e475aa8ca")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ead7273-57e1-4344-9701-55439d8ad0c7")
+	)
+	(wire
+		(pts
+			(xy 96.52 97.79) (xy 96.52 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efb1ff7-3ffc-4405-b34d-f4d710b1d983")
 	)
 	(wire
 		(pts
@@ -1632,7 +2192,37 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 63.5 71.12)
+			(xy 137.16 57.15) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f11932-e469-48bd-ae1e-60e3b179e08c")
+	)
+	(wire
+		(pts
+			(xy 116.84 57.15) (xy 116.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2918543c-c333-4d89-8145-0cdca1f72e89")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 127 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29daf6be-f92c-4b5a-a5f3-cecfb88fac43")
+	)
+	(wire
+		(pts
+			(xy 57.15 72.39) (xy 55.88 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1652,6 +2242,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 77.47) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9d6ce5-4b96-4f62-87d7-a25b2eb208c8")
+	)
+	(wire
+		(pts
 			(xy 123.19 39.37) (xy 123.19 40.64)
 		)
 		(stroke
@@ -1662,27 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 73.66) (xy 134.62 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa05a4c-76e9-4640-84f2-ffb625b4e05d")
-	)
-	(wire
-		(pts
-			(xy 127 73.66) (xy 127 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ca543c-af1f-4b54-b106-f344716400d3")
-	)
-	(wire
-		(pts
-			(xy 50.8 110.49) (xy 50.8 113.03)
+			(xy 43.18 111.76) (xy 43.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 78.74) (xy 63.5 78.74)
+			(xy 57.15 80.01) (xy 55.88 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +2292,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 40.64 86.36)
+			(xy 77.47 96.52) (xy 87.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421a9f54-7648-4d31-925c-aeac0f55bb58")
+	)
+	(wire
+		(pts
+			(xy 31.75 87.63) (xy 33.02 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1742,13 +2332,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 115.57 97.79)
+			(xy 118.11 116.84) (xy 135.89 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f736a1c-4687-49eb-a6ef-20ccf1900a4a")
+		(uuid "46aecdcc-75a8-4ca8-9215-a440bac8d210")
 	)
 	(wire
 		(pts
@@ -1762,6 +2352,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 53.34) (xy 116.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547d481a-9162-4f36-a7e8-6bbbae9fa07e")
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56899708-e808-4670-8bd4-88f7ea40cfa2")
+	)
+	(wire
+		(pts
 			(xy 143.51 29.21) (xy 143.51 30.48)
 		)
 		(stroke
@@ -1772,27 +2382,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 130.81 97.79)
+			(xy 137.16 77.47) (xy 137.16 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a9b1801-48e4-4753-b6f3-7081c87f67eb")
+		(uuid "59d6204a-aaca-42dd-9220-7eb06dec8723")
 	)
 	(wire
 		(pts
-			(xy 109.22 76.2) (xy 137.16 76.2)
+			(xy 97.79 116.84) (xy 107.95 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d2f55ad-3c47-4967-b13e-2afc405abc08")
+		(uuid "5ad7d0e5-7573-4220-b063-1acb72a2ae8c")
 	)
 	(wire
 		(pts
-			(xy 52.07 55.88) (xy 52.07 57.15)
+			(xy 44.45 57.15) (xy 44.45 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1802,23 +2412,53 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 119.38 97.79)
+			(xy 127 53.34) (xy 127 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65b91b4f-0f3e-46bb-ab96-95516300d249")
+		(uuid "63c6770a-7c69-44ce-af0d-412d1af5d03f")
 	)
 	(wire
 		(pts
-			(xy 39.37 81.28) (xy 40.64 81.28)
+			(xy 31.75 82.55) (xy 33.02 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66ba6d5f-be2c-43c8-a732-eb0b4da700b9")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68da78ee-232c-40d2-99c3-75e6ba5e7380")
+	)
+	(wire
+		(pts
+			(xy 107.95 106.68) (xy 118.11 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6975c09a-9535-44a0-b428-7f0428c8efcb")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6fb22a-8ab5-4785-b873-11be45c96c7f")
 	)
 	(wire
 		(pts
@@ -1832,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 113.03) (xy 53.34 113.03)
+			(xy 43.18 114.3) (xy 45.72 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1842,17 +2482,37 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 137.16 83.82)
+			(xy 71.12 66.04) (xy 77.47 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71bd7312-6b8c-4a2b-b092-ab4bc76c9430")
+		(uuid "6ecc8242-4b0c-4ddf-be75-b82e5a5c0f42")
 	)
 	(wire
 		(pts
-			(xy 54.61 55.88) (xy 54.61 57.15)
+			(xy 77.47 86.36) (xy 87.63 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f08135a-06e4-4795-94b6-a80587e42068")
+	)
+	(wire
+		(pts
+			(xy 107.95 96.52) (xy 118.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f51436b-1ba7-42e4-ba44-24ee28741d35")
+	)
+	(wire
+		(pts
+			(xy 46.99 57.15) (xy 46.99 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 88.9) (xy 63.5 88.9)
+			(xy 57.15 90.17) (xy 55.88 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1902,6 +2562,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 67.31) (xy 116.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5dc2c3-38cd-4bfa-80e6-730169d79db8")
+	)
+	(wire
+		(pts
 			(xy 67.31 39.37) (xy 67.31 40.64)
 		)
 		(stroke
@@ -1912,23 +2582,53 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 73.66) (xy 123.19 97.79)
+			(xy 76.2 87.63) (xy 76.2 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f249dc7-d7ed-43ac-80d1-d763b2ae3630")
+		(uuid "7dc09577-e696-4d8b-b71f-379db02a612c")
 	)
 	(wire
 		(pts
-			(xy 109.22 95.25) (xy 137.16 95.25)
+			(xy 77.47 106.68) (xy 71.12 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8114ae5e-474d-4b7a-822f-afc641f834c9")
+		(uuid "83cb5bf7-bd0e-4ad7-ab8a-5fe4bcbd344f")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 77.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f70878-810d-47b0-a5c2-a482f65782c4")
+	)
+	(wire
+		(pts
+			(xy 87.63 66.04) (xy 97.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cf1e77-9f11-4cef-a3b3-77c428dfbe5f")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89233a9e-101a-4886-be64-756451edb268")
 	)
 	(wire
 		(pts
@@ -1942,7 +2642,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 68.58) (xy 63.5 68.58)
+			(xy 137.16 67.31) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e76952f-581d-441f-bf2b-badf8d1c59e9")
+	)
+	(wire
+		(pts
+			(xy 57.15 69.85) (xy 55.88 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 63.5 76.2)
+			(xy 57.15 77.47) (xy 55.88 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1962,23 +2672,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 137.16 91.44)
+			(xy 87.63 76.2) (xy 97.79 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9868496e-9b9c-49bc-babb-fe72997b8d36")
+		(uuid "93b3f2cd-0368-4b73-9927-60e967e6b99d")
 	)
 	(wire
 		(pts
-			(xy 109.22 87.63) (xy 137.16 87.63)
+			(xy 118.11 106.68) (xy 135.89 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a571470-7fac-4724-ad56-92326eb5dfdf")
+		(uuid "96d7a8bb-802d-4b5a-87ab-11f60c1bd964")
 	)
 	(wire
 		(pts
@@ -1992,7 +2702,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 113.03) (xy 50.8 113.03)
+			(xy 107.95 116.84) (xy 118.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae71c2c-4fdd-4aa3-8353-869f11232896")
+	)
+	(wire
+		(pts
+			(xy 97.79 106.68) (xy 107.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9baae67a-6a4b-4a10-be48-54b17b87dde8")
+	)
+	(wire
+		(pts
+			(xy 40.64 114.3) (xy 43.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2002,23 +2732,73 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 111.76 97.79)
+			(xy 76.2 67.31) (xy 76.2 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4959563-da32-4f55-801b-950ab1ce0cce")
+		(uuid "a267a482-a65a-4b83-b38f-6a0ff64643d6")
 	)
 	(wire
 		(pts
-			(xy 39.37 83.82) (xy 40.64 83.82)
+			(xy 118.11 96.52) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e81a64-7e22-40ce-9331-788a8e84c627")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a716cd79-4aab-4eda-a30b-5bacb7bb9e26")
+	)
+	(wire
+		(pts
+			(xy 31.75 85.09) (xy 33.02 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a774f76b-f3b9-4de0-a0d9-36af0ae584f6")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 118.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5abb7c-926f-4038-b83c-87dbd06aa84b")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab688e88-afb8-4b3d-8a87-3f9e6a10574a")
+	)
+	(wire
+		(pts
+			(xy 86.36 57.15) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea9e54a-0345-4c05-9b69-81666e7bec51")
 	)
 	(wire
 		(pts
@@ -2032,6 +2812,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 67.31) (xy 96.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afedf60b-eb2f-4497-ba21-f1b2f707e180")
+	)
+	(wire
+		(pts
+			(xy 77.47 116.84) (xy 87.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0926489-43e0-4f54-9420-4888db3daa78")
+	)
+	(wire
+		(pts
 			(xy 92.71 27.94) (xy 92.71 30.48)
 		)
 		(stroke
@@ -2039,6 +2839,26 @@
 			(type default)
 		)
 		(uuid "b0a98443-2e03-4e7c-a599-fb15840aca99")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 76.2 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2945cd6-e71c-4e3e-992b-5602d6b962da")
+	)
+	(wire
+		(pts
+			(xy 71.12 86.36) (xy 77.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b381ea78-23b9-4aee-a725-46a1c3da13aa")
 	)
 	(wire
 		(pts
@@ -2052,13 +2872,73 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 54.61) (xy 49.53 57.15)
+			(xy 71.12 96.52) (xy 77.47 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57c3cbe-5b10-4b1d-98a4-a2a346b95aa4")
+	)
+	(wire
+		(pts
+			(xy 41.91 55.88) (xy 41.91 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5959403-93a3-41b3-a412-5d7cfd16c09b")
+	)
+	(wire
+		(pts
+			(xy 86.36 77.47) (xy 86.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86eaf76-636f-48c7-b9da-4cdd53557231")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bcfe24-0daa-4b61-acc4-884048ae30d5")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 118.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce4df65-d289-482b-ab52-363203be879f")
+	)
+	(wire
+		(pts
+			(xy 137.16 87.63) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4a4db8-f75c-4f30-a29d-e94e3611ea3a")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 127 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c018213e-2379-47f7-805e-f0162323cbdf")
 	)
 	(wire
 		(pts
@@ -2072,7 +2952,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 99.06) (xy 63.5 99.06)
+			(xy 127 57.15) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08d2c36-08ea-4e3b-bdcb-bd4785eab88a")
+	)
+	(wire
+		(pts
+			(xy 96.52 87.63) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15cb583-14c4-4bb5-958b-2b7aa3f9abaa")
+	)
+	(wire
+		(pts
+			(xy 57.15 100.33) (xy 55.88 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2092,13 +2992,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 80.01) (xy 137.16 80.01)
+			(xy 86.36 53.34) (xy 86.36 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6abe040-32fb-4d1f-bd90-7d5a4cc13402")
+		(uuid "c648c59b-e919-4a2f-99be-2f005d402a26")
+	)
+	(wire
+		(pts
+			(xy 106.68 53.34) (xy 106.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e51e93-66da-4f5e-a355-fdce991ae93f")
 	)
 	(wire
 		(pts
@@ -2112,6 +3022,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 67.31) (xy 86.36 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e6bcb3-9099-4f52-9ee6-4922238c7247")
+	)
+	(wire
+		(pts
 			(xy 90.17 30.48) (xy 92.71 30.48)
 		)
 		(stroke
@@ -2119,6 +3039,16 @@
 			(type default)
 		)
 		(uuid "cc270f00-890d-43ea-8084-a14514c2a047")
+	)
+	(wire
+		(pts
+			(xy 86.36 87.63) (xy 86.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd506eab-890f-4903-b2e3-ea1d88f8957b")
 	)
 	(wire
 		(pts
@@ -2132,13 +3062,73 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 96.52) (xy 63.5 96.52)
+			(xy 118.11 66.04) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8a9cdc-b99e-44c9-8c37-6a6a8ba5ef6d")
+	)
+	(wire
+		(pts
+			(xy 57.15 97.79) (xy 55.88 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d54bea21-0655-465a-9832-7183c65a94f1")
+	)
+	(wire
+		(pts
+			(xy 96.52 57.15) (xy 96.52 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e9590d-ec6d-44b5-b38e-33d7b1517869")
+	)
+	(wire
+		(pts
+			(xy 106.68 77.47) (xy 106.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7628320-f4a7-4761-8290-29c824b70720")
+	)
+	(wire
+		(pts
+			(xy 76.2 97.79) (xy 76.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8115981-aa72-4d87-9245-b8498c693c3c")
+	)
+	(wire
+		(pts
+			(xy 107.95 86.36) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97169d5-170f-4f4c-9d83-0bde38b39543")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 116.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d999555a-c3af-48ac-a8dc-9e9e8e7a465c")
 	)
 	(wire
 		(pts
@@ -2152,7 +3142,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 63.5 81.28)
+			(xy 116.84 87.63) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2171e7-110e-4c86-b9b1-a7066ef38121")
+	)
+	(wire
+		(pts
+			(xy 57.15 82.55) (xy 55.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 73.66) (xy 63.5 73.66)
+			(xy 57.15 74.93) (xy 55.88 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +3172,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 83.82) (xy 63.5 83.82)
+			(xy 57.15 85.09) (xy 55.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2192,13 +3192,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 93.98) (xy 63.5 93.98)
+			(xy 57.15 95.25) (xy 55.88 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1f7d9df-e885-4b6a-87de-d755b968c48c")
+	)
+	(wire
+		(pts
+			(xy 87.63 86.36) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24ad02a-a3d7-4a70-be95-a76563b081ce")
 	)
 	(wire
 		(pts
@@ -2212,13 +3222,43 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 110.49) (xy 53.34 113.03)
+			(xy 77.47 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5b6c69-78ca-41fc-9a79-2b079e52069c")
+	)
+	(wire
+		(pts
+			(xy 106.68 57.15) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea698c49-5fc6-4002-afbd-55626d52a7cd")
+	)
+	(wire
+		(pts
+			(xy 45.72 111.76) (xy 45.72 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec53100c-9ad4-4387-945b-6fdfa75385a3")
+	)
+	(wire
+		(pts
+			(xy 106.68 67.31) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05efc13-900f-4154-b600-82e3ba3e140b")
 	)
 	(wire
 		(pts
@@ -2232,6 +3272,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 77.47) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59b333f-22e0-416e-a089-0b62994c1a02")
+	)
+	(wire
+		(pts
+			(xy 87.63 106.68) (xy 97.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a7e73a-cbcc-4e22-84a1-8c0f3ffc2dfe")
+	)
+	(wire
+		(pts
 			(xy 92.71 30.48) (xy 95.25 30.48)
 		)
 		(stroke
@@ -2239,6 +3299,26 @@
 			(type default)
 		)
 		(uuid "f7d2051b-f165-4956-884f-d4106158cce5")
+	)
+	(wire
+		(pts
+			(xy 106.68 87.63) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fe3c98-4ecb-49db-93c2-447444c1fa63")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 137.16 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8063217-5351-49b6-910c-196c96825aef")
 	)
 	(wire
 		(pts
@@ -2280,8 +3360,48 @@
 		)
 		(uuid "fe6d81df-1b56-42f5-a0b7-e193cd18cdc6")
 	)
+	(wire
+		(pts
+			(xy 97.79 96.52) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec2dfa7-628b-4b0a-a73b-58d42c7aa111")
+	)
+	(wire
+		(pts
+			(xy 87.63 96.52) (xy 97.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecfef67-da18-45d6-88b5-9bfe4fc92a99")
+	)
+	(label "RX4"
+		(at 57.15 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "064714c8-1df2-4448-aa97-1bb8e415a2ff")
+	)
+	(label "TX11"
+		(at 57.15 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09992a42-9b07-41a9-b8d1-ea99885e9fbe")
+	)
 	(label "VREGD"
-		(at 52.07 55.88 90)
+		(at 44.45 57.15 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2291,7 +3411,7 @@
 		(uuid "0ae42b8d-cd4b-4da4-82d4-4a731872facf")
 	)
 	(label "VREGA"
-		(at 54.61 55.88 90)
+		(at 46.99 57.15 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2300,8 +3420,48 @@
 		)
 		(uuid "0b97e299-ad20-423f-a0e3-2ef5a9ee53cd")
 	)
-	(label "SDA_PAD"
-		(at 39.37 81.28 180)
+	(label "RX5"
+		(at 57.15 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13fcfb67-e316-4a48-ad59-b4bf5205e104")
+	)
+	(label "TX7"
+		(at 57.15 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b9a0626-8d05-41f4-b859-832324bf8cde")
+	)
+	(label "RX1"
+		(at 57.15 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e57aa39-0245-4abf-b4a8-85a37eefd04e")
+	)
+	(label "TX8"
+		(at 96.52 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32a490f2-3ac4-4276-af94-6cdadc493f4c")
+	)
+	(label "SDA2"
+		(at 31.75 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2330,8 +3490,38 @@
 		)
 		(uuid "54aba950-4539-4541-a6b9-04a7d97709be")
 	)
+	(label "RX0"
+		(at 57.15 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57cb1070-87dd-445a-ac07-8ca5a79a213f")
+	)
+	(label "TX7"
+		(at 86.36 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65e76ca6-e1b3-4349-9e86-133245434527")
+	)
+	(label "TX11"
+		(at 127 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66547160-628a-4d54-a4a6-d9aa501cfcda")
+	)
 	(label "RDY"
-		(at 39.37 86.36 180)
+		(at 31.75 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2340,7 +3530,27 @@
 		)
 		(uuid "692e83b2-5244-4c86-8506-95b895605bb7")
 	)
-	(label "SCL_PAD"
+	(label "TX3"
+		(at 57.15 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c7e2be3-1193-418a-a75e-f3fc9c48c98d")
+	)
+	(label "TX12"
+		(at 137.16 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b2bf441-1e59-4343-833d-3e3774bb2bb5")
+	)
+	(label "SCL2"
 		(at 40.64 34.29 0)
 		(effects
 			(font
@@ -2350,8 +3560,68 @@
 		)
 		(uuid "7c5baa7b-e3e5-4b68-b446-fae5f6d43f95")
 	)
-	(label "SCL_PAD"
-		(at 39.37 83.82 180)
+	(label "TX12"
+		(at 57.15 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e83d35a-d86d-4c10-b3aa-23ec007649ef")
+	)
+	(label "RX6"
+		(at 71.12 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9480481f-902e-454b-b5ae-74fba5fa46ad")
+	)
+	(label "TX9"
+		(at 106.68 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95abb06f-3a2e-4927-b107-6c44b20b89b4")
+	)
+	(label "RX1"
+		(at 71.12 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "963ae374-7c32-4a90-adc9-b3c7f331490c")
+	)
+	(label "RX4"
+		(at 71.12 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a08085d2-820e-4c0a-8119-f9f03dcafc7f")
+	)
+	(label "RX0"
+		(at 71.12 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0f26764-b2c5-4621-86b8-67e786a645f8")
+	)
+	(label "SCL2"
+		(at 31.75 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2370,7 +3640,67 @@
 		)
 		(uuid "b2a7a9c3-46d3-400e-b2b8-e20aa3c2ea89")
 	)
-	(label "SDA_PAD"
+	(label "TX8"
+		(at 57.15 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c168dc63-4493-4cef-8fcb-d0a2eee7d2a1")
+	)
+	(label "RX6"
+		(at 57.15 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d00a16dd-fcee-4d74-a5a2-208e379a265f")
+	)
+	(label "TX10"
+		(at 116.84 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d24c4e2e-6120-4ae6-954d-4e24b41bc89e")
+	)
+	(label "TX9"
+		(at 57.15 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d28967ba-283e-4e09-ab48-eea7706b4099")
+	)
+	(label "RX5"
+		(at 71.12 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb7c70cc-d457-4167-a23a-7d9e18043c7d")
+	)
+	(label "RX2"
+		(at 71.12 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eeca4035-97b1-4fa2-a8c4-63eca50a120b")
+	)
+	(label "SDA2"
 		(at 40.64 36.83 0)
 		(effects
 			(font
@@ -2380,629 +3710,35 @@
 		)
 		(uuid "f5cfca4a-7a40-43ad-bdad-0900d6720219")
 	)
-	(global_label "RX4"
-		(shape input)
-		(at 109.22 87.63 180)
-		(fields_autoplaced yes)
+	(label "TX10"
+		(at 57.15 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "07d28bb3-7bff-48a7-95d3-b994211365d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.4345 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "f8ed09d5-5122-4b90-949f-978e33188408")
 	)
-	(global_label "TX11"
-		(shape input)
-		(at 66.04 96.52 0)
-		(fields_autoplaced yes)
+	(label "TX3"
+		(at 76.2 53.34 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "08dfe13b-2754-49a3-85ab-d402e59255e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7326 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "fc097510-eabe-45f9-9d2f-d2771df0c6d6")
 	)
-	(global_label "TX7"
-		(shape input)
-		(at 66.04 86.36 0)
-		(fields_autoplaced yes)
+	(label "RX2"
+		(at 57.15 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "11622df4-abb1-47de-9029-e675fe3011b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.5231 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX3"
-		(shape input)
-		(at 66.04 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2062b7ee-b15e-40b5-b70c-4a405a49d9be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.5231 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX4"
-		(shape input)
-		(at 66.04 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c8f944a-49fb-4578-b26b-264ba64b55c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8255 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX12"
-		(shape input)
-		(at 66.04 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2fb5d76a-44e7-4acd-aaca-a2b33353b97e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7326 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX10"
-		(shape input)
-		(at 127 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34c4dd7a-ce92-4a88-87fb-744184404cb3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 66.0787 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX11"
-		(shape input)
-		(at 130.81 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ceb3aa1-4a0c-49e7-8e0d-19bcdda9711f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 66.0787 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX2"
-		(shape input)
-		(at 109.22 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4001cb47-5153-4212-a5d4-c40084abfa49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.4345 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RX2"
-		(shape input)
-		(at 66.04 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "47b2fdcc-501c-44b3-a6cb-3804fa185ef7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8255 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX10"
-		(shape input)
-		(at 66.04 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64160575-b4e9-443b-8951-7a476973206d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.7326 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX1"
-		(shape input)
-		(at 109.22 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66d98c33-e00f-4194-b09e-83c60810e7c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.4345 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RX0"
-		(shape input)
-		(at 109.22 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7340c59f-d8f9-4a61-8126-54078c2c754c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.4345 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TX8"
-		(shape input)
-		(at 66.04 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "76486d33-13a2-4801-8648-fa9a9d645363")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.5231 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX1"
-		(shape input)
-		(at 66.04 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d6da353-f005-4e08-9ef5-e718cb8e19ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8255 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX0"
-		(shape input)
-		(at 66.04 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8fc54892-b412-4d11-b26d-8874c54b413a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8255 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX12"
-		(shape input)
-		(at 134.62 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90389ac7-54d6-4860-b4eb-a319ffc6afa8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 66.0787 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX7"
-		(shape input)
-		(at 115.57 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "997df261-4dfb-4c38-b3a0-fa97bf305801")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 67.2882 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX9"
-		(shape input)
-		(at 66.04 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b599d10f-1d17-408c-b8ed-0d78f7756ed9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.5231 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX5"
-		(shape input)
-		(at 66.04 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6849104-b4f0-4b7f-89b7-427c75edf6de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8255 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX6"
-		(shape input)
-		(at 66.04 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b88dd870-9588-42ba-8a3b-ff9729d142db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8255 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX5"
-		(shape input)
-		(at 109.22 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc1b64a1-21fb-41b8-92a3-88a9ad995b8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.4345 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TX8"
-		(shape input)
-		(at 119.38 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc53d41c-2a0d-4298-bd08-229fc06a3603")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 67.2882 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX3"
-		(shape input)
-		(at 111.76 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c235ee6b-3069-43fa-a991-589ac70e8daa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 67.2882 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TX9"
-		(shape input)
-		(at 123.19 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cd0ed487-9f40-4898-8567-1e5e0779d944")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 67.2882 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RX6"
-		(shape input)
-		(at 109.22 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d57b3308-9c5f-46ea-a1a2-f6efe31314aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.4345 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "fdb909d0-b9e9-437f-92fb-ce52a8e43db8")
 	)
 	(rule_area
 		(exclude_from_sim no)
@@ -3021,6 +3757,25 @@
 				(type none)
 			)
 			(uuid "064e7115-c568-4771-af4d-c0432c09268e")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 66.04 46.99) (xy 142.24 46.99) (xy 142.24 123.19) (xy 66.04 123.19)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0ad087f7-792a-461f-b879-3360a706d784")
 		)
 	)
 	(rule_area
@@ -3049,25 +3804,6 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 101.6 63.5) (xy 139.7 63.5) (xy 139.7 101.6) (xy 101.6 101.6)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "4399a54d-2b38-4cd3-9244-0b75edcccff6")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
 				(xy 80.01 25.4) (xy 105.41 25.4) (xy 105.41 44.45) (xy 80.01 44.45)
 			)
 			(stroke
@@ -3078,6 +3814,25 @@
 				(type none)
 			)
 			(uuid "70b519cc-efa1-4a24-817e-8ccef3e5ee54")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 25.4 46.99) (xy 63.5 46.99) (xy 63.5 123.19) (xy 25.4 123.19)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "a7cae314-4d72-4d0d-8168-dfd49268ad3e")
 		)
 	)
 	(rule_area
@@ -3201,6 +3956,83 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:PAD")
+		(at 111.76 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04c08b4e-afa0-4d5d-9505-4999c531edaa")
+		(property "Reference" "P34"
+			(at 111.76 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 111.76 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49ffb8e1-a4a7-4a8d-a54b-a4a83b651752")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 123.19 35.56 0)
 		(unit 1)
@@ -3276,6 +4108,548 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 116.84 111.76 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11f365dc-9eaa-4b47-be2c-30039c6de209")
+		(property "Reference" "P74"
+			(at 116.586 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 116.84 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be84536e-cf36-446c-8554-ceae9f8ab52d")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 86.36 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17dd92cc-8d7b-4b06-8b4f-6d7f78235146")
+		(property "Reference" "P9"
+			(at 86.106 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 86.36 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3975e663-30df-443c-b624-088b445e0e76")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 137.16 111.76 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1bcfede4-f172-45af-bc67-5ba7683ce608")
+		(property "Reference" "P78"
+			(at 136.906 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 137.16 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faf54b0d-1c1e-4f6d-8581-521b248f943e")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 96.52 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1beaabdb-437c-4dae-ab11-11517f60541f")
+		(property "Reference" "P44"
+			(at 96.266 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afda54fd-b775-4291-a734-fc98864c8215")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 116.84 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d8bdeb4-7ec2-4009-ba35-715898e45dff")
+		(property "Reference" "P62"
+			(at 116.586 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 116.84 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "331e44ac-1131-4c25-a47f-5e7faed7e916")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 132.08 116.84 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1edb9ee9-7201-427c-b830-86dc8d26958f")
+		(property "Reference" "P77"
+			(at 132.08 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 132.08 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "604c3286-1ddf-4656-9a53-e1ad804e752d")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 81.28 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26cda3ce-7850-4411-9969-66d1bf77636d")
+		(property "Reference" "P16"
+			(at 81.28 66.294 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 81.28 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "951a9664-978a-4bec-8568-ba4ea2a925c2")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P16")
 					(unit 1)
 				)
 			)
@@ -3432,6 +4806,315 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 86.36 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ebbf805-544e-4cfc-a7dc-3eaef7863381")
+		(property "Reference" "P42"
+			(at 86.106 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 86.36 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a11b496-6d1c-4cb6-9d05-ce81bd905b05")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 127 111.76 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fbd61a5-fcbc-4462-88e3-07ab970988d9")
+		(property "Reference" "P76"
+			(at 126.746 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 127 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21382162-177f-40c4-8c7c-f191f13210dd")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 106.68 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3175e6ec-0cad-4bbc-bd0e-b383672c5940")
+		(property "Reference" "P11"
+			(at 106.426 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 106.68 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ce3513e-1516-4152-abfc-4b5e6fe2bf2b")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 91.44 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "320ce0c5-9fe6-4acd-a04c-7a08ab5a6848")
+		(property "Reference" "P57"
+			(at 91.44 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 91.44 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "417f6ec2-6d08-4ede-95bf-be7676c77f6e")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P57")
 					(unit 1)
 				)
 			)
@@ -3598,6 +5281,237 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:PAD")
+		(at 121.92 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d7b4d68-1fe7-472a-8a92-f66c803acce8")
+		(property "Reference" "P63"
+			(at 121.92 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 121.92 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60185b29-a8b8-475b-9c96-d30d78173f18")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 127 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3df86428-a6b9-40e0-83b4-bb9759bd4590")
+		(property "Reference" "P37"
+			(at 126.746 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 127 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5949524d-33f8-44de-93f3-7017f4146444")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 101.6 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40a49e68-5513-4881-a64d-e099d3f80f43")
+		(property "Reference" "P71"
+			(at 101.6 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 101.6 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "408344da-9374-48ae-a2d1-3fe48d06d6c8")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 118.11 35.56 0)
 		(mirror y)
@@ -3674,6 +5588,237 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 76.2 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a72f172-f45d-4806-9bef-1f8967dc0549")
+		(property "Reference" "P15"
+			(at 75.946 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 76.2 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bcf24a9-2f5d-412c-ba04-a79750f6aabd")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 111.76 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b1dcb13-a0c4-49b8-af1d-b0c925ce1e41")
+		(property "Reference" "P73"
+			(at 111.76 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 111.76 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "539fa076-e845-4907-9db8-6e5f702f9183")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 91.44 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e08e706-10c3-4033-b981-22655f0d05dc")
+		(property "Reference" "P43"
+			(at 91.44 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 91.44 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d88f4279-edc6-4414-82bb-ae113b86d5c1")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P43")
 					(unit 1)
 				)
 			)
@@ -3761,6 +5906,546 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:PAD")
+		(at 121.92 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4fd65cb7-9049-430a-901f-c768e1b2abed")
+		(property "Reference" "P36"
+			(at 121.92 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 121.92 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32bd7ad2-f427-4967-848a-e2f2982c3b8d")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 106.68 111.76 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54b19505-35af-4dc5-b16f-edd0524998b0")
+		(property "Reference" "P72"
+			(at 106.426 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 106.68 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d37e02d5-9069-42f3-b8b9-3dbdbf402807")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 106.68 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54bf07e1-2767-4f8e-a3e2-12c2dc1b032f")
+		(property "Reference" "P33"
+			(at 106.426 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 106.68 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "492d36b9-03e9-4c20-b8b9-ae429bfb93e8")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 96.52 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55b756cb-2fc4-478c-bcc1-c525c8624872")
+		(property "Reference" "P3"
+			(at 96.266 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b787c369-db87-480b-b24c-2ccfcb7b5b29")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 96.52 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5aa41da0-2bf8-44b8-80e0-a84b62aa102d")
+		(property "Reference" "P58"
+			(at 96.266 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "851d025e-33d2-4e4c-8990-5e21738ed2f6")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 121.92 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b027404-80bd-48ef-8738-6ec92b553f6c")
+		(property "Reference" "P26"
+			(at 121.92 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 121.92 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25537c7d-32da-42d3-994b-28ec5b3a712c")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 106.68 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b718780-b3d9-4aba-b266-2de2b760f8f5")
+		(property "Reference" "P46"
+			(at 106.426 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 106.68 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "418b81a7-5182-4c44-89c4-665b9bed63f8")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 40.64 90)
 		(unit 1)
@@ -3833,6 +6518,83 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 101.6 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d24f3b3-93df-4449-a5ae-53e0e76b60e5")
+		(property "Reference" "P24"
+			(at 101.6 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 101.6 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e57d727-5a4e-40d7-869b-6b69e8d1ff21")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P24")
 					(unit 1)
 				)
 			)
@@ -3922,7 +6684,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:IQS7211E")
-		(at 52.07 83.82 0)
+		(at 44.45 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3933,7 +6695,7 @@
 		(dnp no)
 		(uuid "684fd1cd-b36a-4b6b-b2a9-ac71a27d146a")
 		(property "Reference" "U3"
-			(at 52.07 89.154 0)
+			(at 44.45 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3944,7 +6706,7 @@
 			)
 		)
 		(property "Value" "IQS7211E"
-			(at 52.07 91.694 0)
+			(at 44.45 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3955,7 +6717,7 @@
 			)
 		)
 		(property "Footprint" "megaprint:QFN-20_EP_3x3_Pitch0.4mm-"
-			(at 52.07 85.09 0)
+			(at 44.45 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,7 +6728,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.azoteq.com/images/stories/pdf/iqs7211e_datasheet.pdf"
-			(at 52.07 85.09 0)
+			(at 44.45 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +6739,7 @@
 			)
 		)
 		(property "Description" "Trackpad Controller"
-			(at 52.07 85.09 0)
+			(at 44.45 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,6 +6816,1240 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 81.28 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d0f2f44-84b9-4794-adcf-4bef72760486")
+		(property "Reference" "P41"
+			(at 81.28 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 81.28 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "626f42ff-2aed-42f0-a714-b0cc6d334748")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 81.28 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f509fc0-755e-4f64-8b58-b909a94c626c")
+		(property "Reference" "P22"
+			(at 81.28 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 81.28 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b36a6e89-6638-44fd-954f-1c1b24305c1a")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 121.92 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73043116-af57-455d-8425-e12c9591681b")
+		(property "Reference" "P20"
+			(at 121.92 66.294 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 121.92 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5041e7c-9470-45ed-804b-a3d4862fedb3")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 91.44 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7706b542-46e8-4079-99c6-c9f17aa569e7")
+		(property "Reference" "P23"
+			(at 91.44 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 91.44 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b67f589-18af-4d12-b025-5151725d59b8")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 76.2 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7aae2f45-76cd-4cb4-a9f1-a9f8eba5a0b5")
+		(property "Reference" "P40"
+			(at 75.946 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 76.2 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e78f0cbe-7cda-42b4-a20a-5d4a1da40003")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 81.28 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bd6bdc9-1f3f-48e9-bbf4-f7d8a65d11ed")
+		(property "Reference" "P28"
+			(at 81.28 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 81.28 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdcc2c94-b227-4554-ac4b-d7e052839f44")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 91.44 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7eb3c53e-7624-457d-b1ed-5fc791f1aecd")
+		(property "Reference" "P30"
+			(at 91.44 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 91.44 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bae1fc8b-85f8-426e-b6be-fb6636d8ac59")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 86.36 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "802e3a08-775a-43ba-b7af-ebe2714fd7b0")
+		(property "Reference" "P2"
+			(at 86.106 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 86.36 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "012bf62b-60b6-4c8d-8411-36de8312ac0e")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 76.2 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "808d2c3f-8881-4c3f-83b2-9ab87028b906")
+		(property "Reference" "P1"
+			(at 75.946 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 76.2 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e28ebb73-5920-4399-bda2-e95a1ed66b67")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 101.6 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83888e7c-3de5-4dab-8c4c-f18db22ac8a2")
+		(property "Reference" "P45"
+			(at 101.6 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 101.6 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed764833-0fa9-4cb7-a344-15c5575ecf6c")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 86.36 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85ff33ef-a2a7-4404-a9cc-3ad267b32d6c")
+		(property "Reference" "P56"
+			(at 86.106 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 86.36 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa61638f-ce09-4323-aeea-ba5abcb5111c")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 132.08 86.36 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b4134c4-0cea-46f3-a160-32a481acb67f")
+		(property "Reference" "P38"
+			(at 132.08 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 132.08 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49bc4055-d61b-4bcb-9daa-009378ef80eb")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 127 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c8f299e-a170-4549-a53f-d3500176032c")
+		(property "Reference" "P64"
+			(at 126.746 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 127 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54c6e399-3b7e-441d-ac9e-cf7530963856")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 111.76 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91437c74-95b2-4fd5-99d7-c70a1ee97bd4")
+		(property "Reference" "P47"
+			(at 111.76 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 111.76 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f728a43-cd51-4a4b-86a7-a1903b3a33e3")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 116.84 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92324caa-766f-42be-af66-c6b243e2acb1")
+		(property "Reference" "P12"
+			(at 116.586 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 116.84 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a4cd00c-4ce6-4635-9601-1e61e253d274")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 132.08 66.04 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "924d187a-a561-4c24-9f87-8f27183baca6")
+		(property "Reference" "P21"
+			(at 132.08 66.294 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 132.08 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b3fd8cc-b915-4af3-b06d-25e23f482aad")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P21")
 					(unit 1)
 				)
 			)
@@ -4138,29 +8134,29 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 48.26 113.03 270)
+		(lib_id "megasyms:PAD")
+		(at 76.2 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a0f41746-45b6-44ac-bfe7-c29677e86e7b")
-		(property "Reference" "#PWR033"
-			(at 41.91 113.03 0)
-			(hide yes)
+		(uuid "95eaa298-fdf6-43ee-ac4e-929d794bb2e9")
+		(property "Reference" "P53"
+			(at 75.946 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 42.672 112.776 90)
+		(property "Value" ""
+			(at 76.2 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4170,7 +8166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 113.03 0)
+			(at 76.2 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +8177,550 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 113.03 0)
+			(at 76.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68546fdd-bc18-41ff-a9fd-d071262be491")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 86.36 111.76 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96729c7a-846e-40d9-9365-51ea4a3ce940")
+		(property "Reference" "P68"
+			(at 86.106 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 86.36 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0afb4309-6866-4891-bccb-683bbe15b652")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 76.2 111.76 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9847896e-57ed-4496-9585-5f49af3ed259")
+		(property "Reference" "P54"
+			(at 75.946 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 76.2 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f15c33a6-5113-4c83-bd5d-e31853c6fda1")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 81.28 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ab7e879-8ee1-44f9-b0c8-430d1e47f88e")
+		(property "Reference" "P55"
+			(at 81.28 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 81.28 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01c69323-dc63-40c2-8bc5-56e72e94fe7b")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 86.36 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e98b5c1-77c2-4e3e-a32f-41b928a3b069")
+		(property "Reference" "P29"
+			(at 86.106 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 86.36 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2db2025-894a-4dcc-bf52-d687d32cced9")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 132.08 106.68 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a056e5b2-7280-4348-897e-031ccc4b939a")
+		(property "Reference" "P65"
+			(at 132.08 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 132.08 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebe688cf-6c16-4fdf-a3bc-f188555301a3")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 132.08 96.52 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0ce0b3b-c107-4f9f-b81e-216771c9b379")
+		(property "Reference" "P51"
+			(at 132.08 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 132.08 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "177c1025-2ba7-4d5d-805a-be8f3928d80c")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0f41746-45b6-44ac-bfe7-c29677e86e7b")
+		(property "Reference" "#PWR033"
+			(at 34.29 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.052 114.046 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4192,7 +8731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 113.03 0)
+			(at 40.64 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4209,6 +8748,391 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 137.16 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a324ebe0-470b-4353-bb9a-b6655d6d72cd")
+		(property "Reference" "P66"
+			(at 136.906 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 137.16 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "367f8d2e-63a5-47a2-b7e6-60666f05ca9d")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 127 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a39839ba-ebda-4377-8bb6-789c85a2a5c5")
+		(property "Reference" "P6"
+			(at 126.746 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 127 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d223195-5cc1-43da-be73-15f0693a1200")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 137.16 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6885a5d-3f0d-4863-9a63-eabb41cd03cd")
+		(property "Reference" "P39"
+			(at 136.906 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 137.16 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9786d8e-486e-4782-bd9d-32d146ccead5")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 106.68 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8b2070f-b954-4489-a3ea-7918fda1c106")
+		(property "Reference" "P60"
+			(at 106.426 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 106.68 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66477c24-00ef-4acb-be23-22ec3c870b58")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 127 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8dad624-06d0-448d-b0d6-b4962b090b96")
+		(property "Reference" "P50"
+			(at 126.746 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 127 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67a44fa9-35fc-463a-95dd-0ad4f3e76ad5")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P50")
 					(unit 1)
 				)
 			)
@@ -4303,6 +9227,237 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:PAD")
+		(at 101.6 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6823da2-356a-4650-b3a8-55dfe215dced")
+		(property "Reference" "P32"
+			(at 101.6 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 101.6 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1e92d5a-1303-4ad6-8861-6fa336e6251f")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 101.6 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b95e2c52-6f1c-4ee4-81be-55aaa64ec481")
+		(property "Reference" "P59"
+			(at 101.6 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 101.6 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db1a116f-7509-404c-a501-d998af62af02")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 116.84 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd4de73c-2520-4b9a-86b5-6fe5728ba2a3")
+		(property "Reference" "P35"
+			(at 116.586 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 116.84 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be832804-8f84-4ec7-89d5-e9ac0298a09e")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 31.75 90)
 		(mirror x)
@@ -4375,6 +9530,237 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 111.76 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7540673-bbea-4621-9f59-0e77a8cb828b")
+		(property "Reference" "P19"
+			(at 111.76 66.294 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 111.76 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96d19aee-c7c5-4f85-aabd-7d6a3fd14fc7")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 91.44 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c871dc88-82c8-4234-a85f-b04c4b0079f7")
+		(property "Reference" "P69"
+			(at 91.44 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 91.44 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb1ec5fe-4dee-43ca-bc70-648b4e50aeb2")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 116.84 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c88d6b44-a1ad-40b3-904f-76312958a61a")
+		(property "Reference" "P5"
+			(at 116.586 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 116.84 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a383075-574c-40ff-98ac-8198f9fff642")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P5")
 					(unit 1)
 				)
 			)
@@ -4460,6 +9846,700 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:PAD")
+		(at 132.08 76.2 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbef528c-d3e8-4611-b1d5-d727eb961811")
+		(property "Reference" "P27"
+			(at 132.08 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 132.08 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6e1b1a0-69d6-41bd-9de5-e9c7d436b310")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 96.52 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc2277d3-a9da-4004-a5b1-269ba58813ea")
+		(property "Reference" "P10"
+			(at 96.266 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "072368b3-753c-4711-9450-2c234f656381")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 106.68 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccae4cd1-3159-4e69-852e-29dae0e95896")
+		(property "Reference" "P4"
+			(at 106.426 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 106.68 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b042a94-cf83-46c7-9066-4f78adf0bf07")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 81.28 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf23664e-4c04-425e-9a0e-3d40322422a2")
+		(property "Reference" "P67"
+			(at 81.28 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 81.28 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "654d6d70-3131-49f9-9cab-b8339f3ab4a3")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 111.76 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfbf9375-6b80-44e6-98a9-d5f2dfec461c")
+		(property "Reference" "P25"
+			(at 111.76 76.454 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 111.76 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2946ea4-ef96-436d-9a4d-c7c397bb95ff")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 101.6 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0b7385f-cc6a-47d8-9747-e172b03da5c6")
+		(property "Reference" "P18"
+			(at 101.6 66.294 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 101.6 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27dc7f38-3339-472a-8a04-6aceabee7d07")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 111.76 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d405f0d5-fd01-4ade-aad1-56fac51379d8")
+		(property "Reference" "P61"
+			(at 111.76 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 111.76 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f540dfb3-1de0-4385-b02a-17b2be1be827")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 91.44 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4aee06b-6a50-4755-9f3e-f5ce4a32a3b7")
+		(property "Reference" "P17"
+			(at 91.44 66.294 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 91.44 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02777bf5-a432-45fa-80b5-a38eea10a5c0")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 137.16 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5288e95-00e8-4427-bb40-48c2f64946c0")
+		(property "Reference" "P52"
+			(at 136.906 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 137.16 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05363654-78be-483c-838a-d2c5fba807d5")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 40.64 0)
 		(mirror y)
@@ -4532,6 +10612,546 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 116.84 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dabf7c71-2d44-4248-ac5d-b26d8d2faca5")
+		(property "Reference" "P48"
+			(at 116.586 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 116.84 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67efffb3-4891-48d6-97f1-89ad2942fc7d")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 96.52 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "daf4f939-bf5d-4bf5-80e5-56e313b84da3")
+		(property "Reference" "P31"
+			(at 96.266 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38d0f946-1fee-4c1d-953c-79da5fe2b70f")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 121.92 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcceafc5-207e-410c-a30f-3f1084acd6e5")
+		(property "Reference" "P49"
+			(at 121.92 96.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 121.92 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33878bcd-33b4-4c12-a6d2-56a64f404233")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 121.92 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7299dcf-09dd-434e-8acd-7af3e9385b80")
+		(property "Reference" "P75"
+			(at 121.92 117.094 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 121.92 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d707b74-2531-49e9-b879-ce7b0e9b2533")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 137.16 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb2b0ad5-a690-477f-8a16-578d2a8fe3cf")
+		(property "Reference" "P7"
+			(at 136.906 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 137.16 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ba2c982-a4a9-4720-9c1d-fa278b91682b")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 96.52 111.76 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed633dda-0aff-4f5b-9349-72c6277cfbf1")
+		(property "Reference" "P70"
+			(at 96.266 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaae2131-7381-4d8d-91a5-4360ecc9d50a")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 76.2 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6e61d3d-843e-4482-a90c-a3abfad62b09")
+		(property "Reference" "P8"
+			(at 75.946 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 76.2 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "769f2ca7-a068-4951-af23-1f1e27bedec3")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P8")
 					(unit 1)
 				)
 			)
@@ -4697,29 +11317,29 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 49.53 54.61 0)
+		(lib_id "megasyms:PAD")
+		(at 137.16 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fddedc55-9f08-4a0c-bdcd-6e39a76f45b7")
-		(property "Reference" "#PWR030"
-			(at 49.53 58.42 0)
-			(hide yes)
+		(uuid "fdaa33a3-1aff-4ff9-b13a-cbfb4d76d967")
+		(property "Reference" "P14"
+			(at 136.906 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 45.466 53.086 0)
+		(property "Value" ""
+			(at 137.16 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4729,7 +11349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 54.61 0)
+			(at 137.16 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4740,7 +11360,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 54.61 0)
+			(at 137.16 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36f0877c-d786-440c-b729-fb44baa261b8")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 41.91 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fddedc55-9f08-4a0c-bdcd-6e39a76f45b7")
+		(property "Reference" "#PWR030"
+			(at 41.91 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 37.846 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +11448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 49.53 54.61 0)
+			(at 41.91 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4768,6 +11465,83 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:PAD")
+		(at 127 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fee13792-fa89-4760-92f4-0755514c95a5")
+		(property "Reference" "P13"
+			(at 126.746 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 127 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa4b3359-6344-4476-a4dc-e6cb055ee8c1")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929/77efa753-c7e5-4c22-ab16-9a50b1f9e453"
+					(reference "P13")
 					(unit 1)
 				)
 			)

@@ -7162,7 +7162,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 64.77)
+		(at 171.45 64.77)
 		(size 88.9 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7178,7 +7178,7 @@
 		)
 		(uuid "77efa753-c7e5-4c22-ab16-9a50b1f9e453")
 		(property "Sheetname" "Pad"
-			(at 177.8 64.0584 0)
+			(at 171.45 64.0584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7189,7 +7189,7 @@
 			)
 		)
 		(property "Sheetfile" "pad.kicad_sch"
-			(at 177.8 118.6946 0)
+			(at 171.45 118.6946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
