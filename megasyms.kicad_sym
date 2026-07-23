@@ -104,7 +104,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 26.67 270)
 				(length 1.27)
 				(name "VREGD"
@@ -123,7 +123,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -26.67 90)
+				(at 1.27 -26.67 90)
 				(length 1.27)
 				(name "VSS"
 					(effects
@@ -140,7 +140,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -2.54 26.67 270)
 				(length 1.27)
 				(name "VREGA"
@@ -447,9 +447,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -26.67 90)
+				(at -1.27 -26.67 90)
 				(length 1.27)
-				(hide yes)
 				(name "GND_TAB"
 					(effects
 						(font

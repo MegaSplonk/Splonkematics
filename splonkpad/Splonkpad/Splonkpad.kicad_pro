@@ -648,13 +648,17 @@
         "uuid": "72fa6072-d998-4ea1-bb4c-df401cf05929"
       }
     ],
-    "used_designators": "#FLG1-3,R1-10,C1-4,#P+1,#P+4,#PWR1-22,J1-4,Q1-4,U1-2",
+    "used_designators": "SW1,#FLG1-3,JP1,R1-10,C1-12,#P+1,#P+4,#PWR1-37,J1-6,Q1-4,U1-3",
     "variants": []
   },
   "sheets": [
     [
       "72fa6072-d998-4ea1-bb4c-df401cf05929",
       "Root"
+    ],
+    [
+      "77efa753-c7e5-4c22-ab16-9a50b1f9e453",
+      "Pad"
     ]
   ],
   "text_variables": {},
