@@ -2600,7 +2600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical"
 			(at 40.64 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -3160,7 +3160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 109.22 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3244,7 +3244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-07A_1x07_P2.54mm_Vertical"
 			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3341,7 +3341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 109.22 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3423,7 +3423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3623,7 +3623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.0852 36.83 0)
 			(hide yes)
 			(show_name no)
