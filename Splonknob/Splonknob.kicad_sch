@@ -5274,7 +5274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical"
 			(at 44.45 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5527,7 +5527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
 			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6123,7 +6123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical"
 			(at 85.09 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6914,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Value" "Rotary Encoder 1"
+		(property "Value" "Rotary Encoder"
 			(at 120.65 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8907,7 +8907,7 @@
 				)
 			)
 		)
-		(property "Value" "Rotary Encoder 2"
+		(property "Value" "Rotary Encoder"
 			(at 217.17 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
