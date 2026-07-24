@@ -2752,7 +2752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical"
 			(at 44.45 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2920,7 +2920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
 			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3079,7 +3079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3196,7 +3196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical"
 			(at 85.09 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3516,7 +3516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3598,7 +3598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.6348 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3680,7 +3680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 116.84 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3956,7 +3956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 138.43 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4664,7 +4664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
 			(at 138.43 109.22 0)
 			(hide yes)
 			(show_name no)

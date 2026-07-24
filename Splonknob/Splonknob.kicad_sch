@@ -4328,7 +4328,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.82 131.318 90)
 			(hide yes)
 			(show_name no)
@@ -4410,7 +4410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 223.2152 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4490,7 +4490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm"
 			(at 267.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4686,7 +4686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm"
 			(at 203.2 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4804,7 +4804,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.748 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -4963,7 +4963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm"
 			(at 238.76 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5079,7 +5079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm"
 			(at 172.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5274,7 +5274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal"
 			(at 44.45 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5365,7 +5365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.6952 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5447,7 +5447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 223.2152 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5527,7 +5527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
 			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5684,7 +5684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -5842,7 +5842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm"
 			(at 142.24 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5960,7 +5960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.2952 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6042,7 +6042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.268 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -6123,7 +6123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
 			(at 85.09 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6364,7 +6364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6446,7 +6446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.2552 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6528,7 +6528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.6348 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6766,7 +6766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 214.3252 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6924,7 +6924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
 			(at 116.84 87.376 0)
 			(hide yes)
 			(show_name no)
@@ -7329,7 +7329,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm"
 			(at 238.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7523,7 +7523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.67 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -7683,7 +7683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 201.168 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -7763,7 +7763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -8234,7 +8234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 258.7752 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8316,7 +8316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.6952 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8514,7 +8514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.19 91.948 90)
 			(hide yes)
 			(show_name no)
@@ -8594,7 +8594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 212.09 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -8755,7 +8755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.758 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -8837,7 +8837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.278 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -8917,7 +8917,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
 			(at 213.36 88.646 0)
 			(hide yes)
 			(show_name no)
@@ -9086,7 +9086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm"
 			(at 140.97 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9282,7 +9282,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.648 81.28 90)
 			(hide yes)
 			(show_name no)
