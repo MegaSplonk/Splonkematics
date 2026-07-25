@@ -2384,7 +2384,7 @@
 		)
 		(uuid "5216f9f2-e10d-453a-b86c-ceceaa99d7e2")
 	)
-	(text "UDPI\n"
+	(text "UPDI"
 		(exclude_from_sim no)
 		(at 68.834 27.432 0)
 		(effects
@@ -3263,7 +3263,7 @@
 		)
 		(uuid "0498dd24-ae35-4e1f-ae48-b71c7c667fcd")
 	)
-	(label "UDPI"
+	(label "UPDI"
 		(at 76.2 81.28 0)
 		(effects
 			(font
@@ -3323,7 +3323,7 @@
 		)
 		(uuid "4cb3d231-f00a-45f1-95b7-943d38d80a6e")
 	)
-	(label "UDPI"
+	(label "UPDI"
 		(at 80.01 35.56 180)
 		(effects
 			(font
@@ -4713,7 +4713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UDPI"
+		(property "Value" "UPDI"
 			(at 84.074 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)

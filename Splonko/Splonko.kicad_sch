@@ -2385,7 +2385,7 @@
 		)
 		(uuid "5216f9f2-e10d-453a-b86c-ceceaa99d7e2")
 	)
-	(text "UDPI\n"
+	(text "UPDI\n"
 		(exclude_from_sim no)
 		(at 68.834 27.432 0)
 		(effects
@@ -3368,7 +3368,7 @@
 		)
 		(uuid "15f54bda-970d-4e51-9899-5aae3c608b84")
 	)
-	(label "UDPI"
+	(label "UPDI"
 		(at 69.85 83.82 0)
 		(effects
 			(font
@@ -3438,7 +3438,7 @@
 		)
 		(uuid "4cb3d231-f00a-45f1-95b7-943d38d80a6e")
 	)
-	(label "UDPI"
+	(label "UPDI"
 		(at 80.01 35.56 180)
 		(effects
 			(font
@@ -4442,10 +4442,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e4")
+			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e5")
 		)
 		(pin "2"
-			(uuid "6b4e9d54-ba01-4717-b88d-186384fca683")
+			(uuid "6b4e9d54-ba01-4717-b88d-186384fca684")
 		)
 		(instances
 			(project "Splonko"
@@ -4800,10 +4800,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a35e039b-7daf-4208-b0b5-56df84d84306")
+			(uuid "a35e039b-7daf-4208-b0b5-56df84d84307")
 		)
 		(pin "1"
-			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f13")
+			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f14")
 		)
 		(instances
 			(project "Splonko"
@@ -4884,22 +4884,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05355")
+			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05356")
 		)
 		(pin "3"
-			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d1")
+			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d2")
 		)
 		(pin "5"
-			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d0")
+			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d1")
 		)
 		(pin "1"
-			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f2")
+			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f3")
 		)
 		(pin "2"
-			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33044")
+			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33045")
 		)
 		(pin "6"
-			(uuid "660defa7-375b-4632-9664-b932e1fd8419")
+			(uuid "660defa7-375b-4632-9664-b932e1fd841a")
 		)
 		(instances
 			(project "Splonko"
@@ -4975,10 +4975,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e4")
+			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e6")
 		)
 		(pin "2"
-			(uuid "6b4e9d54-ba01-4717-b88d-186384fca683")
+			(uuid "6b4e9d54-ba01-4717-b88d-186384fca685")
 		)
 		(instances
 			(project "Splonko"
@@ -5054,10 +5054,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a145c39-ffdf-429e-9095-91af37585fbb")
+			(uuid "5a145c39-ffdf-429e-9095-91af37585fbc")
 		)
 		(pin "2"
-			(uuid "530df42d-be36-4908-a9ce-977e2d5be84c")
+			(uuid "530df42d-be36-4908-a9ce-977e2d5be84d")
 		)
 		(instances
 			(project "Splonko"
@@ -5133,10 +5133,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e4")
+			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e7")
 		)
 		(pin "2"
-			(uuid "6b4e9d54-ba01-4717-b88d-186384fca683")
+			(uuid "6b4e9d54-ba01-4717-b88d-186384fca686")
 		)
 		(instances
 			(project "Splonko"
@@ -5368,10 +5368,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a145c39-ffdf-429e-9095-91af37585fbb")
+			(uuid "5a145c39-ffdf-429e-9095-91af37585fbd")
 		)
 		(pin "2"
-			(uuid "530df42d-be36-4908-a9ce-977e2d5be84c")
+			(uuid "530df42d-be36-4908-a9ce-977e2d5be84e")
 		)
 		(instances
 			(project "Splonko"
@@ -5631,10 +5631,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a35e039b-7daf-4208-b0b5-56df84d84306")
+			(uuid "a35e039b-7daf-4208-b0b5-56df84d84308")
 		)
 		(pin "1"
-			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f13")
+			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f15")
 		)
 		(instances
 			(project "Splonko"
@@ -5715,22 +5715,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05355")
+			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05357")
 		)
 		(pin "3"
-			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d1")
+			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d3")
 		)
 		(pin "5"
-			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d0")
+			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d2")
 		)
 		(pin "1"
-			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f2")
+			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f4")
 		)
 		(pin "2"
-			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33044")
+			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33046")
 		)
 		(pin "6"
-			(uuid "660defa7-375b-4632-9664-b932e1fd8419")
+			(uuid "660defa7-375b-4632-9664-b932e1fd841b")
 		)
 		(instances
 			(project "Splonko"
@@ -6048,10 +6048,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e4")
+			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e8")
 		)
 		(pin "2"
-			(uuid "6b4e9d54-ba01-4717-b88d-186384fca683")
+			(uuid "6b4e9d54-ba01-4717-b88d-186384fca687")
 		)
 		(instances
 			(project "Splonko"
@@ -6129,10 +6129,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a145c39-ffdf-429e-9095-91af37585fbb")
+			(uuid "5a145c39-ffdf-429e-9095-91af37585fbe")
 		)
 		(pin "2"
-			(uuid "530df42d-be36-4908-a9ce-977e2d5be84c")
+			(uuid "530df42d-be36-4908-a9ce-977e2d5be84f")
 		)
 		(instances
 			(project "Splonko"
@@ -6213,22 +6213,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05355")
+			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05358")
 		)
 		(pin "3"
-			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d1")
+			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d4")
 		)
 		(pin "5"
-			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d0")
+			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d3")
 		)
 		(pin "1"
-			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f2")
+			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f5")
 		)
 		(pin "2"
-			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33044")
+			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33047")
 		)
 		(pin "6"
-			(uuid "660defa7-375b-4632-9664-b932e1fd8419")
+			(uuid "660defa7-375b-4632-9664-b932e1fd841c")
 		)
 		(instances
 			(project "Splonko"
@@ -6309,22 +6309,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05355")
+			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05359")
 		)
 		(pin "3"
-			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d1")
+			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d5")
 		)
 		(pin "5"
-			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d0")
+			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d4")
 		)
 		(pin "1"
-			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f2")
+			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f6")
 		)
 		(pin "2"
-			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33044")
+			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33048")
 		)
 		(pin "6"
-			(uuid "660defa7-375b-4632-9664-b932e1fd8419")
+			(uuid "660defa7-375b-4632-9664-b932e1fd841d")
 		)
 		(instances
 			(project "Splonko"
@@ -6484,22 +6484,22 @@
 			)
 		)
 		(pin "4"
-			(uuid "447ad7c5-fc74-4262-ba41-31d75dc05355")
+			(uuid "447ad7c5-fc74-4262-ba41-31d75dc0535a")
 		)
 		(pin "3"
-			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d1")
+			(uuid "d1cf010d-7dc4-410e-ba90-96f0a859d6d6")
 		)
 		(pin "5"
-			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d0")
+			(uuid "5de9d2f1-359d-46cf-991a-b843afc875d5")
 		)
 		(pin "1"
-			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f2")
+			(uuid "7d93cf54-7040-4587-9bd5-513ecd7767f7")
 		)
 		(pin "2"
-			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33044")
+			(uuid "d832a4fa-f8bc-4acb-a26d-d5c785b33049")
 		)
 		(pin "6"
-			(uuid "660defa7-375b-4632-9664-b932e1fd8419")
+			(uuid "660defa7-375b-4632-9664-b932e1fd841e")
 		)
 		(instances
 			(project "Splonko"
@@ -6575,10 +6575,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e4")
+			(uuid "cb892ad8-2482-4568-be4d-e8857fbf16e9")
 		)
 		(pin "2"
-			(uuid "6b4e9d54-ba01-4717-b88d-186384fca683")
+			(uuid "6b4e9d54-ba01-4717-b88d-186384fca688")
 		)
 		(instances
 			(project "Splonko"
@@ -6834,10 +6834,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a35e039b-7daf-4208-b0b5-56df84d84306")
+			(uuid "a35e039b-7daf-4208-b0b5-56df84d84309")
 		)
 		(pin "1"
-			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f13")
+			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f16")
 		)
 		(instances
 			(project "Splonko"
@@ -6935,10 +6935,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a35e039b-7daf-4208-b0b5-56df84d84306")
+			(uuid "a35e039b-7daf-4208-b0b5-56df84d8430a")
 		)
 		(pin "1"
-			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f13")
+			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f17")
 		)
 		(instances
 			(project "Splonko"
@@ -7036,10 +7036,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a35e039b-7daf-4208-b0b5-56df84d84306")
+			(uuid "a35e039b-7daf-4208-b0b5-56df84d8430b")
 		)
 		(pin "1"
-			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f13")
+			(uuid "a5dd153e-98e8-49bc-bd8d-9975bc295f18")
 		)
 		(instances
 			(project "Splonko"
@@ -7298,7 +7298,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d051ee5f-ae8e-44f3-9b26-4a0e2fca0440")
 		(property "Reference" "#FLG01"
 			(at 133.985 30.48 0)
@@ -7312,7 +7311,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 134.62 26.67 90)
+			(at 127.254 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
