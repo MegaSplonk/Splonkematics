@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-files = [f for f in Path(".").glob("*.csv") if f.name != "merged_bom.csv"]
+files = [f for f in Path("./bom").glob("*.csv") if f.name != "merged_bom.csv"]
 
 dfs = []
 
@@ -33,4 +33,4 @@ merged = (
 )
 
 merged = merged[["Refs", "Value", "Footprint", "Qty", "DNP"]]
-merged.to_csv("merged_bom.csv", index=False)
+merged.to_csv("./bom/merged_bom.csv", index=False)
