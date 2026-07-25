@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Library_Splonkreen")(type "KiCad")(uri "${KIPRJMOD}/Library_Splonkreen.kicad_sym")(options "")(descr ""))
-)
