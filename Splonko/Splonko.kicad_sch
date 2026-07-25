@@ -5404,7 +5404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UDPI"
+		(property "Value" "UPDI"
 			(at 84.074 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
