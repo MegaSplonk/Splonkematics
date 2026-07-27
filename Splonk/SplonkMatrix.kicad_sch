@@ -5110,7 +5110,7 @@
 		(uuid "fda742f8-f337-4e83-b4fb-c389bc51f945")
 	)
 	(hierarchical_label "ROW_1"
-		(shape input)
+		(shape output)
 		(at 25.4 33.02 180)
 		(effects
 			(font
@@ -5121,7 +5121,7 @@
 		(uuid "047d8e30-ea1a-4924-9fab-e8f78637cb71")
 	)
 	(hierarchical_label "ROW_3"
-		(shape input)
+		(shape output)
 		(at 25.4 26.67 180)
 		(effects
 			(font
@@ -5143,7 +5143,7 @@
 		(uuid "3e62e8ec-5381-45c9-a46c-4d27c7904338")
 	)
 	(hierarchical_label "ROW_4"
-		(shape input)
+		(shape output)
 		(at 25.4 29.21 180)
 		(effects
 			(font
@@ -5231,7 +5231,7 @@
 		(uuid "d7cc92f4-dd3d-4ecb-beb2-392f8671927f")
 	)
 	(hierarchical_label "ROW_2"
-		(shape input)
+		(shape output)
 		(at 25.4 35.56 180)
 		(effects
 			(font

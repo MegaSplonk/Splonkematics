@@ -5,7 +5,7 @@
 	(uuid "b1ff0c53-e6d8-4278-99c3-e41985af7a25")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -56,7 +56,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,7 +89,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -178,8 +178,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -380,7 +402,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -464,6 +486,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -594,6 +634,24 @@
 						)
 					)
 					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3092,6 +3150,10 @@
 		(uuid "604f021e-11fa-46dc-acff-930040933588")
 	)
 	(no_connect
+		(at 43.18 53.34)
+		(uuid "6a09c78f-49a0-4a35-a9f0-4e65c15354f7")
+	)
+	(no_connect
 		(at 63.5 149.86)
 		(uuid "7d48675b-d8bf-472a-b3e1-e2086ab41bf8")
 	)
@@ -3102,6 +3164,10 @@
 	(no_connect
 		(at 64.77 93.98)
 		(uuid "ac2b078e-599b-4ef1-9b30-a4cbd92e95ed")
+	)
+	(no_connect
+		(at 43.18 50.8)
+		(uuid "fc6b4ce4-2f0e-4e90-aa5d-35addc67b1e2")
 	)
 	(wire
 		(pts
@@ -5171,7 +5237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_0603-4Pin_6.0x3.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering"
 			(at 26.67 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5182,7 +5248,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5346052.pdf"
 			(at 26.67 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5193,7 +5259,7 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "C5346052"
 			(at 26.67 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5938,7 +6004,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 27.94 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -5991,7 +6057,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 27.94 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6002,50 +6068,56 @@
 				)
 			)
 		)
-		(pin "A7"
+		(pin "SH"
 			(uuid "57417ac5-a26d-4c52-9bfa-d42d565412d7")
 		)
-		(pin "A5"
+		(pin "A6"
 			(uuid "acb4163f-48d4-4fe6-99a6-1d7a3c61f13f")
 		)
-		(pin "A6"
+		(pin "A9"
 			(uuid "7ec7fefe-42c0-4a58-bdcb-889b2d544d12")
 		)
-		(pin "B9"
+		(pin "A7"
 			(uuid "d1332a22-b719-424e-affa-5c1c235d97dd")
 		)
-		(pin "B5"
+		(pin "A4"
 			(uuid "9fe24c7d-cf29-45a0-9753-3f29db07a75c")
 		)
-		(pin "B7"
+		(pin "A12"
 			(uuid "520ba3d4-0393-4757-a982-2c1a9b13d165")
 		)
-		(pin "B6"
+		(pin "A5"
 			(uuid "e0a6576e-c34a-406d-a546-005c38dbe009")
 		)
-		(pin "A4"
-			(uuid "fedd3afc-b2a9-49fe-83ea-57425d65789d")
-		)
-		(pin "A1"
-			(uuid "82c1de7a-2405-4211-bb53-3f5c5d4d4dcd")
-		)
 		(pin "B1"
-			(uuid "3608ad26-82a7-4a06-a94a-d748ec4714b7")
-		)
-		(pin "SH"
-			(uuid "5ac000d5-2678-4b35-9eaf-939db9ebb60a")
+			(uuid "5d89cb48-f7d0-4c76-b6d5-e631f475740c")
 		)
 		(pin "B12"
-			(uuid "d0724c15-c147-407d-947c-fba8eed4c78d")
+			(uuid "a40765fd-b098-4d58-86b8-6400852b7693")
 		)
-		(pin "A9"
-			(uuid "b4e0d877-a0b8-4737-9804-fa9bec249155")
+		(pin "A8"
+			(uuid "344d6bbe-cf98-4736-a5af-d2e1f474ac96")
 		)
-		(pin "A12"
-			(uuid "10f13fc4-380d-46b3-9f7f-840f5b8fe7e5")
+		(pin "B5"
+			(uuid "b3aa178f-1e36-4431-9e5d-a4ca5b440166")
+		)
+		(pin "B6"
+			(uuid "767a7115-5ea8-4a3b-beca-3d1dc368837f")
+		)
+		(pin "B9"
+			(uuid "23285034-8310-4a44-b6b2-2706259276a6")
 		)
 		(pin "B4"
-			(uuid "9fa64284-5160-41e9-8eb8-9c22faa6b1ec")
+			(uuid "d840b200-1261-4659-9fcf-eb5fea9f13a6")
+		)
+		(pin "A1"
+			(uuid "7841ab4a-ac60-4229-a961-1b10d03d7aca")
+		)
+		(pin "B7"
+			(uuid "9ef2e243-c273-46d2-b5eb-6ad90dbf7016")
+		)
+		(pin "B8"
+			(uuid "4b3fdc09-8aa5-4430-bfe5-083bd75b715e")
 		)
 		(instances
 			(project "Splonk"
@@ -6709,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "27pF"
 			(at 20.32 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8493,7 +8565,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "27pF"
 			(at 20.32 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8963,7 +9035,7 @@
 				(justify left)
 			)
 		)
-		(pin "ROW_1" input
+		(pin "ROW_1" output
 			(at 87.63 154.94 180)
 			(uuid "ef376091-5dc4-4616-ab40-00dc89ddeb88")
 			(effects
@@ -8973,7 +9045,7 @@
 				(justify left)
 			)
 		)
-		(pin "ROW_2" input
+		(pin "ROW_2" output
 			(at 87.63 157.48 180)
 			(uuid "8c48586b-0043-4c37-920a-ef8f20632c0f")
 			(effects
@@ -8983,7 +9055,7 @@
 				(justify left)
 			)
 		)
-		(pin "ROW_3" input
+		(pin "ROW_3" output
 			(at 87.63 160.02 180)
 			(uuid "5f76b01e-bd91-4e60-be9a-855ad52d2f03")
 			(effects
@@ -8993,7 +9065,7 @@
 				(justify left)
 			)
 		)
-		(pin "ROW_4" input
+		(pin "ROW_4" output
 			(at 87.63 162.56 180)
 			(uuid "ce41f674-4ba5-4ac3-9c50-c0ee7413e02d")
 			(effects
