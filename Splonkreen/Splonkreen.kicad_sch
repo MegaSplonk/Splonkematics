@@ -1675,25 +1675,45 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "UPDI\n"
-		(exclude_from_sim no)
-		(at 65.024 24.892 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1e00ec9a-c777-451d-9387-e6733d71de4c")
-	)
 	(text "POWER FLAGS"
 		(exclude_from_sim no)
-		(at 42.418 43.688 0)
+		(at 42.418 47.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "353c5cbd-d6e1-4672-a48a-eec11657ee2e")
+		(uuid "006e786a-dd88-4e1d-b743-39eddce2ea91")
+	)
+	(text "SplonkConn"
+		(exclude_from_sim no)
+		(at 41.656 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1597ffe7-de8f-4c92-a959-f8940d69d907")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 64.77 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "492521a6-04e6-48ed-b6fc-aa4df89cc1e4")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 92.964 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6cfb7da8-a754-4acf-bc44-5c45e4e2062f")
 	)
 	(text "Screen Pin Headers"
 		(exclude_from_sim no)
@@ -1705,45 +1725,25 @@
 		)
 		(uuid "808519d5-2000-4ce9-aa52-442794b7fa28")
 	)
-	(text "UART"
+	(text "UPDI\n"
 		(exclude_from_sim no)
-		(at 64.77 42.164 0)
+		(at 65.024 26.162 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "817d3dad-1393-46c7-aa92-bff49adb2fbb")
-	)
-	(text "POWER"
-		(exclude_from_sim no)
-		(at 92.964 24.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aab2ff90-9a57-4ccb-b99f-073c016eebe5")
-	)
-	(text "SplonkConn"
-		(exclude_from_sim no)
-		(at 41.656 24.384 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b09e4933-08c5-46f5-9ee0-42a8438625f5")
+		(uuid "c5604df7-619b-4126-9808-3d2792c9f4fa")
 	)
 	(junction
-		(at 100.33 29.21)
+		(at 100.33 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2abb8e38-a8c4-426e-8b4c-ac8dd9e771c3")
+		(uuid "b33cba25-ac5e-4023-9a7a-f0de1f6b97c6")
 	)
 	(no_connect
-		(at 48.26 35.56)
-		(uuid "031fc05c-d11d-44bc-b134-81170fe508e3")
+		(at 48.26 36.83)
+		(uuid "02516e53-cad2-454f-bf85-150ac3af8ec7")
 	)
 	(no_connect
 		(at 63.5 81.28)
@@ -1759,143 +1759,113 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 39.37) (xy 96.52 40.64)
+			(xy 100.33 30.48) (xy 96.52 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04aa1e50-4f17-4380-8430-58aac9fa795b")
+		(uuid "11060fea-b693-47d9-9043-21ca382c3817")
 	)
 	(wire
 		(pts
-			(xy 104.14 39.37) (xy 104.14 40.64)
+			(xy 48.26 36.83) (xy 46.99 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c52c2aa-d93e-43d7-8961-032d551904fe")
+		(uuid "2e432e94-b4d2-4f9d-a947-fcc3658e07c0")
 	)
 	(wire
 		(pts
-			(xy 100.33 29.21) (xy 96.52 29.21)
+			(xy 52.07 29.21) (xy 46.99 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d2aca60-18c7-41c4-9472-5639769978fb")
+		(uuid "3077c939-e286-464b-bf00-1b3566f7bcf7")
 	)
 	(wire
 		(pts
-			(xy 48.26 30.48) (xy 46.99 30.48)
+			(xy 96.52 30.48) (xy 96.52 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f979487-9cf2-4bcb-906c-ce2e92e0be6d")
+		(uuid "467c5877-1ea0-407c-9e58-6f72dcfe01a0")
 	)
 	(wire
 		(pts
-			(xy 104.14 29.21) (xy 104.14 31.75)
+			(xy 48.26 31.75) (xy 46.99 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "445fc910-8b39-4908-a8af-bdc0a50d6d8b")
+		(uuid "577bfb7d-1d4a-4e96-a5dc-c9590fe4396a")
 	)
 	(wire
 		(pts
-			(xy 100.33 27.94) (xy 100.33 29.21)
+			(xy 53.34 50.8) (xy 49.53 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5638065b-2983-40b7-b4c7-8a78456f9fa8")
+		(uuid "762104cd-df22-4ccc-9a84-e4ecff1f3526")
 	)
 	(wire
 		(pts
-			(xy 69.85 35.56) (xy 74.93 35.56)
+			(xy 104.14 30.48) (xy 104.14 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6264d2d3-142e-4ef9-9d44-b27e7f7b3764")
+		(uuid "790cbe6a-7ca9-4f73-9ad5-9c81956d99cb")
 	)
 	(wire
 		(pts
-			(xy 96.52 29.21) (xy 96.52 31.75)
+			(xy 71.12 36.83) (xy 76.2 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "721a3958-a8f9-498f-a54a-c651dc7e8b3a")
+		(uuid "7f875132-a1f1-4691-9476-f25350ea1fa5")
 	)
 	(wire
 		(pts
-			(xy 52.07 38.1) (xy 46.99 38.1)
+			(xy 96.52 40.64) (xy 96.52 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76c7a1f9-db5b-461a-b16a-09e4e554569d")
+		(uuid "894b225c-3154-47ba-a03e-5e4393cd4732")
 	)
 	(wire
 		(pts
-			(xy 69.85 30.48) (xy 74.93 30.48)
+			(xy 104.14 40.64) (xy 104.14 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91732481-f5f6-4077-b0fe-6cd6e4ac4dfa")
+		(uuid "96f200e3-66b5-4ff0-8558-e27680ec0fd2")
 	)
 	(wire
 		(pts
-			(xy 49.53 50.8) (xy 53.34 50.8)
+			(xy 49.53 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95e47426-978e-4e67-828e-2c2227f3a148")
-	)
-	(wire
-		(pts
-			(xy 48.26 35.56) (xy 46.99 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98f91d2b-9ad7-4275-aa0b-9bcd073343f2")
-	)
-	(wire
-		(pts
-			(xy 52.07 27.94) (xy 46.99 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98fe2eea-b8c7-455d-86a7-c4c22a381d77")
-	)
-	(wire
-		(pts
-			(xy 48.26 33.02) (xy 46.99 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9aa54625-3e42-49da-b4cc-d5da53146faf")
+		(uuid "b00e3ec5-7753-4c5b-bd8c-64a79b5ab12c")
 	)
 	(wire
 		(pts
@@ -1909,23 +1879,33 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 29.21) (xy 104.14 29.21)
+			(xy 100.33 29.21) (xy 100.33 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c880e9f0-dad0-4e99-89d0-c807cc1e809f")
+		(uuid "c3abf1e4-db77-41c5-bb13-1622ff1e1ff5")
 	)
 	(wire
 		(pts
-			(xy 53.34 46.99) (xy 49.53 46.99)
+			(xy 100.33 30.48) (xy 104.14 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eacbf5a1-3d01-4641-af74-546bb2d528be")
+		(uuid "da5902dc-9d7f-4025-8069-f70c0ab836d9")
+	)
+	(wire
+		(pts
+			(xy 71.12 31.75) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cf5698-60a9-4b5b-aa09-f55568282508")
 	)
 	(wire
 		(pts
@@ -1937,6 +1917,26 @@
 		)
 		(uuid "ece007b1-230b-410c-92d9-60065cf6e1cb")
 	)
+	(wire
+		(pts
+			(xy 48.26 34.29) (xy 46.99 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25818ee-785c-4e63-8a4a-a884f33c14df")
+	)
+	(wire
+		(pts
+			(xy 52.07 39.37) (xy 46.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f807433a-5308-4891-8cdb-15a5eeb7140e")
+	)
 	(label "SCLK"
 		(at 63.5 78.74 0)
 		(effects
@@ -1946,16 +1946,6 @@
 			(justify left bottom)
 		)
 		(uuid "08bf1bf3-d1a4-41d7-a190-50a630996f60")
-	)
-	(label "TX"
-		(at 80.01 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ce1df87-58fc-4fe2-a342-caec1fdce59a")
 	)
 	(label "UPDI"
 		(at 63.5 71.12 0)
@@ -1977,25 +1967,15 @@
 		)
 		(uuid "353889fc-e937-4a87-95e6-6dba047a5317")
 	)
-	(label "RX"
-		(at 80.01 48.26 0)
+	(label "SDA"
+		(at 48.26 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3ebdb4ad-996e-457b-96bd-f64ec792a99a")
-	)
-	(label "SCL"
-		(at 48.26 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f4df318-5ac4-42d2-9d4c-ca3c344ab046")
+		(uuid "467c524c-2149-42c8-8b63-36bc1b27515a")
 	)
 	(label "SCLK"
 		(at 93.98 83.82 180)
@@ -2027,6 +2007,26 @@
 		)
 		(uuid "6bacd0ed-df87-4096-a79c-79317ae15ad4")
 	)
+	(label "UPDI"
+		(at 76.2 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fe45713-04da-43c6-b60e-417ade0a8c16")
+	)
+	(label "BUS_ENABLE"
+		(at 48.26 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70b7e53f-8ffb-4b4b-9bf3-c33d8545a290")
+	)
 	(label "SCL"
 		(at 33.02 71.12 180)
 		(effects
@@ -2047,26 +2047,6 @@
 		)
 		(uuid "84c9f1c0-2df4-4c06-9120-2e5c15cf5355")
 	)
-	(label "UPDI"
-		(at 74.93 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "929a332a-b7d9-4725-9ec2-b3da81d9b952")
-	)
-	(label "SDA"
-		(at 48.26 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97ee5042-46b1-4799-878b-580f6ab96d1e")
-	)
 	(label "SDA"
 		(at 33.02 73.66 180)
 		(effects
@@ -2077,15 +2057,15 @@
 		)
 		(uuid "a9d32e10-85ad-4171-bc19-2e8bbc8fe44a")
 	)
-	(label "BUS_ENABLE"
-		(at 48.26 35.56 0)
+	(label "RX"
+		(at 80.01 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c93e146d-58e2-4c40-8803-d0c8abb9cd2d")
+		(uuid "d94dc7e5-55d4-4faf-8f52-893448ef3e32")
 	)
 	(label "MOSI"
 		(at 63.5 73.66 0)
@@ -2116,6 +2096,26 @@
 			(justify right bottom)
 		)
 		(uuid "ee009cd7-b390-47d1-87ea-d715ac0c7166")
+	)
+	(label "TX"
+		(at 80.01 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f351f0ef-8fff-4d15-a6ce-51268f6736e7")
+	)
+	(label "SCL"
+		(at 48.26 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6c9a746-264e-490b-ba88-398cec65d7b5")
 	)
 	(label "RES"
 		(at 93.98 78.74 180)
@@ -2153,7 +2153,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 35.56 22.86) (xy 35.56 40.64) (xy 60.96 40.64) (xy 60.96 22.86)
+				(xy 62.23 41.91) (xy 62.23 49.53) (xy 87.63 49.53) (xy 87.63 41.91)
 			)
 			(stroke
 				(width 0)
@@ -2162,7 +2162,7 @@
 			(fill
 				(type none)
 			)
-			(uuid "113bae62-6d1c-480c-912f-d12170a29008")
+			(uuid "523e673e-d0f3-44e4-aeaa-bf69829babc0")
 		)
 	)
 	(rule_area
@@ -2172,7 +2172,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 35.56 41.91) (xy 35.56 53.34) (xy 60.96 53.34) (xy 60.96 41.91)
+				(xy 35.56 45.72) (xy 35.56 57.15) (xy 60.96 57.15) (xy 60.96 45.72)
 			)
 			(stroke
 				(width 0)
@@ -2181,7 +2181,7 @@
 			(fill
 				(type none)
 			)
-			(uuid "3c5249c9-bc78-48ce-8fca-a74abe5069bb")
+			(uuid "8bc27a2c-5699-4dec-99f9-a1cd0cba89f9")
 		)
 	)
 	(rule_area
@@ -2191,7 +2191,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 62.23 22.86) (xy 62.23 39.37) (xy 87.63 39.37) (xy 87.63 22.86)
+				(xy 62.23 24.13) (xy 62.23 40.64) (xy 87.63 40.64) (xy 87.63 24.13)
 			)
 			(stroke
 				(width 0)
@@ -2200,7 +2200,7 @@
 			(fill
 				(type none)
 			)
-			(uuid "cfb74de8-dabb-4736-9f05-f6d91219b0a7")
+			(uuid "e04b74a3-4b18-4fef-bb84-e8fae66a8683")
 		)
 	)
 	(rule_area
@@ -2210,7 +2210,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 88.9 22.86) (xy 113.03 22.86) (xy 113.03 46.99) (xy 88.9 46.99)
+				(xy 35.56 24.13) (xy 35.56 44.45) (xy 60.96 44.45) (xy 60.96 24.13)
 			)
 			(stroke
 				(width 0)
@@ -2219,7 +2219,7 @@
 			(fill
 				(type none)
 			)
-			(uuid "d273a81e-896f-41c3-b305-34bb0c3bd0e8")
+			(uuid "e2316a06-36b5-438d-bc14-df5594cbf19b")
 		)
 	)
 	(rule_area
@@ -2229,7 +2229,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 62.23 40.64) (xy 62.23 53.34) (xy 87.63 53.34) (xy 87.63 40.64)
+				(xy 88.9 24.13) (xy 113.03 24.13) (xy 113.03 49.53) (xy 88.9 49.53)
 			)
 			(stroke
 				(width 0)
@@ -2238,12 +2238,12 @@
 			(fill
 				(type none)
 			)
-			(uuid "f67b9154-7ba6-4caa-bb22-ff47393704c4")
+			(uuid "e7572b76-226f-48c6-b542-c5bf662922ee")
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 49.53 46.99 90)
+		(lib_id "power:VCC")
+		(at 53.34 54.61 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2251,9 +2251,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "06988c62-d90f-48be-a0f9-949e2ff67344")
-		(property "Reference" "#FLG03"
-			(at 47.625 46.99 0)
+		(uuid "07e6b3ef-4dd6-41f7-bd45-697073966f19")
+		(property "Reference" "#PWR09"
+			(at 49.53 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2263,18 +2263,19 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 40.894 46.99 90)
+		(property "Value" "VCC"
+			(at 55.88 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 46.99 0)
+			(at 53.34 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2285,7 +2286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 46.99 0)
+			(at 53.34 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2295,8 +2296,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 49.53 46.99 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 53.34 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,12 +2308,102 @@
 			)
 		)
 		(pin "1"
-			(uuid "aaaf03b1-16da-4aea-8ee2-8065c78d2c8f")
+			(uuid "0c8b87c5-b9f1-4a2e-b39a-2a5980fb0124")
 		)
 		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#FLG03")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bc75bee-daa6-4fcb-a03a-1984b177a1f5")
+		(property "Reference" "#PWR011"
+			(at 64.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "839a8ede-9b5f-46cc-946e-c4c4b3e65bbe")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2421,6 +2512,7 @@
 		)
 		(property "Value" "VCC"
 			(at 48.26 58.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2554,8 +2646,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 96.52 40.64 0)
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2563,10 +2655,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f3f4394-bcfb-45f1-a3fc-fe46b85a676b")
-		(property "Reference" "#PWR019"
-			(at 96.52 46.99 0)
+		(uuid "2f9cf2f9-d5d8-4ef0-97db-f96a21f08677")
+		(property "Reference" "#FLG01"
+			(at 47.625 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,19 +2667,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 99.06 41.9099 0)
+		(property "Value" "PWR_FLAG"
+			(at 40.894 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 40.64 0)
+			(at 49.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2599,7 +2689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 40.64 0)
+			(at 49.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2609,8 +2699,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 40.64 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2621,89 +2711,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2b926d6-5630-4fa7-8ed7-0d18149cc17a")
+			(uuid "0b766701-6479-4de7-bcb1-c1a778b11b1e")
 		)
 		(instances
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR019")
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 69.85 30.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "320ed7f0-ca0b-49e9-8ca9-6fe75999a0dc")
-		(property "Reference" "#PWR017"
-			(at 73.66 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 64.77 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 69.85 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f4a8629-49aa-44ae-bf42-a27cc7d5beae")
-		)
-		(instances
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR017")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2789,8 +2808,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 104.14 35.56 0)
+		(lib_id "power:GND")
+		(at 96.52 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2798,9 +2817,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3c223a49-d6af-4a5b-a0ce-a7a00d800e6f")
-		(property "Reference" "C4"
-			(at 106.426 34.29 0)
+		(fields_autoplaced yes)
+		(uuid "5d1ace0d-168d-43b6-b8a8-cafa9581ad93")
+		(property "Reference" "#PWR012"
+			(at 96.52 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2810,19 +2841,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 106.426 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 105.1052 39.37 0)
+		(property "Footprint" ""
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,7 +2853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 35.56 0)
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2843,8 +2863,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 104.14 35.56 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,17 +2873,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "e007bc53-c84d-4cff-a3a1-5159df4c2bd2")
 		)
 		(pin "1"
-			(uuid "77c22d0b-3059-4786-9ba3-419bb3e9ea51")
+			(uuid "e54c5240-2498-4c11-ba92-9e0b6a00ca6b")
 		)
 		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "C4")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2949,8 +2972,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 74.93 50.8 180)
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2958,9 +2981,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6e525acb-ca67-4bda-b466-dd3f9031b7a4")
-		(property "Reference" "J5"
-			(at 74.93 41.91 0)
+		(uuid "6d22f07e-2a23-4ba4-8881-f2a832c6fedd")
+		(property "Reference" "#FLG02"
+			(at 47.625 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2969,8 +2993,8 @@
 				)
 			)
 		)
-		(property "Value" "UART"
-			(at 74.93 44.45 0)
+		(property "Value" "PWR_FLAG"
+			(at 40.894 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2979,8 +3003,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
-			(at 74.93 50.8 0)
+		(property "Footprint" ""
+			(at 49.53 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2991,7 +3015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 50.8 0)
+			(at 49.53 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,8 +3025,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 50.8 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3011,17 +3035,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "74109a2f-062e-43fc-8b9c-fb1ba4cf5904")
 		)
 		(pin "1"
-			(uuid "60091739-cd97-45ef-97d9-3a38c59ca40b")
+			(uuid "a2d2260f-e6f4-444d-9f33-66f3213e35fc")
 		)
 		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "J5")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3029,7 +3056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 38.1 90)
+		(at 104.14 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3038,9 +3065,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b0994c9-d3cc-4dc6-88f7-1c2eb92edc6a")
-		(property "Reference" "#PWR016"
-			(at 58.42 38.1 0)
+		(uuid "74233234-acba-4442-a8fd-de140805aba4")
+		(property "Reference" "#PWR014"
+			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,18 +3078,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 38.0999 90)
+			(at 106.68 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 38.1 0)
+			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +3100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 38.1 0)
+			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +3111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 38.1 0)
+			(at 104.14 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3095,12 +3122,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac07dcd4-6f90-435a-95de-9abd4a1dc6d5")
+			(uuid "480711b0-eafd-44f4-a7f3-34ebc49b5ad7")
 		)
 		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3108,7 +3141,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 100.33 27.94 0)
+		(at 52.07 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3116,9 +3149,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9758bc2c-4011-46fd-9dd1-2c2e97ed1d77")
-		(property "Reference" "#PWR020"
-			(at 100.33 31.75 0)
+		(fields_autoplaced yes)
+		(uuid "7e52fa8e-4323-47ca-a084-35386b8098da")
+		(property "Reference" "#PWR06"
+			(at 48.26 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,17 +3163,18 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 103.632 26.162 0)
+			(at 55.88 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 27.94 0)
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3150,7 +3185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 27.94 0)
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +3196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 100.33 27.94 0)
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,102 +3207,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "cac1f38d-88a4-4e89-be7b-6b3703c61017")
+			(uuid "c1461420-762c-463d-b1dc-14072b613c17")
 		)
 		(instances
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR020")
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 41.91 33.02 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9999037f-029b-46c1-b9f9-f6bbefe70474")
-		(property "Reference" "J4"
-			(at 38.608 32.512 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SplonkConn"
-			(at 53.086 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical"
-			(at 41.91 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24a2ba20-3f84-4002-a60b-620a66e212d3")
-		)
-		(pin "3"
-			(uuid "0f6310cf-e324-4c5a-8116-411423731aae")
-		)
-		(pin "2"
-			(uuid "6b1c8b67-61db-4901-aa78-ca472557237d")
-		)
-		(pin "5"
-			(uuid "e4415bb3-d82c-4f98-9c81-9baabdfa9318")
-		)
-		(pin "4"
-			(uuid "80e1ad99-630a-45d3-b62e-f5d7ef651663")
-		)
-		(instances
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "J4")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3275,7 +3226,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 80.01 33.02 0)
+		(at 81.28 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3283,9 +3234,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9cda9c41-88d5-49f8-a58a-013d72b1f858")
-		(property "Reference" "J6"
-			(at 82.296 35.306 0)
+		(uuid "8195b25e-26a5-4840-bad6-677187c6e76b")
+		(property "Reference" "J3"
+			(at 83.566 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3296,7 +3247,7 @@
 			)
 		)
 		(property "Value" "UPDI"
-			(at 78.994 27.686 0)
+			(at 80.264 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3307,7 +3258,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical"
-			(at 80.01 33.02 0)
+			(at 81.28 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +3269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 33.02 0)
+			(at 81.28 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3329,7 +3280,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 80.01 33.02 0)
+			(at 81.28 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3340,18 +3291,373 @@
 			)
 		)
 		(pin "2"
-			(uuid "949bd531-b903-4498-8d73-a69dc44fb0f6")
+			(uuid "dfcdded9-50dc-46ca-909e-a411cf4fa8ea")
 		)
 		(pin "3"
-			(uuid "e83f24af-924a-48cd-b671-f865ffcbdfd7")
+			(uuid "a9e7238d-06b2-4376-8d62-35de16e20a1f")
 		)
 		(pin "1"
-			(uuid "c2363e2c-e5ed-4af0-b551-e6750c49d31a")
+			(uuid "bb915581-cc63-404d-87f2-2c23e6463229")
 		)
 		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "J6")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 100.33 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8202f15c-bbd2-4e4e-a6b9-074c825dc20c")
+		(property "Reference" "#PWR013"
+			(at 100.33 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 103.632 27.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 100.33 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63d85e03-6546-49c5-8d1f-26d8890466f0")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a877827-1e03-4c47-88e5-97bf1b1b39cb")
+		(property "Reference" "#PWR08"
+			(at 59.69 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3575d3c-dd9d-44f8-ac72-44bbd7ca50f5")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "914f47c2-f120-44ce-abea-d5bc720df316")
+		(property "Reference" "C2"
+			(at 106.426 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 106.426 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 105.1052 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "578a301d-2c93-4f12-b789-d1490a2575e3")
+		)
+		(pin "1"
+			(uuid "06a52c34-9e97-47c1-b5a6-63f46320b01c")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 41.91 34.29 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92615ddc-2f8d-4880-9e98-e015535345a5")
+		(property "Reference" "J1"
+			(at 38.608 33.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SplonkConn"
+			(at 41.656 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0510_1x05_P1.25mm_Vertical"
+			(at 41.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 41.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd3588d3-a5d1-4603-a4b9-50503b72156a")
+		)
+		(pin "3"
+			(uuid "7ac6467c-ac04-4b9f-b67d-5b65a661635b")
+		)
+		(pin "2"
+			(uuid "9b0512e2-e53e-48b2-957c-20a23d40b7be")
+		)
+		(pin "5"
+			(uuid "ee1cdbde-9dc5-483e-8b52-f69c2d72b60f")
+		)
+		(pin "4"
+			(uuid "41309110-d3cf-4cff-bc45-7ed2e2db78ff")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 46.99 90)
+		(at 52.07 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3463,9 +3769,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ab8c3fa9-7ae7-4e2b-a820-dace14c59935")
-		(property "Reference" "#PWR022"
-			(at 59.69 46.99 0)
+		(fields_autoplaced yes)
+		(uuid "a724c6cd-04f6-43bc-ba07-f46ab71683ac")
+		(property "Reference" "#PWR07"
+			(at 58.42 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3476,7 +3783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.388 46.99 90)
+			(at 55.88 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3487,7 +3794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 46.99 0)
+			(at 52.07 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,7 +3805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 46.99 0)
+			(at 52.07 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3509,7 +3816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 46.99 0)
+			(at 52.07 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,20 +3827,111 @@
 			)
 		)
 		(pin "1"
-			(uuid "346b4f8a-7dbe-4ac4-a6b8-c7375747d075")
+			(uuid "b3bf4f31-4953-438d-9327-dfe1057301d6")
 		)
 		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR022")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 104.14 40.64 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 74.93 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee")
+		(property "Reference" "J2"
+			(at 71.12 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UART"
+			(at 70.866 47.244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
+			(at 74.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d21de096-a911-4273-9ab1-7619f4458e1d")
+		)
+		(pin "1"
+			(uuid "6f187e0d-f3f3-4f6f-8891-11bb9c876025")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 71.12 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3542,9 +3940,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4f335fa-ed1f-43e5-b3a1-6222c7a6ae49")
-		(property "Reference" "#PWR021"
-			(at 104.14 46.99 0)
+		(uuid "beeca74c-6c63-4e83-bcf3-c9f6042b34c2")
+		(property "Reference" "#PWR010"
+			(at 74.93 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3554,19 +3952,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 106.68 41.9099 0)
+		(property "Value" "VCC"
+			(at 69.85 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 40.64 0)
+			(at 71.12 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3577,7 +3974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 40.64 0)
+			(at 71.12 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3587,8 +3984,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 71.12 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3599,12 +3996,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "eee7b6d0-880b-4630-ab24-515741abe49f")
+			(uuid "3b78651f-620f-4e82-860c-f73d26a47f1b")
 		)
 		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR021")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3612,7 +4015,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 35.56 0)
+		(at 96.52 36.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3621,9 +4024,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b9c3a784-571b-447b-ac49-db7d40262314")
-		(property "Reference" "C3"
-			(at 93.98 34.29 0)
+		(uuid "dcc073ba-ff85-488e-a29c-2ef1a582950c")
+		(property "Reference" "C1"
+			(at 93.98 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3634,7 +4037,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 93.98 36.83 0)
+			(at 93.98 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3645,7 +4048,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 95.5548 39.37 0)
+			(at 95.5548 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3656,7 +4059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 35.56 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3667,7 +4070,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 35.56 0)
+			(at 96.52 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,92 +4081,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "311ba80b-0c94-4724-9303-786962cc23f1")
+			(uuid "5bb36e74-188f-44bf-b5be-5cb5287d359d")
 		)
 		(pin "2"
-			(uuid "b4ca2689-a3b6-4e4c-b7b5-f7f95155e28e")
+			(uuid "1213caeb-2072-4eb1-8b61-fb140800f724")
 		)
 		(instances
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "C3")
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "C1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 49.53 50.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d55f14e1-e34e-4184-b843-743b9f1a286f")
-		(property "Reference" "#FLG04"
-			(at 47.625 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 40.894 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 49.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97acb448-1abd-4542-8de4-58cfff8f2708")
-		)
-		(instances
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#FLG04")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3888,238 +4220,34 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 35.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0108693-2c70-4de2-add0-0681e5d97267")
-		(property "Reference" "#PWR018"
-			(at 63.5 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9ea0aac-69b0-498d-90bb-503db1d3fc76")
-		)
-		(instances
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 53.34 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f32b1e59-2d0b-48ff-8994-3bfea740aa38")
-		(property "Reference" "#PWR023"
-			(at 49.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 56.388 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 53.34 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c973ea45-239d-4ba2-b1fe-1477f763f445")
-		)
-		(instances
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 52.07 27.94 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7ab87e8-8d93-4dfe-a60d-6c5b726253af")
-		(property "Reference" "#PWR015"
-			(at 48.26 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 55.88 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 52.07 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5a1e2ca-25d9-4308-b96e-54282123a061")
-		)
-		(instances
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
+	(group "SplonkulesBase"
+		(uuid "55c98500-1d5d-496e-bc88-bc7272068976")
+		(lib_id "MegaSplonk:SplonkulesBase")
+		(members "006e786a-dd88-4e1d-b743-39eddce2ea91" "02516e53-cad2-454f-bf85-150ac3af8ec7"
+			"07e6b3ef-4dd6-41f7-bd45-697073966f19" "0bc75bee-daa6-4fcb-a03a-1984b177a1f5"
+			"11060fea-b693-47d9-9043-21ca382c3817" "1597ffe7-de8f-4c92-a959-f8940d69d907"
+			"2e432e94-b4d2-4f9d-a947-fcc3658e07c0" "2f9cf2f9-d5d8-4ef0-97db-f96a21f08677"
+			"3077c939-e286-464b-bf00-1b3566f7bcf7" "467c524c-2149-42c8-8b63-36bc1b27515a"
+			"467c5877-1ea0-407c-9e58-6f72dcfe01a0" "492521a6-04e6-48ed-b6fc-aa4df89cc1e4"
+			"523e673e-d0f3-44e4-aeaa-bf69829babc0" "577bfb7d-1d4a-4e96-a5dc-c9590fe4396a"
+			"5d1ace0d-168d-43b6-b8a8-cafa9581ad93" "6cfb7da8-a754-4acf-bc44-5c45e4e2062f"
+			"6d22f07e-2a23-4ba4-8881-f2a832c6fedd" "6fe45713-04da-43c6-b60e-417ade0a8c16"
+			"70b7e53f-8ffb-4b4b-9bf3-c33d8545a290" "74233234-acba-4442-a8fd-de140805aba4"
+			"762104cd-df22-4ccc-9a84-e4ecff1f3526" "790cbe6a-7ca9-4f73-9ad5-9c81956d99cb"
+			"7e52fa8e-4323-47ca-a084-35386b8098da" "7f875132-a1f1-4691-9476-f25350ea1fa5"
+			"8195b25e-26a5-4840-bad6-677187c6e76b" "8202f15c-bbd2-4e4e-a6b9-074c825dc20c"
+			"894b225c-3154-47ba-a03e-5e4393cd4732" "8a877827-1e03-4c47-88e5-97bf1b1b39cb"
+			"8bc27a2c-5699-4dec-99f9-a1cd0cba89f9" "914f47c2-f120-44ce-abea-d5bc720df316"
+			"92615ddc-2f8d-4880-9e98-e015535345a5" "96f200e3-66b5-4ff0-8558-e27680ec0fd2"
+			"a724c6cd-04f6-43bc-ba07-f46ab71683ac" "b00e3ec5-7753-4c5b-bd8c-64a79b5ab12c"
+			"b33cba25-ac5e-4023-9a7a-f0de1f6b97c6" "bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee"
+			"beeca74c-6c63-4e83-bcf3-c9f6042b34c2" "c3abf1e4-db77-41c5-bb13-1622ff1e1ff5"
+			"c5604df7-619b-4126-9808-3d2792c9f4fa" "d94dc7e5-55d4-4faf-8f52-893448ef3e32"
+			"da5902dc-9d7f-4025-8069-f70c0ab836d9" "dcc073ba-ff85-488e-a29c-2ef1a582950c"
+			"e04b74a3-4b18-4fef-bb84-e8fae66a8683" "e2316a06-36b5-438d-bc14-df5594cbf19b"
+			"e7572b76-226f-48c6-b542-c5bf662922ee" "e9cf5698-60a9-4b5b-aa09-f55568282508"
+			"f25818ee-785c-4e63-8a4a-a884f33c14df" "f351f0ef-8fff-4d15-a6ce-51268f6736e7"
+			"f6c9a746-264e-490b-ba88-398cec65d7b5" "f807433a-5308-4891-8cdb-15a5eeb7140e"
 		)
 	)
 	(sheet_instances

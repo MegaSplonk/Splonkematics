@@ -3239,7 +3239,7 @@
 		)
 		(uuid "66547160-628a-4d54-a4a6-d9aa501cfcda")
 	)
-	(label "RDY"
+	(label "~{RST}"
 		(at 20.32 74.93 180)
 		(effects
 			(font
@@ -3359,7 +3359,7 @@
 		)
 		(uuid "c168dc63-4493-4cef-8fcb-d0a2eee7d2a1")
 	)
-	(label "RDY"
+	(label "~{RST}"
 		(at 52.07 20.32 0)
 		(effects
 			(font
