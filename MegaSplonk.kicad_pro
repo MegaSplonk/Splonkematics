@@ -253,7 +253,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "megasyms"
+    ]
   },
   "meta": {
     "filename": "MegaSplonk.kicad_pro",
@@ -416,7 +418,7 @@
         "uuid": "c90907df-3a87-47df-a69a-08eaaeab05b6"
       }
     ],
-    "used_designators": "SW26-75,SW108-113,JP9-16,R17-48,R67-68,J14-39,J60-62,U6-15,U21,F2-4,D50-147,D208-219,C17-48,C71-74,Y2-4,#PWR29-33,#PWR58-198,#PWR286-300,#FLG4-9,#FLG16-19",
+    "used_designators": "SW26-75,SW108-113,JP9-16,R17-48,R67-68,J14-39,J60-62,U6-15,U21,F2-4,D50-147,D208-219,C17-48,C71-74,Y2-4,#PWR29-33,#PWR58-198,#PWR286-300,#PWR319,#FLG4-9,#FLG16-19",
     "variants": []
   },
   "sheets": [
