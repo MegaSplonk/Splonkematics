@@ -6713,6 +6713,120 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PWR_FLAG_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -32509,6 +32623,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
 		(at 29.21 55.88 90)
 		(unit 1)
@@ -47060,6 +47175,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 41.91 -200.66 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84d5b31a-c428-49eb-aab9-8e8758438dde")
+		(property "Reference" "#PWR0319"
+			(at 41.91 -204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 41.91 -201.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 -200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 -200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 41.91 -200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4823461-2b33-4333-bf0f-c6ab92ff396e")
+		)
+		(instances
+			(project "MegaSplonk"
+				(path "/c90907df-3a87-47df-a69a-08eaaeab05b6"
+					(reference "#PWR0319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 -222.25 0)
 		(unit 1)
@@ -53181,90 +53374,6 @@
 			(project "MegaSplonk"
 				(path "/c90907df-3a87-47df-a69a-08eaaeab05b6"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 -200.66 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9f02e47b-9915-42ba-a24a-8e8e874a1546")
-		(property "Reference" "#PWR0319"
-			(at 41.91 -194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 -196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 -200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 -200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 -200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b6a01f0-544b-440a-93f8-aa0790f3a8b6")
-		)
-		(instances
-			(project "Splonkpad"
-				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project "MegaSplonk"
-				(path "/c90907df-3a87-47df-a69a-08eaaeab05b6"
-					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -70805,32 +70914,32 @@
 			"80e90cc8-377a-4727-9daa-d6cf285af02e" "81863914-8f76-42ea-be4d-11905e5f89e5"
 			"8215bf4c-3865-4bc4-afd5-0f483ca9d85c" "82a7e919-f8fa-4305-bc5d-71dff307b25f"
 			"82efe08e-5e87-4afd-9437-c2c39f886536" "84b1694c-e5b7-45b9-8489-61da3031d4d6"
-			"84d37539-32bc-49e4-9e68-a4f4de4b24a8" "84f2d7c1-c95a-4210-b410-7f766ecb4f77"
-			"8510ab9c-a5e9-4ee5-876b-f12ce63e7ca1" "8631e311-107e-4bb1-8dbd-61b239737de3"
-			"86d86d35-506b-40f5-a4eb-172da6392831" "86f32dfb-9d46-4355-9324-9ab23be9e793"
-			"8745bfc3-dc83-400a-b3d2-fbdad33cb7ab" "87b893ef-b22b-45e4-a574-a39dfccf48e1"
-			"88012dd8-e4ea-4125-934e-899ea43e5e58" "88a63000-bc60-4910-91d1-95cccb5e7205"
-			"8a1451db-bf9a-4c1e-bbf2-ff20b06056e3" "8acee335-1910-4423-8732-bedead044145"
-			"8aeb3b54-20b6-4a68-82b8-53230a8891b5" "8b13807d-a1fd-4584-829d-b01c8d40be44"
-			"8b2d5073-f45a-4c51-bc4c-7ee24f3326fa" "8c4b7a50-34fb-4d9c-b132-82845e117b81"
-			"8c94cfad-ce8c-4d76-bfbd-b6547004dc8f" "8d442680-c0f3-43c8-ba6d-054b52ffa50b"
-			"8d995d4d-404e-43d3-9205-ec304f3a075b" "8dc2fc9f-6cfb-4bad-95af-8d4455afa357"
-			"8dc7ded4-ba68-4a6f-a7d0-c375acf86d7b" "8e03840d-f0cb-4c6b-9ab3-10f1173b0e94"
-			"8e5cd91b-bedc-4c43-be13-986704dbf227" "8e63a420-12a9-490e-8198-d0f27fa0cdcf"
-			"8e65acb9-b4ad-4719-9b38-9d5939dc8f16" "8ea3c582-b1f7-4b8c-a519-6ed0b425427a"
-			"8f200a86-678e-4deb-91fb-20d6b609536b" "8f604413-09d2-4530-b209-ccd303ae357a"
-			"8fdd06d2-ffed-48d7-8cf6-08e2e4a9b4f6" "905a4ff9-d449-4a50-acdc-7c5d7e64db3d"
-			"90ed2a9e-10f3-4353-a86e-17b3060aae91" "91787b38-a91d-41bb-be8f-3867c15c6374"
-			"921bc15a-0d82-4e2a-9c91-0a8c372ca938" "92a2d830-3458-4daf-adcb-465f8875c020"
-			"92b72b71-c0a0-4274-ab37-03aa147cd09d" "9439a28c-7e09-4f92-838f-34ebff8edd43"
-			"948f5c00-5a6c-4962-a288-13b700804bde" "9521703c-3c4a-42b4-913d-4201db6be5f8"
-			"9654dae2-d1e1-4c67-9611-175b2d2892bc" "968611fc-dc75-4cf4-9d12-950643f7f643"
-			"97e323b7-8533-43f6-b660-79be76af8cb6" "98c86b7c-4a43-43b0-acc3-2ba8af5c9ce1"
-			"98f4b4d3-e8ca-4d8f-9269-6287e6ecc95d" "99143daa-5ee7-4a14-b1d2-a8886edb80bd"
-			"9a0f7ff4-850f-4c61-84fd-15868bdcc016" "9bc56265-bb37-4cdc-95fe-5d8a11501744"
-			"9c4fd9c1-9e4b-4013-98fe-4a3f9461386b" "9d53011a-d82c-47be-9842-a46acdb914be"
-			"9de7d7a1-c435-447d-b5dc-c8fb64366830" "9ede7de8-8e57-4312-966d-03200fb9e97b"
-			"9f02e47b-9915-42ba-a24a-8e8e874a1546" "a0a6878e-3563-44fe-a9fb-93ed9496a129"
+			"84d37539-32bc-49e4-9e68-a4f4de4b24a8" "84d5b31a-c428-49eb-aab9-8e8758438dde"
+			"84f2d7c1-c95a-4210-b410-7f766ecb4f77" "8510ab9c-a5e9-4ee5-876b-f12ce63e7ca1"
+			"8631e311-107e-4bb1-8dbd-61b239737de3" "86d86d35-506b-40f5-a4eb-172da6392831"
+			"86f32dfb-9d46-4355-9324-9ab23be9e793" "8745bfc3-dc83-400a-b3d2-fbdad33cb7ab"
+			"87b893ef-b22b-45e4-a574-a39dfccf48e1" "88012dd8-e4ea-4125-934e-899ea43e5e58"
+			"88a63000-bc60-4910-91d1-95cccb5e7205" "8a1451db-bf9a-4c1e-bbf2-ff20b06056e3"
+			"8acee335-1910-4423-8732-bedead044145" "8aeb3b54-20b6-4a68-82b8-53230a8891b5"
+			"8b13807d-a1fd-4584-829d-b01c8d40be44" "8b2d5073-f45a-4c51-bc4c-7ee24f3326fa"
+			"8c4b7a50-34fb-4d9c-b132-82845e117b81" "8c94cfad-ce8c-4d76-bfbd-b6547004dc8f"
+			"8d442680-c0f3-43c8-ba6d-054b52ffa50b" "8d995d4d-404e-43d3-9205-ec304f3a075b"
+			"8dc2fc9f-6cfb-4bad-95af-8d4455afa357" "8dc7ded4-ba68-4a6f-a7d0-c375acf86d7b"
+			"8e03840d-f0cb-4c6b-9ab3-10f1173b0e94" "8e5cd91b-bedc-4c43-be13-986704dbf227"
+			"8e63a420-12a9-490e-8198-d0f27fa0cdcf" "8e65acb9-b4ad-4719-9b38-9d5939dc8f16"
+			"8ea3c582-b1f7-4b8c-a519-6ed0b425427a" "8f200a86-678e-4deb-91fb-20d6b609536b"
+			"8f604413-09d2-4530-b209-ccd303ae357a" "8fdd06d2-ffed-48d7-8cf6-08e2e4a9b4f6"
+			"905a4ff9-d449-4a50-acdc-7c5d7e64db3d" "90ed2a9e-10f3-4353-a86e-17b3060aae91"
+			"91787b38-a91d-41bb-be8f-3867c15c6374" "921bc15a-0d82-4e2a-9c91-0a8c372ca938"
+			"92a2d830-3458-4daf-adcb-465f8875c020" "92b72b71-c0a0-4274-ab37-03aa147cd09d"
+			"9439a28c-7e09-4f92-838f-34ebff8edd43" "948f5c00-5a6c-4962-a288-13b700804bde"
+			"9521703c-3c4a-42b4-913d-4201db6be5f8" "9654dae2-d1e1-4c67-9611-175b2d2892bc"
+			"968611fc-dc75-4cf4-9d12-950643f7f643" "97e323b7-8533-43f6-b660-79be76af8cb6"
+			"98c86b7c-4a43-43b0-acc3-2ba8af5c9ce1" "98f4b4d3-e8ca-4d8f-9269-6287e6ecc95d"
+			"99143daa-5ee7-4a14-b1d2-a8886edb80bd" "9a0f7ff4-850f-4c61-84fd-15868bdcc016"
+			"9bc56265-bb37-4cdc-95fe-5d8a11501744" "9c4fd9c1-9e4b-4013-98fe-4a3f9461386b"
+			"9d53011a-d82c-47be-9842-a46acdb914be" "9de7d7a1-c435-447d-b5dc-c8fb64366830"
+			"9ede7de8-8e57-4312-966d-03200fb9e97b" "a0a6878e-3563-44fe-a9fb-93ed9496a129"
 			"a1159320-1acf-4436-9478-fccecc8a43a8" "a1509ee1-a609-4c8d-bcba-ba62f2e56bb4"
 			"a198c8fc-5ede-49bb-94b9-2980daf37f02" "a315ea72-a7ec-4a08-881b-310d9f9ab4a5"
 			"a32d36f7-97aa-497c-a354-98d01536bbf6" "a3da2496-9b31-48bc-98b5-581899a0791b"
