@@ -1722,7 +1722,7 @@
 			)
 		)
 		(symbol "Connector2P_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 1.27 180)
 				(length 1.27)
 				(name ""
@@ -1740,7 +1740,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 -1.27 180)
 				(length 1.27)
 				(name ""
@@ -1870,7 +1870,7 @@
 			)
 		)
 		(symbol "Connector3P_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 2.54 180)
 				(length 1.27)
 				(name ""
@@ -1888,7 +1888,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 0 180)
 				(length 1.27)
 				(name ""
@@ -1906,7 +1906,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 -2.54 180)
 				(length 1.27)
 				(name ""
@@ -2047,7 +2047,7 @@
 			)
 		)
 		(symbol "Connector4P_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 3.81 180)
 				(length 1.27)
 				(name ""
@@ -2065,7 +2065,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 1.27 180)
 				(length 1.27)
 				(name ""
@@ -2083,7 +2083,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 -1.27 180)
 				(length 1.27)
 				(name ""
@@ -2101,7 +2101,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 -3.81 180)
 				(length 1.27)
 				(name ""
@@ -2253,7 +2253,7 @@
 			)
 		)
 		(symbol "Connector5P_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 5.08 180)
 				(length 1.27)
 				(name ""
@@ -2271,7 +2271,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 2.54 180)
 				(length 1.27)
 				(name ""
@@ -2289,7 +2289,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 0 180)
 				(length 1.27)
 				(name ""
@@ -2307,7 +2307,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 -2.54 180)
 				(length 1.27)
 				(name ""
@@ -2325,7 +2325,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 -5.08 180)
 				(length 1.27)
 				(name ""
@@ -2713,7 +2713,7 @@
 		)
 		(symbol "Diode_Schottky_1_1"
 			(pin passive line
-				(at 0 1.905 270)
+				(at 0 -1.905 90)
 				(length 1.27)
 				(name "1"
 					(effects
@@ -2731,7 +2731,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -1.905 90)
+				(at 0 1.905 270)
 				(length 1.27)
 				(name "2"
 					(effects
@@ -4598,6 +4598,151 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Pot"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P"
+			(at 0 4.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Pot_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Pot_1_1"
+			(circle
+				(center 0 0)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
