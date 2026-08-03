@@ -252,7 +252,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "megaprint"
+    ],
     "pinned_symbol_libs": [
       "megasyms"
     ]

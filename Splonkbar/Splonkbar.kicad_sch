@@ -1050,6 +1050,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "megasyms:PolarizedCapacitor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.81 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 3.81 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PolarizedCapacitor_0_1"
+				(arc
+					(start -2.54 -1.905)
+					(mid 0 -0.8529)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0.762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PolarizedCapacitor_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "megasyms:Pot"
 			(pin_names
 				(hide yes)
@@ -1203,7 +1328,7 @@
 							)
 						)
 					)
-					(number "MP"
+					(number "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1959,7 +2084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
+		(property "Footprint" "megaprint:PotLinear"
 			(at 97.79 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2028,7 +2153,7 @@
 		(pin "1"
 			(uuid "cded583c-760f-4d96-a7c0-d561693654c5")
 		)
-		(pin "MP"
+		(pin "G"
 			(uuid "be2681f7-809d-4a5e-8716-bc50f1a66780")
 		)
 		(pin "3"
@@ -2396,7 +2521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
+		(property "Footprint" "megaprint:PotLinear"
 			(at 97.79 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2462,7 +2587,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "G"
 			(uuid "b9f9a55b-d4d4-46c4-b108-d3a7a4266787")
 		)
 		(pin "1"
@@ -3009,7 +3134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
+		(property "Footprint" "megaprint:PotLinear"
 			(at 74.93 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3075,7 +3200,7 @@
 				)
 			)
 		)
-		(pin "MP"
+		(pin "G"
 			(uuid "7c7be7d2-1cf6-4b1f-993a-f2c58db1a282")
 		)
 		(pin "1"
@@ -3130,7 +3255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
+		(property "Footprint" "megaprint:PotLinear"
 			(at 74.93 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3205,7 +3330,7 @@
 		(pin "3"
 			(uuid "78d9e838-ba18-4390-86fb-4c45df8726fb")
 		)
-		(pin "MP"
+		(pin "G"
 			(uuid "831e6ffc-868d-49a5-8eb9-f84f82f104f2")
 		)
 		(instances
@@ -3303,7 +3428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "megasyms:Capacitor")
+		(lib_id "megasyms:PolarizedCapacitor")
 		(at 100.33 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -3367,10 +3492,10 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "+"
 			(uuid "578a301d-2c93-4f12-b789-d1490a2575e3")
 		)
-		(pin "1"
+		(pin "-"
 			(uuid "06a52c34-9e97-47c1-b5a6-63f46320b01c")
 		)
 		(instances
@@ -4171,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "megaprint:Attiny1614-Breadboard"
 			(at 49.53 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4425,7 +4550,7 @@
 		)
 	)
 	(group "SplonkulesBase"
-		(uuid "6e3c0758-f481-4324-b089-1b1400efd953")
+		(uuid "f0e3f73a-b76a-40cd-89e3-3850cfedd989")
 		(lib_id "MegaSplonk:SplonkulesBase")
 		(members "006e786a-dd88-4e1d-b743-39eddce2ea91" "11060fea-b693-47d9-9043-21ca382c3817"
 			"1597ffe7-de8f-4c92-a959-f8940d69d907" "2e432e94-b4d2-4f9d-a947-fcc3658e07c0"
