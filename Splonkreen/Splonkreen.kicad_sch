@@ -608,172 +608,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "megasyms:Connector3P"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0.508 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Connector3P_0_1"
-				(rectangle
-					(start 0 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 0.508 2.667)
-					(end 1.27 2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.508 0.127)
-					(end 1.27 -0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.508 -2.413)
-					(end 1.27 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Connector3P_1_1"
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "megasyms:Connector5P"
 			(pin_names
 				(hide yes)
@@ -1216,6 +1050,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "megasyms:PolarizedCapacitor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.81 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 3.81 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PolarizedCapacitor_0_1"
+				(arc
+					(start -2.54 -1.905)
+					(mid 0 -0.8529)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0.762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PolarizedCapacitor_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "megasyms:Screen"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1536,7 +1495,7 @@
 	)
 	(text "POWER FLAGS"
 		(exclude_from_sim no)
-		(at 47.498 47.498 0)
+		(at 60.198 25.908 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1546,7 +1505,7 @@
 	)
 	(text "SplonkConn"
 		(exclude_from_sim no)
-		(at 46.736 25.654 0)
+		(at 32.766 25.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1556,7 +1515,7 @@
 	)
 	(text "UART"
 		(exclude_from_sim no)
-		(at 69.85 43.434 0)
+		(at 55.88 38.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1566,7 +1525,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 98.044 25.908 0)
+		(at 84.074 25.908 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1584,25 +1543,11 @@
 		)
 		(uuid "808519d5-2000-4ce9-aa52-442794b7fa28")
 	)
-	(text "UPDI\n"
-		(exclude_from_sim no)
-		(at 70.104 26.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c5604df7-619b-4126-9808-3d2792c9f4fa")
-	)
 	(junction
-		(at 105.41 30.48)
+		(at 91.44 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d24f2f83-6025-4805-94cd-100b0460a8ab")
-	)
-	(no_connect
-		(at 53.34 36.83)
-		(uuid "02516e53-cad2-454f-bf85-150ac3af8ec7")
+		(uuid "d36c3298-d826-4d84-b897-40bf4c1b05ba")
 	)
 	(no_connect
 		(at 58.42 80.01)
@@ -1618,7 +1563,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 30.48) (xy 105.41 30.48)
+			(xy 91.44 30.48) (xy 87.63 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1628,17 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 27.94) (xy 105.41 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2873418d-d495-4dd5-b908-a71a777c11bd")
-	)
-	(wire
-		(pts
-			(xy 53.34 36.83) (xy 52.07 36.83)
+			(xy 39.37 36.83) (xy 38.1 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1648,33 +1583,33 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 31.75) (xy 52.07 31.75)
+			(xy 43.18 29.21) (xy 38.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3077c939-e286-464b-bf00-1b3566f7bcf7")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 43.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c16887e-52a2-46b5-9ecb-6ce4494c9847")
+	)
+	(wire
+		(pts
+			(xy 39.37 31.75) (xy 38.1 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "577bfb7d-1d4a-4e96-a5dc-c9590fe4396a")
-	)
-	(wire
-		(pts
-			(xy 55.88 54.61) (xy 57.15 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a17e5c-7494-4d72-b618-e51fc29bcd19")
-	)
-	(wire
-		(pts
-			(xy 109.22 30.48) (xy 109.22 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "790cbe6a-7ca9-4f73-9ad5-9c81956d99cb")
 	)
 	(wire
 		(pts
@@ -1688,23 +1623,33 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 30.48) (xy 101.6 31.75)
+			(xy 66.04 33.02) (xy 71.12 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82e760ad-0155-4a1e-9356-fc40f41671f0")
+		(uuid "b00e3ec5-7753-4c5b-bd8c-64a79b5ab12c")
 	)
 	(wire
 		(pts
-			(xy 55.88 50.8) (xy 58.42 50.8)
+			(xy 66.04 29.21) (xy 71.12 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d482a467-e765-49ab-9122-f9d77b58ea84")
+		(uuid "d6857673-fb05-46b0-9bd0-e807a49ea91f")
+	)
+	(wire
+		(pts
+			(xy 91.44 30.48) (xy 95.25 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5902dc-9d7f-4025-8069-f70c0ab836d9")
 	)
 	(wire
 		(pts
@@ -1718,17 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 30.48) (xy 109.22 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed6357d3-c8df-41a5-8045-a41c7b43e12e")
-	)
-	(wire
-		(pts
-			(xy 53.34 34.29) (xy 52.07 34.29)
+			(xy 39.37 34.29) (xy 38.1 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1702,7 @@
 		(uuid "353889fc-e937-4a87-95e6-6dba047a5317")
 	)
 	(label "SDA"
-		(at 53.34 31.75 0)
+		(at 39.37 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1807,17 +1742,7 @@
 		(uuid "6bacd0ed-df87-4096-a79c-79317ae15ad4")
 	)
 	(label "UPDI"
-		(at 81.28 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6fe45713-04da-43c6-b60e-417ade0a8c16")
-	)
-	(label "BUS_ENABLE"
-		(at 53.34 36.83 0)
+		(at 39.37 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1857,7 +1782,7 @@
 		(uuid "a9d32e10-85ad-4171-bc19-2e8bbc8fe44a")
 	)
 	(label "RX"
-		(at 85.09 44.45 0)
+		(at 71.12 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1897,7 +1822,7 @@
 		(uuid "ee009cd7-b390-47d1-87ea-d715ac0c7166")
 	)
 	(label "TX"
-		(at 85.09 46.99 0)
+		(at 71.12 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1907,7 +1832,7 @@
 		(uuid "f351f0ef-8fff-4d15-a6ce-51268f6736e7")
 	)
 	(label "SCL"
-		(at 53.34 34.29 0)
+		(at 39.37 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1952,7 +1877,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 67.31 41.91) (xy 67.31 49.53) (xy 92.71 49.53) (xy 92.71 41.91)
+				(xy 53.34 36.83) (xy 53.34 44.45) (xy 78.74 44.45) (xy 78.74 36.83)
 			)
 			(stroke
 				(width 0)
@@ -1971,7 +1896,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 40.64 45.72) (xy 40.64 57.15) (xy 66.04 57.15) (xy 66.04 45.72)
+				(xy 53.34 24.13) (xy 53.34 35.56) (xy 78.74 35.56) (xy 78.74 24.13)
 			)
 			(stroke
 				(width 0)
@@ -1990,26 +1915,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 67.31 24.13) (xy 67.31 40.64) (xy 92.71 40.64) (xy 92.71 24.13)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "e04b74a3-4b18-4fef-bb84-e8fae66a8683")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
-				(xy 40.64 24.13) (xy 40.64 44.45) (xy 66.04 44.45) (xy 66.04 24.13)
+				(xy 26.67 24.13) (xy 26.67 44.45) (xy 52.07 44.45) (xy 52.07 24.13)
 			)
 			(stroke
 				(width 0)
@@ -2028,7 +1934,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 93.98 24.13) (xy 118.11 24.13) (xy 118.11 49.53) (xy 93.98 49.53)
+				(xy 80.01 24.13) (xy 104.14 24.13) (xy 104.14 44.45) (xy 80.01 44.45)
 			)
 			(stroke
 				(width 0)
@@ -2038,173 +1944,6 @@
 				(type none)
 			)
 			(uuid "e7572b76-226f-48c6-b542-c5bf662922ee")
-		)
-	)
-	(symbol
-		(lib_id "megasyms:VCC")
-		(at 58.42 54.61 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "07e6b3ef-4dd6-41f7-bd45-697073966f19")
-		(property "Reference" "#PWR09"
-			(at 54.61 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 60.96 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 58.42 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c8b87c5-b9f1-4a2e-b39a-2a5980fb0124")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:GND")
-		(at 80.01 36.83 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0bc75bee-daa6-4fcb-a03a-1984b177a1f5")
-		(property "Reference" "#PWR011"
-			(at 86.36 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 75.184 36.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "839a8ede-9b5f-46cc-946e-c4c4b3e65bbe")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2445,7 +2184,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:POWER_FLAG")
-		(at 54.61 50.8 90)
+		(at 64.77 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2454,8 +2193,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f9cf2f9-d5d8-4ef0-97db-f96a21f08677")
-		(property "Reference" "#FLG01"
-			(at 52.705 50.8 0)
+		(property "Reference" "#FLAG01"
+			(at 59.182 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,7 +2205,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 45.974 50.8 90)
+			(at 58.42 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2476,7 +2215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 50.8 0)
+			(at 64.77 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 50.8 0)
+			(at 64.77 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2237,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 54.61 50.8 0)
+			(at 64.77 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2514,13 +2253,96 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#FLG01")
+					(reference "#FLAG1")
 					(unit 1)
 				)
 			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#FLG01")
+					(reference "#FLAG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:VCC")
+		(at 91.44 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fa714e6-74a0-4d02-b597-c5af284928a0")
+		(property "Reference" "#PWR011"
+			(at 91.44 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 91.44 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "557e65a8-3e19-435b-af16-557a18f8cdc8")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2606,7 +2428,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:GND")
-		(at 101.6 43.18 180)
+		(at 72.39 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2614,9 +2436,10 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5d1ace0d-168d-43b6-b8a8-cafa9581ad93")
-		(property "Reference" "#PWR012"
-			(at 101.6 36.83 0)
+		(fields_autoplaced yes)
+		(uuid "477e558d-db89-4335-948a-80401a48c8b6")
+		(property "Reference" "#PWR08"
+			(at 76.2 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,18 +2450,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.568 46.482 0)
+			(at 74.93 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 43.18 0)
+			(at 72.39 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,7 +2472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 43.18 0)
+			(at 72.39 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,7 +2483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 43.18 0)
+			(at 72.39 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2671,18 +2494,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "e54c5240-2498-4c11-ba92-9e0b6a00ca6b")
+			(uuid "5464c06e-67c7-4691-b8f1-8b84ed9fca38")
 		)
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR07")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR012")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2768,7 +2591,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:POWER_FLAG")
-		(at 54.61 54.61 90)
+		(at 64.77 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2777,8 +2600,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d22f07e-2a23-4ba4-8881-f2a832c6fedd")
-		(property "Reference" "#FLG02"
-			(at 52.705 54.61 0)
+		(property "Reference" "#FLAG02"
+			(at 59.182 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2612,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 45.974 54.61 90)
+			(at 58.42 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2799,7 +2622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 54.61 0)
+			(at 64.77 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +2633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 54.61 0)
+			(at 64.77 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,7 +2644,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 54.61 54.61 0)
+			(at 64.77 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2837,21 +2660,21 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#FLG02")
+					(reference "#FLAG2")
 					(unit 1)
 				)
 			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#FLG02")
+					(reference "#FLAG02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "megasyms:GND")
-		(at 109.22 43.18 180)
+		(lib_id "megasyms:VCC")
+		(at 72.39 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2860,9 +2683,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74233234-acba-4442-a8fd-de140805aba4")
-		(property "Reference" "#PWR014"
-			(at 109.22 36.83 0)
+		(uuid "8f8c92db-a6b9-43fe-bb11-9f1fa54b2111")
+		(property "Reference" "#PWR09"
+			(at 76.2 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2872,19 +2695,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 111.76 43.1799 0)
+		(property "Value" "VCC"
+			(at 74.93 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 43.18 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2895,7 +2718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 43.18 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,8 +2728,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 43.18 0)
+		(property "Description" ""
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2917,7 +2740,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "480711b0-eafd-44f4-a7f3-34ebc49b5ad7")
+			(uuid "e0bd6d4d-8972-4101-9b28-22469a068baf")
 		)
 		(instances
 			(project "SplonkBlocks"
@@ -2928,357 +2751,15 @@
 			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR014")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "megasyms:VCC")
-		(at 53.34 29.21 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e52fa8e-4323-47ca-a084-35386b8098da")
-		(property "Reference" "#PWR06"
-			(at 49.53 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 55.88 29.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 53.34 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1461420-762c-463d-b1dc-14072b613c17")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:Connector3P")
-		(at 83.82 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8195b25e-26a5-4840-bad6-677187c6e76b")
-		(property "Reference" "J3"
-			(at 87.122 29.972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "UPDI"
-			(at 84.836 39.624 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical"
-			(at 83.82 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dfcdded9-50dc-46ca-909e-a411cf4fa8ea")
-		)
-		(pin "3"
-			(uuid "a9e7238d-06b2-4376-8d62-35de16e20a1f")
-		)
-		(pin "1"
-			(uuid "bb915581-cc63-404d-87f2-2c23e6463229")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:VCC")
-		(at 105.41 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8202f15c-bbd2-4e4e-a6b9-074c825dc20c")
-		(property "Reference" "#PWR013"
-			(at 105.41 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 108.712 24.892 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 105.41 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63d85e03-6546-49c5-8d1f-26d8890466f0")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:GND")
-		(at 59.69 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a877827-1e03-4c47-88e5-97bf1b1b39cb")
-		(property "Reference" "#PWR08"
-			(at 53.34 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 65.024 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3575d3c-dd9d-44f8-ac72-44bbd7ca50f5")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:Capacitor")
-		(at 109.22 36.83 0)
+		(lib_id "megasyms:PolarizedCapacitor")
+		(at 95.25 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3288,18 +2769,17 @@
 		(dnp no)
 		(uuid "914f47c2-f120-44ce-abea-d5bc720df316")
 		(property "Reference" "C2"
-			(at 111.506 35.56 0)
+			(at 99.822 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100uF"
-			(at 111.506 38.1 0)
+			(at 98.044 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3309,8 +2789,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "megaprint:Capacitor_0603"
-			(at 109.22 36.83 0)
+		(property "Footprint" "megaprint:ElectroliticCapacitor"
+			(at 95.25 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,7 +2801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 36.83 0)
+			(at 95.25 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3332,7 +2812,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 36.83 0)
+			(at 95.25 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,10 +2822,10 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "+"
 			(uuid "578a301d-2c93-4f12-b789-d1490a2575e3")
 		)
-		(pin "1"
+		(pin "-"
 			(uuid "06a52c34-9e97-47c1-b5a6-63f46320b01c")
 		)
 		(instances
@@ -3365,8 +2845,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Connector5P")
-		(at 49.53 34.29 0)
-		(mirror x)
+		(at 35.56 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3376,7 +2855,7 @@
 		(dnp no)
 		(uuid "92615ddc-2f8d-4880-9e98-e015535345a5")
 		(property "Reference" "J1"
-			(at 45.466 34.29 0)
+			(at 34.29 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3386,7 +2865,7 @@
 			)
 		)
 		(property "Value" "SplonkConn"
-			(at 49.784 26.416 0)
+			(at 33.274 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3395,8 +2874,8 @@
 				)
 			)
 		)
-		(property "Footprint" "megaprint:Pin_header_5"
-			(at 49.53 34.29 0)
+		(property "Footprint" "megaprint:MaixCon-5P"
+			(at 35.56 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3407,7 +2886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 34.29 0)
+			(at 35.56 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3418,7 +2897,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 49.53 34.29 0)
+			(at 35.56 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3555,92 +3034,8 @@
 		)
 	)
 	(symbol
-		(lib_id "megasyms:GND")
-		(at 53.34 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a724c6cd-04f6-43bc-ba07-f46ab71683ac")
-		(property "Reference" "#PWR07"
-			(at 46.99 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.372 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3bf4f31-4953-438d-9327-dfe1057301d6")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project "Splonkreen"
-				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "megasyms:Connector2P")
-		(at 82.55 45.72 0)
+		(at 68.58 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3650,7 +3045,7 @@
 		(dnp no)
 		(uuid "bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee")
 		(property "Reference" "J2"
-			(at 86.36 48.26 0)
+			(at 67.056 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3660,7 +3055,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 77.724 44.958 0)
+			(at 66.04 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3669,8 +3064,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
-			(at 82.55 45.72 0)
+		(property "Footprint" "megaprint:MaixCon-2P"
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +3076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 45.72 0)
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +3087,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 82.55 45.72 0)
+			(at 68.58 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3724,8 +3119,8 @@
 		)
 	)
 	(symbol
-		(lib_id "megasyms:VCC")
-		(at 80.01 31.75 90)
+		(lib_id "megasyms:GND")
+		(at 44.45 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3734,9 +3129,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "beeca74c-6c63-4e83-bcf3-c9f6042b34c2")
-		(property "Reference" "#PWR010"
-			(at 83.82 31.75 0)
+		(uuid "c833ac24-e8a3-4153-87ab-942305f90ad6")
+		(property "Reference" "#PWR07"
+			(at 48.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,18 +3141,19 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 79.375 29.21 90)
+		(property "Value" "GND"
+			(at 46.99 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 31.75 0)
+			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +3164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 31.75 0)
+			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3778,8 +3174,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 80.01 31.75 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,18 +3186,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b78651f-620f-4e82-860c-f73d26a47f1b")
+			(uuid "5464c06e-67c7-4691-b8f1-8b84ed9fca39")
 		)
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR05")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3809,7 +3205,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Capacitor")
-		(at 101.6 36.83 0)
+		(at 87.63 35.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3820,18 +3216,17 @@
 		(dnp no)
 		(uuid "dcc073ba-ff85-488e-a29c-2ef1a582950c")
 		(property "Reference" "C1"
-			(at 99.06 35.56 0)
+			(at 83.312 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10nF"
-			(at 99.06 38.1 0)
+			(at 84.836 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3842,7 +3237,7 @@
 			)
 		)
 		(property "Footprint" "megaprint:Capacitor_0603"
-			(at 101.6 36.83 0)
+			(at 87.63 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3853,7 +3248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 36.83 0)
+			(at 87.63 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +3259,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 36.83 0)
+			(at 87.63 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,6 +3285,257 @@
 			(project "Splonkreen"
 				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:GND")
+		(at 87.63 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dee26383-26e4-42ff-94d0-f936c895ce97")
+		(property "Reference" "#PWR010"
+			(at 87.63 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.312 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5464c06e-67c7-4691-b8f1-8b84ed9fca3a")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:VCC")
+		(at 44.45 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1f60a47-b9b1-43f0-94ee-a170a3dabac2")
+		(property "Reference" "#PWR06"
+			(at 48.26 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 46.99 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "557e65a8-3e19-435b-af16-557a18f8cdc9")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:GND")
+		(at 95.25 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8251e64-2402-4101-9fc2-c96424cf982c")
+		(property "Reference" "#PWR012"
+			(at 95.25 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5464c06e-67c7-4691-b8f1-8b84ed9fca3b")
+		)
+		(instances
+			(project "SplonkBlocks"
+				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+					(reference "#PWR6")
+					(unit 1)
+				)
+			)
+			(project "Splonkreen"
+				(path "/7c8a52be-b4d2-4d64-be44-fa4a3139f733"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3929,7 +3575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "megaprint:SOIC-14"
+		(property "Footprint" "megaprint:Attiny1614-Breadboard"
 			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4014,30 +3660,26 @@
 		)
 	)
 	(group "SplonkulesBase"
-		(uuid "55c98500-1d5d-496e-bc88-bc7272068976")
-		(lib_id "MegaSplonk:SplonkulesBase")
-		(members "006e786a-dd88-4e1d-b743-39eddce2ea91" "02516e53-cad2-454f-bf85-150ac3af8ec7"
-			"07e6b3ef-4dd6-41f7-bd45-697073966f19" "0bc75bee-daa6-4fcb-a03a-1984b177a1f5"
-			"11060fea-b693-47d9-9043-21ca382c3817" "1597ffe7-de8f-4c92-a959-f8940d69d907"
-			"2873418d-d495-4dd5-b908-a71a777c11bd" "2e432e94-b4d2-4f9d-a947-fcc3658e07c0"
-			"2f9cf2f9-d5d8-4ef0-97db-f96a21f08677" "467c524c-2149-42c8-8b63-36bc1b27515a"
+		(uuid "43f70fe6-593a-4c5f-9611-39a7c17ed19e")
+		(lib_id "Splonk.kicad_block:SplonkulesBase")
+		(members "006e786a-dd88-4e1d-b743-39eddce2ea91" "11060fea-b693-47d9-9043-21ca382c3817"
+			"1597ffe7-de8f-4c92-a959-f8940d69d907" "2e432e94-b4d2-4f9d-a947-fcc3658e07c0"
+			"2f9cf2f9-d5d8-4ef0-97db-f96a21f08677" "2fa714e6-74a0-4d02-b597-c5af284928a0"
+			"3077c939-e286-464b-bf00-1b3566f7bcf7" "3c16887e-52a2-46b5-9ecb-6ce4494c9847"
+			"467c524c-2149-42c8-8b63-36bc1b27515a" "477e558d-db89-4335-948a-80401a48c8b6"
 			"492521a6-04e6-48ed-b6fc-aa4df89cc1e4" "523e673e-d0f3-44e4-aeaa-bf69829babc0"
-			"577bfb7d-1d4a-4e96-a5dc-c9590fe4396a" "5d1ace0d-168d-43b6-b8a8-cafa9581ad93"
-			"6cfb7da8-a754-4acf-bc44-5c45e4e2062f" "6d22f07e-2a23-4ba4-8881-f2a832c6fedd"
-			"6fe45713-04da-43c6-b60e-417ade0a8c16" "70b7e53f-8ffb-4b4b-9bf3-c33d8545a290"
-			"74233234-acba-4442-a8fd-de140805aba4" "790cbe6a-7ca9-4f73-9ad5-9c81956d99cb"
-			"7e52fa8e-4323-47ca-a084-35386b8098da" "8195b25e-26a5-4840-bad6-677187c6e76b"
-			"8202f15c-bbd2-4e4e-a6b9-074c825dc20c" "82e760ad-0155-4a1e-9356-fc40f41671f0"
-			"8a877827-1e03-4c47-88e5-97bf1b1b39cb" "8bc27a2c-5699-4dec-99f9-a1cd0cba89f9"
+			"577bfb7d-1d4a-4e96-a5dc-c9590fe4396a" "6cfb7da8-a754-4acf-bc44-5c45e4e2062f"
+			"6d22f07e-2a23-4ba4-8881-f2a832c6fedd" "70b7e53f-8ffb-4b4b-9bf3-c33d8545a290"
+			"8bc27a2c-5699-4dec-99f9-a1cd0cba89f9" "8f8c92db-a6b9-43fe-bb11-9f1fa54b2111"
 			"914f47c2-f120-44ce-abea-d5bc720df316" "92615ddc-2f8d-4880-9e98-e015535345a5"
-			"a724c6cd-04f6-43bc-ba07-f46ab71683ac" "bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee"
-			"beeca74c-6c63-4e83-bcf3-c9f6042b34c2" "c5604df7-619b-4126-9808-3d2792c9f4fa"
-			"d24f2f83-6025-4805-94cd-100b0460a8ab" "d482a467-e765-49ab-9122-f9d77b58ea84"
-			"d94dc7e5-55d4-4faf-8f52-893448ef3e32" "dcc073ba-ff85-488e-a29c-2ef1a582950c"
-			"e04b74a3-4b18-4fef-bb84-e8fae66a8683" "e2316a06-36b5-438d-bc14-df5594cbf19b"
-			"e7572b76-226f-48c6-b542-c5bf662922ee" "ed6357d3-c8df-41a5-8045-a41c7b43e12e"
-			"f25818ee-785c-4e63-8a4a-a884f33c14df" "f351f0ef-8fff-4d15-a6ce-51268f6736e7"
-			"f6c9a746-264e-490b-ba88-398cec65d7b5"
+			"b00e3ec5-7753-4c5b-bd8c-64a79b5ab12c" "bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee"
+			"c833ac24-e8a3-4153-87ab-942305f90ad6" "d36c3298-d826-4d84-b897-40bf4c1b05ba"
+			"d6857673-fb05-46b0-9bd0-e807a49ea91f" "d94dc7e5-55d4-4faf-8f52-893448ef3e32"
+			"da5902dc-9d7f-4025-8069-f70c0ab836d9" "dcc073ba-ff85-488e-a29c-2ef1a582950c"
+			"dee26383-26e4-42ff-94d0-f936c895ce97" "e1f60a47-b9b1-43f0-94ee-a170a3dabac2"
+			"e2316a06-36b5-438d-bc14-df5594cbf19b" "e7572b76-226f-48c6-b542-c5bf662922ee"
+			"e8251e64-2402-4101-9fc2-c96424cf982c" "f25818ee-785c-4e63-8a4a-a884f33c14df"
+			"f351f0ef-8fff-4d15-a6ce-51268f6736e7" "f6c9a746-264e-490b-ba88-398cec65d7b5"
 		)
 	)
 	(sheet_instances
