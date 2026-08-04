@@ -1670,7 +1670,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Electrolitic capacitor"
 			(at 82.55 25.4 0)
 			(hide yes)
 			(show_name no)
