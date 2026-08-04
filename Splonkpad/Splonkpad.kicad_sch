@@ -1329,172 +1329,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "megasyms:Connector3P"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0.508 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Connector3P_0_1"
-				(rectangle
-					(start 0 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 0.508 2.667)
-					(end 1.27 2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.508 0.127)
-					(end 1.27 -0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.508 -2.413)
-					(end 1.27 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Connector3P_1_1"
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "megasyms:Connector5P"
 			(pin_names
 				(hide yes)
@@ -2503,6 +2337,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "megasyms:PolarizedCapacitor"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.81 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 3.81 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PolarizedCapacitor_0_1"
+				(arc
+					(start -2.54 -1.905)
+					(mid 0 -0.8529)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0.762)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PolarizedCapacitor_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0.762)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "megasyms:Resistor"
 			(pin_numbers
 				(hide yes)
@@ -2737,7 +2696,7 @@
 	)
 	(text "POWER FLAGS"
 		(exclude_from_sim no)
-		(at 19.558 37.338 0)
+		(at 46.228 15.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2797,7 +2756,7 @@
 	)
 	(text "UART"
 		(exclude_from_sim no)
-		(at 41.91 33.274 0)
+		(at 41.91 28.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2855,16 +2814,6 @@
 		)
 		(uuid "b853dd56-6eae-4a27-a1a4-161fb6b7134c")
 	)
-	(text "UPDI\n"
-		(exclude_from_sim no)
-		(at 42.164 16.002 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c5604df7-619b-4126-9808-3d2792c9f4fa")
-	)
 	(text "Connector Splonkule"
 		(exclude_from_sim no)
 		(at 135.89 81.534 0)
@@ -2877,7 +2826,7 @@
 	)
 	(text "3.3V POWER"
 		(exclude_from_sim no)
-		(at 111.506 43.434 0)
+		(at 97.536 15.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2988,6 +2937,12 @@
 		(uuid "32e7f28f-b5f3-4762-a454-de1e8aecbdbc")
 	)
 	(junction
+		(at 69.85 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b4efa0-aae1-43af-a5ea-b1866b222c56")
+	)
+	(junction
 		(at 262.89 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3042,12 +2997,6 @@
 		(uuid "466e40ee-f626-4218-a440-03963aaa5ca9")
 	)
 	(junction
-		(at 68.58 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4709f4e4-80a3-482d-8735-f01e586be8f9")
-	)
-	(junction
 		(at 243.84 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3060,6 +3009,12 @@
 		(uuid "4e62662c-64c5-4f8e-accc-ee8f023d5291")
 	)
 	(junction
+		(at 68.58 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5074a20d-f688-4e46-9f6e-9e1012223c06")
+	)
+	(junction
 		(at 262.89 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3070,12 +3025,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55958d1b-e51f-425a-a134-dc4e9d1abf30")
-	)
-	(junction
-		(at 66.04 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5726321f-71e2-416a-b05d-ed6cbda10df6")
 	)
 	(junction
 		(at 242.57 107.95)
@@ -3154,12 +3103,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9439a28c-7e09-4f92-838f-34ebff8edd43")
-	)
-	(junction
-		(at 69.85 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94499a6f-4425-4342-8bc7-c9c10ef253e9")
 	)
 	(junction
 		(at 222.25 87.63)
@@ -3252,12 +3195,6 @@
 		(uuid "b2bb0313-f1e1-434f-8cc5-721016530fb9")
 	)
 	(junction
-		(at 77.47 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b33cba25-ac5e-4023-9a7a-f0de1f6b97c6")
-	)
-	(junction
 		(at 203.2 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3292,6 +3229,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfcdfefc-9171-406b-ae8e-358a77749bb0")
+	)
+	(junction
+		(at 77.47 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d36c3298-d826-4d84-b897-40bf4c1b05ba")
 	)
 	(junction
 		(at 243.84 147.32)
@@ -3366,7 +3309,13 @@
 		(uuid "f0528ad5-593d-4f63-9ee6-74ea44112264")
 	)
 	(junction
-		(at 137.16 48.26)
+		(at 66.04 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f80a24e1-529c-44fa-9ef3-8d70ff52ac08")
+	)
+	(junction
+		(at 123.19 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbad8bf4-6836-417e-b87e-bd8a9bfedf9c")
@@ -3378,16 +3327,16 @@
 		(uuid "fe683a2a-8eca-48d6-b44f-dbb29d25eda4")
 	)
 	(no_connect
-		(at 25.4 26.67)
-		(uuid "02516e53-cad2-454f-bf85-150ac3af8ec7")
-	)
-	(no_connect
-		(at 50.8 95.25)
-		(uuid "02f82588-c2c2-47b8-a50c-3f64291a916a")
+		(at 50.8 90.17)
+		(uuid "14391898-dcb6-4c4b-b05d-c74c5abc836a")
 	)
 	(no_connect
 		(at 80.01 85.09)
 		(uuid "4b5427c2-fc65-4759-b42b-01ad65da5781")
+	)
+	(no_connect
+		(at 50.8 92.71)
+		(uuid "63cc9560-3122-43fe-bf66-5612de98f33d")
 	)
 	(no_connect
 		(at 50.8 102.87)
@@ -3396,10 +3345,6 @@
 	(no_connect
 		(at 80.01 95.25)
 		(uuid "6d07308a-3579-4770-8025-f1ff8da26070")
-	)
-	(no_connect
-		(at 50.8 97.79)
-		(uuid "70df9eff-c7a1-4d64-bdf1-d6623263a24a")
 	)
 	(no_connect
 		(at 100.33 102.87)
@@ -3418,8 +3363,8 @@
 		(uuid "adff6b49-1960-4636-bd42-9bb659ba1ad4")
 	)
 	(no_connect
-		(at 50.8 100.33)
-		(uuid "b61a04a5-2d87-4c7a-8a1e-36d282d5e7d6")
+		(at 50.8 87.63)
+		(uuid "d0c01bb7-f221-4dcb-ae3b-f86bf618f84a")
 	)
 	(no_connect
 		(at 100.33 100.33)
@@ -3509,6 +3454,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 87.63) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04fd4b68-1fb5-45fd-9d6a-74decdf55a79")
+	)
+	(wire
+		(pts
 			(xy 67.31 77.47) (xy 68.58 77.47)
 		)
 		(stroke
@@ -3559,7 +3514,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 54.61) (xy 120.65 53.34)
+			(xy 106.68 26.67) (xy 106.68 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3859,13 +3814,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 69.85 92.71)
+			(xy 50.8 97.79) (xy 62.23 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35ab39b3-0147-4649-8749-e8446cc37982")
+		(uuid "3470aec9-53bd-4ebf-a0dc-e866760f152b")
+	)
+	(wire
+		(pts
+			(xy 62.23 90.17) (xy 66.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a3695f-82cc-47c7-a544-87a92b251b5c")
 	)
 	(wire
 		(pts
@@ -3919,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 48.26) (xy 133.35 50.8)
+			(xy 119.38 20.32) (xy 119.38 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4059,7 +4024,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 140.97 48.26)
+			(xy 123.19 20.32) (xy 127 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4209,7 +4174,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 44.45) (xy 107.95 44.45)
+			(xy 99.06 16.51) (xy 93.98 16.51)
 		)
 		(stroke
 			(width 0)
@@ -4449,16 +4414,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 26.67) (xy 53.34 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f875132-a1f1-4691-9476-f25350ea1fa5")
-	)
-	(wire
-		(pts
 			(xy 67.31 76.2) (xy 67.31 77.47)
 		)
 		(stroke
@@ -4579,6 +4534,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 100.33) (xy 64.77 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fab24ac-f274-497d-8c4f-f291fcf66056")
+	)
+	(wire
+		(pts
 			(xy 243.84 147.32) (xy 261.62 147.32)
 		)
 		(stroke
@@ -4596,16 +4561,6 @@
 			(type default)
 		)
 		(uuid "92b72b71-c0a0-4274-ab37-03aa147cd09d")
-	)
-	(wire
-		(pts
-			(xy 73.66 20.32) (xy 73.66 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981a9019-6107-4383-96d4-4c85cf0a1e7c")
 	)
 	(wire
 		(pts
@@ -4689,7 +4644,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 44.45) (xy 30.48 44.45)
+			(xy 52.07 22.86) (xy 57.15 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4699,13 +4654,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 133.35 48.26)
+			(xy 123.19 20.32) (xy 119.38 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1345754-612b-4af6-bedb-78961166eb27")
+	)
+	(wire
+		(pts
+			(xy 64.77 92.71) (xy 69.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b284c826-992e-4ba0-ae15-62df08d7988d")
 	)
 	(wire
 		(pts
@@ -4746,16 +4711,6 @@
 			(type default)
 		)
 		(uuid "b6ab0146-46e6-472f-995c-31b0ead20b82")
-	)
-	(wire
-		(pts
-			(xy 81.28 20.32) (xy 81.28 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b738ad85-411a-4554-abef-8f6f3f925bfc")
 	)
 	(wire
 		(pts
@@ -4860,26 +4815,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 19.05) (xy 77.47 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3abf1e4-db77-41c5-bb13-1622ff1e1ff5")
-	)
-	(wire
-		(pts
-			(xy 50.8 87.63) (xy 68.58 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61270b0-8cd5-4292-979c-6219c579df96")
-	)
-	(wire
-		(pts
 			(xy 243.84 116.84) (xy 261.62 116.84)
 		)
 		(stroke
@@ -4887,16 +4822,6 @@
 			(type default)
 		)
 		(uuid "c62ed695-7a20-4e27-8067-ca74bdced8d5")
-	)
-	(wire
-		(pts
-			(xy 50.8 90.17) (xy 66.04 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c63e9d22-da9d-4e87-a098-1ab90c6bf406")
 	)
 	(wire
 		(pts
@@ -4980,7 +4905,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 40.64) (xy 30.48 40.64)
+			(xy 52.07 19.05) (xy 57.15 19.05)
 		)
 		(stroke
 			(width 0)
@@ -5090,13 +5015,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 21.59) (xy 53.34 21.59)
+			(xy 62.23 97.79) (xy 62.23 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9cf5698-60a9-4b5b-aa09-f55568282508")
+		(uuid "e8b0dc4e-57e6-4e22-a172-1dc9a2917ac3")
 	)
 	(wire
 		(pts
@@ -5110,7 +5035,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 46.99) (xy 137.16 48.26)
+			(xy 123.19 19.05) (xy 123.19 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +5085,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 48.26) (xy 140.97 50.8)
+			(xy 127 20.32) (xy 127 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5270,6 +5195,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 100.33) (xy 64.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76c481c-6808-4b2e-98c1-c52fe6f15354")
+	)
+	(wire
+		(pts
 			(xy 243.84 106.68) (xy 261.62 106.68)
 		)
 		(stroke
@@ -5300,6 +5235,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 95.25) (xy 59.69 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7933ad-4c39-46d5-97fd-497d8fbe4604")
+	)
+	(wire
+		(pts
 			(xy 184.15 113.03) (xy 182.88 113.03)
 		)
 		(stroke
@@ -5307,6 +5252,16 @@
 			(type default)
 		)
 		(uuid "fc885110-a640-4d94-b1cd-aeae8df18b03")
+	)
+	(wire
+		(pts
+			(xy 59.69 95.25) (xy 59.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd606822-d194-4309-a899-9af05433b39d")
 	)
 	(wire
 		(pts
@@ -5571,16 +5526,6 @@
 		(uuid "6d140c0c-45d5-43b9-8039-e72092740e8b")
 	)
 	(label "UPDI"
-		(at 53.34 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6fe45713-04da-43c6-b60e-417ade0a8c16")
-	)
-	(label "BUS_ENABLE"
 		(at 25.4 26.67 0)
 		(effects
 			(font
@@ -5701,7 +5646,7 @@
 		(uuid "d40bd40a-1127-4655-87f3-afcb4d902d4f")
 	)
 	(label "RX"
-		(at 57.15 34.29 0)
+		(at 57.15 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5751,7 +5696,7 @@
 		(uuid "ef5e3943-a700-4b67-b0e5-130098fb86b8")
 	)
 	(label "TX"
-		(at 57.15 36.83 0)
+		(at 57.15 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5807,7 +5752,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 105.41 41.91) (xy 105.41 67.31) (xy 149.86 67.31) (xy 149.86 41.91)
+				(xy 91.44 13.97) (xy 91.44 39.37) (xy 135.89 39.37) (xy 135.89 13.97)
 			)
 			(stroke
 				(width 0)
@@ -5845,7 +5790,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 39.37 31.75) (xy 39.37 39.37) (xy 64.77 39.37) (xy 64.77 31.75)
+				(xy 39.37 26.67) (xy 39.37 34.29) (xy 64.77 34.29) (xy 64.77 26.67)
 			)
 			(stroke
 				(width 0)
@@ -5921,7 +5866,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 12.7 35.56) (xy 12.7 46.99) (xy 38.1 46.99) (xy 38.1 35.56)
+				(xy 39.37 13.97) (xy 39.37 25.4) (xy 64.77 25.4) (xy 64.77 13.97)
 			)
 			(stroke
 				(width 0)
@@ -6016,25 +5961,6 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 39.37 13.97) (xy 39.37 30.48) (xy 64.77 30.48) (xy 64.77 13.97)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "e04b74a3-4b18-4fef-bb84-e8fae66a8683")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
 				(xy 12.7 13.97) (xy 12.7 34.29) (xy 38.1 34.29) (xy 38.1 13.97)
 			)
 			(stroke
@@ -6073,7 +5999,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 66.04 13.97) (xy 90.17 13.97) (xy 90.17 39.37) (xy 66.04 39.37)
+				(xy 66.04 13.97) (xy 90.17 13.97) (xy 90.17 34.29) (xy 66.04 34.29)
 			)
 			(stroke
 				(width 0)
@@ -6096,7 +6022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0031c64c-deb7-438f-9c17-52c3edac9fc5")
-		(property "Reference" "P30"
+		(property "Reference" "P22"
 			(at 217.17 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6117,7 +6043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 217.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6156,7 +6082,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P30")
+					(reference "P22")
 					(unit 1)
 				)
 			)
@@ -6173,7 +6099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0246c865-9834-490b-a59e-ece36553c863")
-		(property "Reference" "P69"
+		(property "Reference" "P25"
 			(at 217.17 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +6120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 217.17 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6233,7 +6159,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P69")
+					(reference "P25")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04084df3-fdd7-41df-8fcc-ccc359e504f5")
-		(property "Reference" "P78"
+		(property "Reference" "P79"
 			(at 262.636 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6272,7 +6198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 262.89 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6311,7 +6237,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P78")
+					(reference "P79")
 					(unit 1)
 				)
 			)
@@ -6328,7 +6254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "062c761d-37f2-49ab-ac1b-38def8a602ad")
-		(property "Reference" "P56"
+		(property "Reference" "P18"
 			(at 211.836 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6349,7 +6275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 212.09 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6388,7 +6314,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P56")
+					(reference "P18")
 					(unit 1)
 				)
 			)
@@ -6405,7 +6331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "086299cb-32b7-407d-b4e5-7b7e48c5c31d")
-		(property "Reference" "P6"
+		(property "Reference" "P62"
 			(at 252.476 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6426,7 +6352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 252.73 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6465,7 +6391,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P6")
+					(reference "P62")
 					(unit 1)
 				)
 			)
@@ -6482,7 +6408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a8a150c-8482-4352-b8aa-de4643c320dd")
-		(property "Reference" "P57"
+		(property "Reference" "P24"
 			(at 217.17 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +6429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 217.17 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6542,92 +6468,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:GND")
-		(at 46.99 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e0fff59-e4f6-4f7c-a8c4-d8cd66f498cb")
-		(property "Reference" "#PWR010"
-			(at 43.18 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 26.6699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5464c06e-67c7-4691-b8f1-8b84ed9fca37")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-			(project "Splonkpad"
-				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR010")
+					(reference "P24")
 					(unit 1)
 				)
 			)
@@ -6645,7 +6486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fe6699c-5a78-4503-8b0c-475be5fff63b")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 210.82 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6667,7 +6508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "megaprint:Capacitor_0603"
 			(at 214.63 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6709,7 +6550,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6727,7 +6568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ff8b3c1-147d-4c2c-86dc-dd28a258b116")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6787,7 +6628,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6827,7 +6668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "megaprint:TSSOP-20"
 			(at 90.17 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6940,7 +6781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1767a0a4-f335-4e38-a278-b381722e26de")
-		(property "Reference" "P50"
+		(property "Reference" "P65"
 			(at 252.476 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6961,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 252.73 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7000,7 +6841,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P50")
+					(reference "P65")
 					(unit 1)
 				)
 			)
@@ -7018,7 +6859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "193f1708-f4c5-4d91-80bf-df5682a503cb")
-		(property "Reference" "P72"
+		(property "Reference" "P43"
 			(at 232.156 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7039,7 +6880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 232.41 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7078,7 +6919,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P72")
+					(reference "P43")
 					(unit 1)
 				)
 			)
@@ -7116,7 +6957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 237.49 127 0)
 			(hide yes)
 			(show_name no)
@@ -7173,7 +7014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b995f27-f992-45b7-a3ab-faad1732effb")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 217.17 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7233,7 +7074,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7250,7 +7091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c8bc70c-8851-4938-8982-bbe734459d9c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR027"
 			(at 139.7 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7310,7 +7151,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR037")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7327,7 +7168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2028ebd3-0988-428d-8376-2208903f8f5a")
-		(property "Reference" "#PWR34"
+		(property "Reference" "#PWR07"
 			(at 63.5 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7387,7 +7228,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR34")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7404,7 +7245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "223b972e-e085-4c5a-8f65-20acdc176955")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR028"
 			(at 130.81 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7464,7 +7305,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR018")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7472,7 +7313,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Capacitor")
-		(at 140.97 55.88 0)
+		(at 127 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7481,8 +7322,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2317a0be-4c82-43ae-a510-ecc4aebea94d")
-		(property "Reference" "C6"
-			(at 143.51 54.61 0)
+		(property "Reference" "C5"
+			(at 129.54 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7493,7 +7334,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 143.51 57.15 0)
+			(at 129.54 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7503,8 +7344,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 140.97 55.88 0)
+		(property "Footprint" "megaprint:Capacitor_0603"
+			(at 127 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,7 +7356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 55.88 0)
+			(at 127 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7526,7 +7367,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 140.97 55.88 0)
+			(at 127 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7545,7 +7386,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7562,7 +7403,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "231927d2-b761-4cbe-a06d-13a6dc695e32")
-		(property "Reference" "P25"
+		(property "Reference" "P45"
 			(at 237.49 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7583,7 +7424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 237.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7622,7 +7463,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P25")
+					(reference "P45")
 					(unit 1)
 				)
 			)
@@ -7640,7 +7481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24618ab3-6a16-4567-b255-e392a833b183")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 113.03 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,7 +7503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "megaprint:Resistor_0603"
 			(at 115.57 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7704,7 +7545,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7722,7 +7563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24ebaa32-29bc-4ee9-a207-727a61260162")
-		(property "Reference" "P70"
+		(property "Reference" "P31"
 			(at 221.996 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7743,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7782,92 +7623,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:VCC")
-		(at 46.99 21.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26298727-5eab-4ac9-8411-16979195ab85")
-		(property "Reference" "#PWR09"
-			(at 43.18 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 44.45 21.5899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "557e65a8-3e19-435b-af16-557a18f8cdc7")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "Splonkpad"
-				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR09")
+					(reference "P31")
 					(unit 1)
 				)
 			)
@@ -7884,7 +7640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2648be0f-65ea-4fb2-a65d-8bebb9e9ff9a")
-		(property "Reference" "P43"
+		(property "Reference" "P23"
 			(at 217.17 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7905,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
@@ -7944,7 +7700,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P43")
+					(reference "P23")
 					(unit 1)
 				)
 			)
@@ -7961,7 +7717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c981350-8e1e-40e6-9336-7019869dd7fd")
-		(property "Reference" "P11"
+		(property "Reference" "P39"
 			(at 232.156 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +7738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8021,7 +7777,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P11")
+					(reference "P39")
 					(unit 1)
 				)
 			)
@@ -8038,7 +7794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ce4b4e5-157f-40df-8105-b4c37dabc43c")
-		(property "Reference" "P1"
+		(property "Reference" "P2"
 			(at 201.676 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,7 +7815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 201.93 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8098,7 +7854,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P1")
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -8116,7 +7872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f4b6d1d-9a54-48ce-a1c5-8cd590afb31d")
-		(property "Reference" "P38"
+		(property "Reference" "P70"
 			(at 257.81 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8137,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 257.81 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8176,7 +7932,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P38")
+					(reference "P70")
 					(unit 1)
 				)
 			)
@@ -8184,7 +7940,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:POWER_FLAG")
-		(at 24.13 40.64 90)
+		(at 50.8 19.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8194,7 +7950,7 @@
 		(dnp no)
 		(uuid "2f9cf2f9-d5d8-4ef0-97db-f96a21f08677")
 		(property "Reference" "#FLAG01"
-			(at 18.542 40.64 0)
+			(at 45.212 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8205,7 +7961,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 17.78 40.64 90)
+			(at 44.45 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8215,7 +7971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 40.64 0)
+			(at 50.8 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +7982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 40.64 0)
+			(at 50.8 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +7993,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 24.13 40.64 0)
+			(at 50.8 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,7 +8023,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:VCC")
-		(at 77.47 17.78 0)
+		(at 77.47 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8276,8 +8032,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fa714e6-74a0-4d02-b597-c5af284928a0")
-		(property "Reference" "#PWR012"
-			(at 77.47 13.97 0)
+		(property "Reference" "#PWR010"
+			(at 77.47 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8288,7 +8044,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 77.47 15.24 0)
+			(at 77.47 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8298,7 +8054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 17.78 0)
+			(at 77.47 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8309,7 +8065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 17.78 0)
+			(at 77.47 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +8076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 17.78 0)
+			(at 77.47 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8342,7 +8098,7 @@
 			)
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8359,7 +8115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32473456-1a93-433a-a5a9-d9de2798c1b4")
-		(property "Reference" "P9"
+		(property "Reference" "P15"
 			(at 211.836 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8380,7 +8136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 212.09 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8419,7 +8175,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P9")
+					(reference "P15")
 					(unit 1)
 				)
 			)
@@ -8436,7 +8192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3398f7fa-c8a5-41ba-ab53-612536f2fc6b")
-		(property "Reference" "P71"
+		(property "Reference" "P37"
 			(at 227.33 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +8213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 227.33 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8496,7 +8252,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P71")
+					(reference "P37")
 					(unit 1)
 				)
 			)
@@ -8514,7 +8270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34676a06-563f-4dd0-9665-f7f4a962dd64")
-		(property "Reference" "P68"
+		(property "Reference" "P19"
 			(at 211.836 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8535,7 +8291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 212.09 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8574,7 +8330,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P68")
+					(reference "P19")
 					(unit 1)
 				)
 			)
@@ -8591,7 +8347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34e2342e-ee85-4321-a089-a9a97502e22d")
-		(property "Reference" "P16"
+		(property "Reference" "P8"
 			(at 207.01 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8612,7 +8368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 207.01 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8651,7 +8407,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P16")
+					(reference "P8")
 					(unit 1)
 				)
 			)
@@ -8668,7 +8424,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d03d00c-cf02-45eb-aff6-8e332ff594e8")
-		(property "Reference" "P14"
+		(property "Reference" "P75"
 			(at 262.636 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8689,7 +8445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 262.89 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8728,7 +8484,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P14")
+					(reference "P75")
 					(unit 1)
 				)
 			)
@@ -8736,7 +8492,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:VCC")
-		(at 107.95 45.72 180)
+		(at 93.98 17.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8745,8 +8501,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e9ca056-6b56-4b85-8e04-7ce103bbda1f")
-		(property "Reference" "#PWR40"
-			(at 107.95 41.91 0)
+		(property "Reference" "#PWR015"
+			(at 93.98 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8757,7 +8513,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 107.95 49.276 0)
+			(at 93.98 21.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8767,7 +8523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 45.72 0)
+			(at 93.98 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8778,7 +8534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 45.72 0)
+			(at 93.98 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8789,7 +8545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 107.95 45.72 0)
+			(at 93.98 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8805,7 +8561,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR40")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8813,7 +8569,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:GND")
-		(at 133.35 62.23 180)
+		(at 119.38 34.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8823,8 +8579,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4341dd2e-83a0-4012-aba6-3f8686e90c35")
-		(property "Reference" "#PWR026"
-			(at 133.35 55.88 0)
+		(property "Reference" "#PWR023"
+			(at 119.38 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,7 +8591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 62.2299 0)
+			(at 121.92 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8846,7 +8602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 62.23 0)
+			(at 119.38 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8857,7 +8613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 62.23 0)
+			(at 119.38 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,7 +8624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 62.23 0)
+			(at 119.38 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8884,7 +8640,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8901,7 +8657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "446cebd6-96d3-4a6d-96e6-12f81cc2bd7a")
-		(property "Reference" "P53"
+		(property "Reference" "P6"
 			(at 201.676 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +8678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 201.93 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8961,7 +8717,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P53")
+					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -8978,7 +8734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44ee5ab2-fb8e-49a0-a231-c670b55859ad")
-		(property "Reference" "P36"
+		(property "Reference" "P58"
 			(at 247.65 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8999,7 +8755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 247.65 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9038,7 +8794,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P36")
+					(reference "P58")
 					(unit 1)
 				)
 			)
@@ -9046,7 +8802,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:GND")
-		(at 31.75 40.64 270)
+		(at 58.42 19.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9056,8 +8812,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "477e558d-db89-4335-948a-80401a48c8b6")
-		(property "Reference" "#PWR07"
-			(at 35.56 40.64 0)
+		(property "Reference" "#PWR05"
+			(at 62.23 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9068,7 +8824,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 40.6399 90)
+			(at 60.96 19.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9079,7 +8835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 40.64 0)
+			(at 58.42 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,7 +8846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 40.64 0)
+			(at 58.42 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9101,7 +8857,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 40.64 0)
+			(at 58.42 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9123,7 +8879,7 @@
 			)
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9141,7 +8897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ec65578-e71a-4b30-8b9e-c392ee3461eb")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 184.15 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9163,7 +8919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "megaprint:Capacitor_0603"
 			(at 187.96 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9205,7 +8961,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9222,7 +8978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f5983a6-dae6-4c47-ac92-c8ef6ba9fe15")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 170.18 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9244,7 +9000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "megaprint:Capacitor_0603"
 			(at 166.37 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9286,7 +9042,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9304,7 +9060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "522f7a78-658d-4c8d-8507-ca316e654122")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 139.7 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +9082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "megaprint:Pin_header_5"
 			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9377,7 +9133,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9394,7 +9150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531e40c0-d00c-4e31-8ab0-8391ce949608")
-		(property "Reference" "P58"
+		(property "Reference" "P30"
 			(at 221.996 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9415,7 +9171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 222.25 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9454,7 +9210,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P58")
+					(reference "P30")
 					(unit 1)
 				)
 			)
@@ -9471,7 +9227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54b2431c-3872-4511-8403-c37081990e50")
-		(property "Reference" "P15"
+		(property "Reference" "P4"
 			(at 201.676 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9492,7 +9248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 201.93 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9531,7 +9287,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P15")
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -9549,7 +9305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56aa0484-8d22-45aa-b80b-ee59945abe72")
-		(property "Reference" "P74"
+		(property "Reference" "P55"
 			(at 242.316 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9570,7 +9326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 242.57 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9609,7 +9365,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P74")
+					(reference "P55")
 					(unit 1)
 				)
 			)
@@ -9627,7 +9383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5abdaea0-494b-4d7a-b4c4-b098a3043e9b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 118.11 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9687,7 +9443,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9704,7 +9460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ac06d16-db79-40c2-bb8f-5c7c07d62d06")
-		(property "Reference" "P32"
+		(property "Reference" "P34"
 			(at 227.33 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9725,7 +9481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 227.33 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9764,7 +9520,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P32")
+					(reference "P34")
 					(unit 1)
 				)
 			)
@@ -9781,7 +9537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bb07497-5dea-4582-b75c-b94879792507")
-		(property "Reference" "P48"
+		(property "Reference" "P53"
 			(at 242.316 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9802,7 +9558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 242.57 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9841,7 +9597,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P48")
+					(reference "P53")
 					(unit 1)
 				)
 			)
@@ -9858,7 +9614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d013aa5-03ad-477f-8fc4-6a51f1b01073")
-		(property "Reference" "P41"
+		(property "Reference" "P11"
 			(at 207.01 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +9635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 207.01 127 0)
 			(hide yes)
 			(show_name no)
@@ -9918,7 +9674,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P41")
+					(reference "P11")
 					(unit 1)
 				)
 			)
@@ -9935,7 +9691,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "602552f7-98db-41c8-823f-e5e4b6117a7d")
-		(property "Reference" "P24"
+		(property "Reference" "P33"
 			(at 227.33 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9956,7 +9712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 227.33 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9995,7 +9751,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P24")
+					(reference "P33")
 					(unit 1)
 				)
 			)
@@ -10013,7 +9769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62651b33-6bfe-43df-8aba-c1561726ff20")
-		(property "Reference" "P65"
+		(property "Reference" "P72"
 			(at 257.81 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10034,7 +9790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10073,7 +9829,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P65")
+					(reference "P72")
 					(unit 1)
 				)
 			)
@@ -10091,7 +9847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63470a06-78a9-4e31-aa54-f743b91f2986")
-		(property "Reference" "P27"
+		(property "Reference" "P69"
 			(at 257.81 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10112,7 +9868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 257.81 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -10151,7 +9907,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P27")
+					(reference "P69")
 					(unit 1)
 				)
 			)
@@ -10168,7 +9924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "653ae1fe-ad37-474c-b2f0-9a4fc5551b43")
-		(property "Reference" "P52"
+		(property "Reference" "P77"
 			(at 262.636 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10189,7 +9945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 262.89 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10228,7 +9984,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P52")
+					(reference "P77")
 					(unit 1)
 				)
 			)
@@ -10245,7 +10001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6834a947-ed0f-4d9a-9874-458c1be3091a")
-		(property "Reference" "P64"
+		(property "Reference" "P66"
 			(at 252.476 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10266,7 +10022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10305,7 +10061,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P64")
+					(reference "P66")
 					(unit 1)
 				)
 			)
@@ -10322,7 +10078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "693b5910-5274-465a-ba57-f02628cec7c1")
-		(property "Reference" "P35"
+		(property "Reference" "P52"
 			(at 242.316 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10343,7 +10099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 242.57 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10382,7 +10138,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P35")
+					(reference "P52")
 					(unit 1)
 				)
 			)
@@ -10399,7 +10155,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69ff16c4-01fa-4452-8d06-371187cbca8a")
-		(property "Reference" "P49"
+		(property "Reference" "P59"
 			(at 247.65 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +10176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 247.65 127 0)
 			(hide yes)
 			(show_name no)
@@ -10459,7 +10215,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P49")
+					(reference "P59")
 					(unit 1)
 				)
 			)
@@ -10477,7 +10233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c37fee5-a8c0-4aaa-82b5-1174adec96db")
-		(property "Reference" "P76"
+		(property "Reference" "P67"
 			(at 252.476 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10498,7 +10254,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 252.73 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10537,7 +10293,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P76")
+					(reference "P67")
 					(unit 1)
 				)
 			)
@@ -10554,7 +10310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c420abf-8e17-47e9-8f22-24c0aabb6b6b")
-		(property "Reference" "P67"
+		(property "Reference" "P13"
 			(at 207.01 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10575,7 +10331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 207.01 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10614,7 +10370,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P67")
+					(reference "P13")
 					(unit 1)
 				)
 			)
@@ -10631,7 +10387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c4382d1-15b7-432b-ab80-39a819bfa309")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 223.52 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10653,7 +10409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "megaprint:Capacitor_0603"
 			(at 219.71 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10695,7 +10451,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10703,7 +10459,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:POWER_FLAG")
-		(at 24.13 44.45 90)
+		(at 50.8 22.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10713,7 +10469,7 @@
 		(dnp no)
 		(uuid "6d22f07e-2a23-4ba4-8881-f2a832c6fedd")
 		(property "Reference" "#FLAG02"
-			(at 18.542 44.45 0)
+			(at 45.212 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10724,7 +10480,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 17.78 44.45 90)
+			(at 44.45 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10734,7 +10490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 44.45 0)
+			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10745,7 +10501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 44.45 0)
+			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +10512,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 24.13 44.45 0)
+			(at 50.8 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +10571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "megaprint:SOIC-14"
 			(at 40.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10911,7 +10667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "711234dc-57d9-48b3-bb55-9c4dd885e380")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR019"
 			(at 102.87 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10971,7 +10727,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR04")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10988,7 +10744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75c8bb11-45dc-4694-9ae4-601b35a9a5f2")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 71.12 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11010,7 +10766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "megaprint:Resistor_0603"
 			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11052,7 +10808,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11070,7 +10826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "763d4255-a745-4b8f-86c2-79b8e3a4df60")
-		(property "Reference" "P77"
+		(property "Reference" "P73"
 			(at 257.81 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11091,7 +10847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 257.81 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11130,7 +10886,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P77")
+					(reference "P73")
 					(unit 1)
 				)
 			)
@@ -11147,7 +10903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7897d5b2-5382-42b4-9adc-3b1363ae49cc")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 168.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11207,7 +10963,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11224,7 +10980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7af1e23c-b23d-4825-a61a-03e3c77f4316")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR012"
 			(at 83.82 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11284,7 +11040,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR019")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11302,7 +11058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b545720-88f7-4070-8e84-ff5285f337f4")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 172.72 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11362,7 +11118,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11379,7 +11135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ba2503c-c270-4db3-8212-e12956e8b6e1")
-		(property "Reference" "P17"
+		(property "Reference" "P20"
 			(at 217.17 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11400,7 +11156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 217.17 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11439,7 +11195,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P17")
+					(reference "P20")
 					(unit 1)
 				)
 			)
@@ -11447,7 +11203,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:GND")
-		(at 120.65 55.88 180)
+		(at 106.68 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11456,8 +11212,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bb225f9-c7b3-41c7-bc0e-3ee95880a05c")
-		(property "Reference" "#PWR041"
-			(at 120.65 49.53 0)
+		(property "Reference" "#PWR020"
+			(at 106.68 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11468,7 +11224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 58.928 0)
+			(at 105.41 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11479,7 +11235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 55.88 0)
+			(at 106.68 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,7 +11246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 55.88 0)
+			(at 106.68 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11501,7 +11257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 55.88 0)
+			(at 106.68 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11273,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR041")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11534,7 +11290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f51cb80-62a0-41b9-9e36-2abb4b67ae41")
-		(property "Reference" "P75"
+		(property "Reference" "P61"
 			(at 247.65 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11555,7 +11311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 247.65 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11594,7 +11350,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P75")
+					(reference "P61")
 					(unit 1)
 				)
 			)
@@ -11611,7 +11367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80e90cc8-377a-4727-9daa-d6cf285af02e")
-		(property "Reference" "P62"
+		(property "Reference" "P54"
 			(at 242.316 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11632,7 +11388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 242.57 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11671,96 +11427,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:Connector3P")
-		(at 55.88 24.13 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8195b25e-26a5-4840-bad6-677187c6e76b")
-		(property "Reference" "J3"
-			(at 55.372 19.304 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UPDI"
-			(at 59.182 19.304 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "megaprint:MaixCon-3P"
-			(at 55.88 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dfcdded9-50dc-46ca-909e-a411cf4fa8ea")
-		)
-		(pin "3"
-			(uuid "a9e7238d-06b2-4376-8d62-35de16e20a1f")
-		)
-		(pin "1"
-			(uuid "bb915581-cc63-404d-87f2-2c23e6463229")
-		)
-		(instances
-			(project "SplonkBlocks"
-				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "Splonkpad"
-				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "J3")
+					(reference "P54")
 					(unit 1)
 				)
 			)
@@ -11777,7 +11444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82a7e919-f8fa-4305-bc5d-71dff307b25f")
-		(property "Reference" "P61"
+		(property "Reference" "P48"
 			(at 237.49 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11798,7 +11465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 237.49 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11837,7 +11504,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P61")
+					(reference "P48")
 					(unit 1)
 				)
 			)
@@ -11854,7 +11521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84d37539-32bc-49e4-9e68-a4f4de4b24a8")
-		(property "Reference" "P73"
+		(property "Reference" "P49"
 			(at 237.49 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11875,7 +11542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 237.49 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11914,7 +11581,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P73")
+					(reference "P49")
 					(unit 1)
 				)
 			)
@@ -11922,7 +11589,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:GND")
-		(at 140.97 62.23 180)
+		(at 127 34.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11932,8 +11599,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f2d7c1-c95a-4210-b410-7f766ecb4f77")
-		(property "Reference" "#PWR028"
-			(at 140.97 55.88 0)
+		(property "Reference" "#PWR025"
+			(at 127 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11944,7 +11611,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 62.2299 0)
+			(at 129.54 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11955,7 +11622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 62.23 0)
+			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11966,7 +11633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 62.23 0)
+			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,7 +11644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 62.23 0)
+			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11993,7 +11660,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12010,7 +11677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87b893ef-b22b-45e4-a574-a39dfccf48e1")
-		(property "Reference" "P59"
+		(property "Reference" "P36"
 			(at 227.33 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12031,7 +11698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 227.33 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12070,7 +11737,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P59")
+					(reference "P36")
 					(unit 1)
 				)
 			)
@@ -12087,7 +11754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88012dd8-e4ea-4125-934e-899ea43e5e58")
-		(property "Reference" "P23"
+		(property "Reference" "P21"
 			(at 217.17 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12108,7 +11775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 217.17 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12147,7 +11814,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P23")
+					(reference "P21")
 					(unit 1)
 				)
 			)
@@ -12164,7 +11831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b13807d-a1fd-4584-829d-b01c8d40be44")
-		(property "Reference" "P8"
+		(property "Reference" "P3"
 			(at 201.676 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12185,7 +11852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 201.93 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12224,7 +11891,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P8")
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -12241,7 +11908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c94cfad-ce8c-4d76-bfbd-b6547004dc8f")
-		(property "Reference" "P18"
+		(property "Reference" "P32"
 			(at 227.33 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12262,7 +11929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 227.33 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12301,7 +11968,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P18")
+					(reference "P32")
 					(unit 1)
 				)
 			)
@@ -12309,7 +11976,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:3.3V")
-		(at 137.16 45.72 0)
+		(at 123.19 17.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12318,8 +11985,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dc7ded4-ba68-4a6f-a7d0-c375acf86d7b")
-		(property "Reference" "#PWR023"
-			(at 137.16 49.53 0)
+		(property "Reference" "#PWR024"
+			(at 123.19 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12330,7 +11997,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 137.16 43.434 0)
+			(at 123.19 15.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12340,7 +12007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 45.72 0)
+			(at 123.19 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +12018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 45.72 0)
+			(at 123.19 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12362,7 +12029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 45.72 0)
+			(at 123.19 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12378,7 +12045,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12386,7 +12053,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:AMS1117")
-		(at 111.76 54.61 0)
+		(at 97.79 26.67 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12396,8 +12063,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e65acb9-b4ad-4719-9b38-9d5939dc8f16")
-		(property "Reference" "P4"
-			(at 108.712 61.722 0)
+		(property "Reference" "P1"
+			(at 94.742 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12407,7 +12074,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 104.394 40.64 90)
+			(at 100.838 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12417,8 +12084,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 111.76 54.61 0)
+		(property "Footprint" "megaprint:AMS1117"
+			(at 97.79 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12429,7 +12096,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 111.76 54.61 0)
+			(at 97.79 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12440,7 +12107,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 111.76 54.61 0)
+			(at 97.79 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12465,7 +12132,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P4")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -12482,7 +12149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f200a86-678e-4deb-91fb-20d6b609536b")
-		(property "Reference" "P45"
+		(property "Reference" "P35"
 			(at 227.33 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12503,7 +12170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 227.33 127 0)
 			(hide yes)
 			(show_name no)
@@ -12542,7 +12209,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P45")
+					(reference "P35")
 					(unit 1)
 				)
 			)
@@ -12550,7 +12217,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:VCC")
-		(at 31.75 44.45 270)
+		(at 58.42 22.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12560,8 +12227,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f8c92db-a6b9-43fe-bb11-9f1fa54b2111")
-		(property "Reference" "#PWR08"
-			(at 35.56 44.45 0)
+		(property "Reference" "#PWR06"
+			(at 62.23 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12572,7 +12239,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 34.29 44.4499 90)
+			(at 60.96 22.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12583,7 +12250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 44.45 0)
+			(at 58.42 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12594,7 +12261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 44.45 0)
+			(at 58.42 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12605,7 +12272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 44.45 0)
+			(at 58.42 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12627,7 +12294,7 @@
 			)
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12644,7 +12311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fdd06d2-ffed-48d7-8cf6-08e2e4a9b4f6")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 132.334 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12666,7 +12333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "megaprint:Pin_header_5"
 			(at 133.35 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12717,7 +12384,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12734,7 +12401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "905a4ff9-d449-4a50-acdc-7c5d7e64db3d")
-		(property "Reference" "P22"
+		(property "Reference" "P9"
 			(at 207.01 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12755,7 +12422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 207.01 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12794,7 +12461,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P22")
+					(reference "P9")
 					(unit 1)
 				)
 			)
@@ -12811,7 +12478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90ed2a9e-10f3-4353-a86e-17b3060aae91")
-		(property "Reference" "P19"
+		(property "Reference" "P44"
 			(at 237.49 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12832,7 +12499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 237.49 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12871,15 +12538,15 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P19")
+					(reference "P44")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "megasyms:Capacitor")
-		(at 81.28 26.67 0)
+		(lib_id "megasyms:PolarizedCapacitor")
+		(at 81.28 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12889,7 +12556,7 @@
 		(dnp no)
 		(uuid "914f47c2-f120-44ce-abea-d5bc720df316")
 		(property "Reference" "C2"
-			(at 85.344 25.654 0)
+			(at 85.852 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12899,7 +12566,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 83.566 27.94 0)
+			(at 84.074 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12909,8 +12576,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "megaprint:Capacitor_0603"
-			(at 81.28 26.67 0)
+		(property "Footprint" "megaprint:ElectroliticCapacitor"
+			(at 81.28 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12921,7 +12588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 26.67 0)
+			(at 81.28 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12932,7 +12599,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 81.28 26.67 0)
+			(at 81.28 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12942,10 +12609,10 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "+"
 			(uuid "578a301d-2c93-4f12-b789-d1490a2575e3")
 		)
-		(pin "1"
+		(pin "-"
 			(uuid "06a52c34-9e97-47c1-b5a6-63f46320b01c")
 		)
 		(instances
@@ -12975,7 +12642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91787b38-a91d-41bb-be8f-3867c15c6374")
-		(property "Reference" "P54"
+		(property "Reference" "P7"
 			(at 201.676 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12996,7 +12663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 201.93 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13035,7 +12702,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P54")
+					(reference "P7")
 					(unit 1)
 				)
 			)
@@ -13286,7 +12953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "968611fc-dc75-4cf4-9d12-950643f7f643")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 40.64 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13347,7 +13014,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13364,7 +13031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98f4b4d3-e8ca-4d8f-9269-6287e6ecc95d")
-		(property "Reference" "P4"
+		(property "Reference" "P38"
 			(at 232.156 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13385,7 +13052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 232.41 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13424,7 +13091,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P4")
+					(reference "P38")
 					(unit 1)
 				)
 			)
@@ -13441,7 +13108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ede7de8-8e57-4312-966d-03200fb9e97b")
-		(property "Reference" "P31"
+		(property "Reference" "P28"
 			(at 221.996 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13462,7 +13129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 222.25 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13501,7 +13168,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P31")
+					(reference "P28")
 					(unit 1)
 				)
 			)
@@ -13518,7 +13185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1159320-1acf-4436-9478-fccecc8a43a8")
-		(property "Reference" "P33"
+		(property "Reference" "P40"
 			(at 232.156 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13539,7 +13206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -13578,7 +13245,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P33")
+					(reference "P40")
 					(unit 1)
 				)
 			)
@@ -13595,7 +13262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a198c8fc-5ede-49bb-94b9-2980daf37f02")
-		(property "Reference" "P10"
+		(property "Reference" "P27"
 			(at 221.996 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13616,7 +13283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 222.25 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13655,7 +13322,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P10")
+					(reference "P27")
 					(unit 1)
 				)
 			)
@@ -13673,7 +13340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a46c239d-136f-4f36-af2e-ceeb7c7c1816")
-		(property "Reference" "P21"
+		(property "Reference" "P68"
 			(at 257.81 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13694,7 +13361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 257.81 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13733,7 +13400,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P21")
+					(reference "P68")
 					(unit 1)
 				)
 			)
@@ -13751,7 +13418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a56d863e-d505-49a7-b494-fad3a897b471")
-		(property "Reference" "P51"
+		(property "Reference" "P71"
 			(at 257.81 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13772,7 +13439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 257.81 127 0)
 			(hide yes)
 			(show_name no)
@@ -13811,7 +13478,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P51")
+					(reference "P71")
 					(unit 1)
 				)
 			)
@@ -13828,7 +13495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6dbe495-28ef-4053-9835-04284b5439eb")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR014"
 			(at 90.17 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13888,7 +13555,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13906,7 +13573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a77c3c5c-0013-42e5-b7b8-d9670e36f622")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 163.83 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13966,7 +13633,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13984,7 +13651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa1824a3-f339-4a01-b6dc-addcbad6fa45")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 95.25 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14044,7 +13711,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14061,7 +13728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa6ea82f-033c-44d4-817f-a2f243fbc30e")
-		(property "Reference" "P39"
+		(property "Reference" "P76"
 			(at 262.636 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14082,7 +13749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 262.89 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14121,7 +13788,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P39")
+					(reference "P76")
 					(unit 1)
 				)
 			)
@@ -14138,7 +13805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab2ea98f-456c-49f7-93d2-7ce8d370edaf")
-		(property "Reference" "P63"
+		(property "Reference" "P60"
 			(at 247.65 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14159,7 +13826,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 247.65 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14198,7 +13865,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P63")
+					(reference "P60")
 					(unit 1)
 				)
 			)
@@ -14215,7 +13882,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac47b96c-a22d-4801-a9bc-8314e7294865")
-		(property "Reference" "P66"
+		(property "Reference" "P78"
 			(at 262.636 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14236,7 +13903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 262.89 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14275,7 +13942,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P66")
+					(reference "P78")
 					(unit 1)
 				)
 			)
@@ -14292,7 +13959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acf2c2b2-ca12-40ea-a962-727b34207132")
-		(property "Reference" "P5"
+		(property "Reference" "P50"
 			(at 242.316 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14313,7 +13980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 242.57 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14352,7 +14019,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P5")
+					(reference "P50")
 					(unit 1)
 				)
 			)
@@ -14369,7 +14036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad9065d8-e7f6-42c7-965b-288f74b513a9")
-		(property "Reference" "#PWR35"
+		(property "Reference" "#PWR08"
 			(at 69.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14429,7 +14096,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR35")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14446,7 +14113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ade038b7-07c5-4544-9f51-649475befd80")
-		(property "Reference" "P26"
+		(property "Reference" "P57"
 			(at 247.65 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14467,7 +14134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 247.65 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14506,7 +14173,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P26")
+					(reference "P57")
 					(unit 1)
 				)
 			)
@@ -14523,7 +14190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b593f59c-9cde-4bac-8d7f-16ee2130e31d")
-		(property "Reference" "P34"
+		(property "Reference" "P46"
 			(at 237.49 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14544,7 +14211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 237.49 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14583,7 +14250,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P34")
+					(reference "P46")
 					(unit 1)
 				)
 			)
@@ -14601,7 +14268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b63f671a-d8be-408d-850b-5fe7feb4683c")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 67.31 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14623,7 +14290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "megaprint:Resistor_0603"
 			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -14665,7 +14332,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14682,7 +14349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7c4d7a1-5617-42ea-879f-3e9867fe2f02")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 118.11 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14704,7 +14371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "megaprint:Resistor_0603"
 			(at 115.57 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14746,7 +14413,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14763,7 +14430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b82e183e-571f-4f72-b2ad-fc406596ace0")
-		(property "Reference" "P37"
+		(property "Reference" "P64"
 			(at 252.476 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14784,7 +14451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 252.73 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14823,7 +14490,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P37")
+					(reference "P64")
 					(unit 1)
 				)
 			)
@@ -14840,7 +14507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba8e5bd1-d691-49f6-89f9-6a153a82503c")
-		(property "Reference" "P60"
+		(property "Reference" "P42"
 			(at 232.156 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14861,7 +14528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 232.41 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14900,7 +14567,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P60")
+					(reference "P42")
 					(unit 1)
 				)
 			)
@@ -14908,7 +14575,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Connector2P")
-		(at 54.61 35.56 0)
+		(at 54.61 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14918,7 +14585,7 @@
 		(dnp no)
 		(uuid "bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee")
 		(property "Reference" "J2"
-			(at 53.086 34.036 0)
+			(at 53.086 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14928,7 +14595,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 52.07 37.084 0)
+			(at 52.07 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14938,7 +14605,7 @@
 			)
 		)
 		(property "Footprint" "megaprint:MaixCon-2P"
-			(at 54.61 35.56 0)
+			(at 54.61 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14949,7 +14616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 35.56 0)
+			(at 54.61 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14960,7 +14627,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 54.61 35.56 0)
+			(at 54.61 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15002,7 +14669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be74c59d-3fc5-41aa-8d4d-77c5ed1e4ee7")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 196.85 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15024,7 +14691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "megaprint:Capacitor_0603"
 			(at 193.04 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15066,7 +14733,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -15084,7 +14751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c080d60f-b56a-4204-907c-dd778ccdcb85")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15144,7 +14811,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15161,7 +14828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c247f0f5-6749-4a1d-9b02-8680b1edcf0e")
-		(property "Reference" "P44"
+		(property "Reference" "P29"
 			(at 221.996 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15182,7 +14849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 222.25 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15221,7 +14888,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P44")
+					(reference "P29")
 					(unit 1)
 				)
 			)
@@ -15238,7 +14905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2d26deb-168b-4ba8-b835-373ce68025d8")
-		(property "Reference" "P20"
+		(property "Reference" "P56"
 			(at 247.65 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15259,7 +14926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 247.65 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -15298,7 +14965,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P20")
+					(reference "P56")
 					(unit 1)
 				)
 			)
@@ -15394,7 +15061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c833ac24-e8a3-4153-87ab-942305f90ad6")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 34.29 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15461,7 +15128,7 @@
 			)
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -15478,7 +15145,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca5577f8-e7da-4349-b628-3f2173c931e2")
-		(property "Reference" "P46"
+		(property "Reference" "P41"
 			(at 232.156 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15499,7 +15166,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 232.41 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15538,7 +15205,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P46")
+					(reference "P41")
 					(unit 1)
 				)
 			)
@@ -15555,7 +15222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbba6d6e-c28d-4598-bfd1-b1a0df61e8ca")
-		(property "Reference" "P42"
+		(property "Reference" "P17"
 			(at 211.836 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15576,7 +15243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 212.09 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15615,7 +15282,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P42")
+					(reference "P17")
 					(unit 1)
 				)
 			)
@@ -15633,7 +15300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbd6de12-d8c3-451a-a93c-bbc68f68ddb4")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR021"
 			(at 115.57 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15693,7 +15360,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR038")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15701,7 +15368,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Capacitor")
-		(at 133.35 55.88 0)
+		(at 119.38 27.94 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15711,8 +15378,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0d71de9-3e6c-4bd0-a0e4-209877f956c9")
-		(property "Reference" "C5"
-			(at 130.81 54.61 0)
+		(property "Reference" "C4"
+			(at 116.84 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15723,7 +15390,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 130.81 57.15 0)
+			(at 116.84 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15733,8 +15400,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.35 55.88 0)
+		(property "Footprint" "megaprint:Capacitor_0603"
+			(at 119.38 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15745,7 +15412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 55.88 0)
+			(at 119.38 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15756,7 +15423,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 55.88 0)
+			(at 119.38 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15775,7 +15442,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -15792,7 +15459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d363f3ec-8c76-4343-9238-9a8e7b9a95cd")
-		(property "Reference" "P2"
+		(property "Reference" "P14"
 			(at 211.836 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15813,7 +15480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 212.09 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15852,7 +15519,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P2")
+					(reference "P14")
 					(unit 1)
 				)
 			)
@@ -15869,7 +15536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d70a416a-2b5a-4b02-a036-dcd2bd1e989b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR026"
 			(at 142.24 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15929,7 +15596,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR036")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15946,7 +15613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d83e1769-c54c-49ae-bf28-8a2e8974d82d")
-		(property "Reference" "P13"
+		(property "Reference" "P63"
 			(at 252.476 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15967,7 +15634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 252.73 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16006,7 +15673,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P13")
+					(reference "P63")
 					(unit 1)
 				)
 			)
@@ -16014,7 +15681,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Capacitor")
-		(at 73.66 26.67 0)
+		(at 73.66 25.4 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16025,7 +15692,7 @@
 		(dnp no)
 		(uuid "dcc073ba-ff85-488e-a29c-2ef1a582950c")
 		(property "Reference" "C1"
-			(at 69.596 25.654 0)
+			(at 69.342 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16035,7 +15702,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 71.12 27.94 0)
+			(at 70.866 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16046,7 +15713,7 @@
 			)
 		)
 		(property "Footprint" "megaprint:Capacitor_0603"
-			(at 73.66 26.67 0)
+			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16057,7 +15724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 26.67 0)
+			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16068,7 +15735,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 73.66 26.67 0)
+			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16101,7 +15768,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:3.3V")
-		(at 113.03 63.5 180)
+		(at 99.06 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16110,8 +15777,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcc3ebcc-bced-4772-a9a6-510691966b40")
-		(property "Reference" "#PWR039"
-			(at 113.03 59.69 0)
+		(property "Reference" "#PWR018"
+			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16122,7 +15789,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 116.332 64.008 0)
+			(at 102.362 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16132,7 +15799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 63.5 0)
+			(at 99.06 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16143,7 +15810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 63.5 0)
+			(at 99.06 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16154,7 +15821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 113.03 63.5 0)
+			(at 99.06 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16170,7 +15837,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR039")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16178,7 +15845,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:GND")
-		(at 73.66 33.02 180)
+		(at 73.66 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16186,10 +15853,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dee26383-26e4-42ff-94d0-f936c895ce97")
-		(property "Reference" "#PWR011"
-			(at 73.66 36.83 0)
+		(property "Reference" "#PWR09"
+			(at 73.66 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16200,7 +15866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 36.83 0)
+			(at 69.342 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16210,7 +15876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 33.02 0)
+			(at 73.66 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16221,7 +15887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 33.02 0)
+			(at 73.66 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16232,7 +15898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 33.02 0)
+			(at 73.66 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16254,7 +15920,7 @@
 			)
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16271,7 +15937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0a4d71c-6335-477f-bd38-51791675094c")
-		(property "Reference" "P7"
+		(property "Reference" "P74"
 			(at 262.636 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16292,7 +15958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 262.89 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16331,7 +15997,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P7")
+					(reference "P74")
 					(unit 1)
 				)
 			)
@@ -16348,7 +16014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1cab256-eefb-40ce-94eb-b6445eb6d63d")
-		(property "Reference" "P29"
+		(property "Reference" "P16"
 			(at 211.836 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16369,7 +16035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 212.09 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -16408,7 +16074,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P29")
+					(reference "P16")
 					(unit 1)
 				)
 			)
@@ -16426,7 +16092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f60a47-b9b1-43f0-94ee-a170a3dabac2")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 34.29 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -16493,7 +16159,7 @@
 			)
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -16501,7 +16167,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:GND")
-		(at 81.28 33.02 180)
+		(at 81.28 31.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16509,10 +16175,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8251e64-2402-4101-9fc2-c96424cf982c")
-		(property "Reference" "#PWR014"
-			(at 81.28 36.83 0)
+		(property "Reference" "#PWR011"
+			(at 81.28 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16523,7 +16188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 36.83 0)
+			(at 86.36 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16533,7 +16198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 33.02 0)
+			(at 81.28 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16544,7 +16209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 33.02 0)
+			(at 81.28 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16555,7 +16220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 33.02 0)
+			(at 81.28 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16577,7 +16242,7 @@
 			)
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16595,7 +16260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8d99fd4-c486-46e5-8cce-0200f5f9c638")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 190.5 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16655,7 +16320,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16673,7 +16338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ede8a52d-6438-4b47-a79d-ec99d7534576")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR029"
 			(at 133.35 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -16733,7 +16398,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR022")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16751,7 +16416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef093fcf-77e4-4f1b-975f-e323f8c8f690")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 110.49 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16773,7 +16438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "megaprint:Resistor_0603"
 			(at 113.03 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16815,7 +16480,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16832,7 +16497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef8357d2-b9a3-42d4-865c-bbb425c7f726")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR017"
 			(at 96.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -16893,7 +16558,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16910,7 +16575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f19f3752-9e74-4996-a900-bc9948718912")
-		(property "Reference" "C11"
+		(property "Reference" "C3"
 			(at 88.9 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16932,7 +16597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "megaprint:Capacitor_0603"
 			(at 90.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16974,7 +16639,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C11")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -16992,7 +16657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1f28cfe-ae52-47ab-9c98-cfe2f1e12ae0")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 157.48 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17014,7 +16679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "megaprint:Capacitor_0603"
 			(at 161.29 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -17056,7 +16721,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -17073,7 +16738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f73b75d3-737e-4c15-8b87-c7261ac41169")
-		(property "Reference" "P40"
+		(property "Reference" "P5"
 			(at 201.676 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17094,7 +16759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 201.93 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -17133,7 +16798,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P40")
+					(reference "P5")
 					(unit 1)
 				)
 			)
@@ -17151,7 +16816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f904a164-6a8b-495f-b7ac-42777d5bc0cb")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 63.5 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17173,7 +16838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "megaprint:Resistor_0603"
 			(at 66.04 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17215,7 +16880,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -17232,7 +16897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa805575-b870-4fe7-b7b3-f5e792abd862")
-		(property "Reference" "P28"
+		(property "Reference" "P10"
 			(at 207.01 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17253,7 +16918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 207.01 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17292,7 +16957,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P28")
+					(reference "P10")
 					(unit 1)
 				)
 			)
@@ -17309,7 +16974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbf90d27-2544-4fea-96f8-745d7fb9b867")
-		(property "Reference" "P55"
+		(property "Reference" "P12"
 			(at 207.01 137.414 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17330,7 +16995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 207.01 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17369,7 +17034,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P55")
+					(reference "P12")
 					(unit 1)
 				)
 			)
@@ -17386,7 +17051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe414cdd-49c9-40a6-8ab9-d8205af2d562")
-		(property "Reference" "P12"
+		(property "Reference" "P51"
 			(at 242.316 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17407,7 +17072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 242.57 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17446,7 +17111,7 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P12")
+					(reference "P51")
 					(unit 1)
 				)
 			)
@@ -17463,7 +17128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe7cb2d5-cc38-4c8d-8f6b-ac12454575b1")
-		(property "Reference" "P3"
+		(property "Reference" "P26"
 			(at 221.996 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17484,7 +17149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "megaprint:Pad"
 			(at 222.25 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -17523,38 +17188,32 @@
 		(instances
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "P3")
+					(reference "P26")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(group "SplonkulesBase"
-		(uuid "4c76988f-8d31-41af-8af3-684a7b5506ec")
+		(uuid "26ffc84c-d6a5-492a-a515-45751dab1d46")
 		(lib_id "MegaSplonk:SplonkulesBase")
-		(members "006e786a-dd88-4e1d-b743-39eddce2ea91" "02516e53-cad2-454f-bf85-150ac3af8ec7"
-			"0e0fff59-e4f6-4f7c-a8c4-d8cd66f498cb" "11060fea-b693-47d9-9043-21ca382c3817"
-			"1597ffe7-de8f-4c92-a959-f8940d69d907" "26298727-5eab-4ac9-8411-16979195ab85"
-			"2e432e94-b4d2-4f9d-a947-fcc3658e07c0" "2f9cf2f9-d5d8-4ef0-97db-f96a21f08677"
-			"2fa714e6-74a0-4d02-b597-c5af284928a0" "3077c939-e286-464b-bf00-1b3566f7bcf7"
-			"3c16887e-52a2-46b5-9ecb-6ce4494c9847" "467c524c-2149-42c8-8b63-36bc1b27515a"
-			"477e558d-db89-4335-948a-80401a48c8b6" "492521a6-04e6-48ed-b6fc-aa4df89cc1e4"
-			"523e673e-d0f3-44e4-aeaa-bf69829babc0" "577bfb7d-1d4a-4e96-a5dc-c9590fe4396a"
-			"6cfb7da8-a754-4acf-bc44-5c45e4e2062f" "6d22f07e-2a23-4ba4-8881-f2a832c6fedd"
-			"6fe45713-04da-43c6-b60e-417ade0a8c16" "70b7e53f-8ffb-4b4b-9bf3-c33d8545a290"
-			"7f875132-a1f1-4691-9476-f25350ea1fa5" "8195b25e-26a5-4840-bad6-677187c6e76b"
+		(members "006e786a-dd88-4e1d-b743-39eddce2ea91" "11060fea-b693-47d9-9043-21ca382c3817"
+			"1597ffe7-de8f-4c92-a959-f8940d69d907" "2e432e94-b4d2-4f9d-a947-fcc3658e07c0"
+			"2f9cf2f9-d5d8-4ef0-97db-f96a21f08677" "2fa714e6-74a0-4d02-b597-c5af284928a0"
+			"3077c939-e286-464b-bf00-1b3566f7bcf7" "3c16887e-52a2-46b5-9ecb-6ce4494c9847"
+			"467c524c-2149-42c8-8b63-36bc1b27515a" "477e558d-db89-4335-948a-80401a48c8b6"
+			"492521a6-04e6-48ed-b6fc-aa4df89cc1e4" "523e673e-d0f3-44e4-aeaa-bf69829babc0"
+			"577bfb7d-1d4a-4e96-a5dc-c9590fe4396a" "6cfb7da8-a754-4acf-bc44-5c45e4e2062f"
+			"6d22f07e-2a23-4ba4-8881-f2a832c6fedd" "70b7e53f-8ffb-4b4b-9bf3-c33d8545a290"
 			"8bc27a2c-5699-4dec-99f9-a1cd0cba89f9" "8f8c92db-a6b9-43fe-bb11-9f1fa54b2111"
 			"914f47c2-f120-44ce-abea-d5bc720df316" "92615ddc-2f8d-4880-9e98-e015535345a5"
-			"981a9019-6107-4383-96d4-4c85cf0a1e7c" "b00e3ec5-7753-4c5b-bd8c-64a79b5ab12c"
-			"b33cba25-ac5e-4023-9a7a-f0de1f6b97c6" "b738ad85-411a-4554-abef-8f6f3f925bfc"
-			"bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee" "c3abf1e4-db77-41c5-bb13-1622ff1e1ff5"
-			"c5604df7-619b-4126-9808-3d2792c9f4fa" "c833ac24-e8a3-4153-87ab-942305f90ad6"
+			"b00e3ec5-7753-4c5b-bd8c-64a79b5ab12c" "bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee"
+			"c833ac24-e8a3-4153-87ab-942305f90ad6" "d36c3298-d826-4d84-b897-40bf4c1b05ba"
 			"d6857673-fb05-46b0-9bd0-e807a49ea91f" "d94dc7e5-55d4-4faf-8f52-893448ef3e32"
 			"da5902dc-9d7f-4025-8069-f70c0ab836d9" "dcc073ba-ff85-488e-a29c-2ef1a582950c"
-			"dee26383-26e4-42ff-94d0-f936c895ce97" "e04b74a3-4b18-4fef-bb84-e8fae66a8683"
-			"e1f60a47-b9b1-43f0-94ee-a170a3dabac2" "e2316a06-36b5-438d-bc14-df5594cbf19b"
-			"e7572b76-226f-48c6-b542-c5bf662922ee" "e8251e64-2402-4101-9fc2-c96424cf982c"
-			"e9cf5698-60a9-4b5b-aa09-f55568282508" "f25818ee-785c-4e63-8a4a-a884f33c14df"
+			"dee26383-26e4-42ff-94d0-f936c895ce97" "e1f60a47-b9b1-43f0-94ee-a170a3dabac2"
+			"e2316a06-36b5-438d-bc14-df5594cbf19b" "e7572b76-226f-48c6-b542-c5bf662922ee"
+			"e8251e64-2402-4101-9fc2-c96424cf982c" "f25818ee-785c-4e63-8a4a-a884f33c14df"
 			"f351f0ef-8fff-4d15-a6ce-51268f6736e7" "f6c9a746-264e-490b-ba88-398cec65d7b5"
 		)
 	)
