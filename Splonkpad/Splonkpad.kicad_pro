@@ -54,7 +54,7 @@
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
-          "fill_mode": 1,
+          "fill_mode": 0,
           "hatch_gap": 0.5,
           "hatch_orientation": 45.0,
           "hatch_smoothing_level": 0,
@@ -694,7 +694,7 @@
         "uuid": "72fa6072-d998-4ea1-bb4c-df401cf05929"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR19,R7-9",
     "variants": []
   },
   "sheets": [

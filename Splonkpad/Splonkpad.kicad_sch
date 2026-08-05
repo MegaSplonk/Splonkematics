@@ -2794,6 +2794,16 @@
 		)
 		(uuid "6cfb7da8-a754-4acf-bc44-5c45e4e2062f")
 	)
+	(text "Board Link"
+		(exclude_from_sim no)
+		(at 119.888 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "727662fe-ac78-4c31-88b6-b41dd5370261")
+	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 154.686 59.182 0)
@@ -3634,6 +3644,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec28e2e-9302-42cf-a2fc-deb33386ab39")
+	)
+	(wire
+		(pts
 			(xy 196.85 96.52) (xy 203.2 96.52)
 		)
 		(stroke
@@ -3814,6 +3834,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 137.16) (xy 125.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3193036b-3541-447d-8483-82a92df6144e")
+	)
+	(wire
+		(pts
 			(xy 50.8 97.79) (xy 62.23 97.79)
 		)
 		(stroke
@@ -3861,6 +3891,16 @@
 			(type default)
 		)
 		(uuid "3f7495c6-c42c-4681-8877-432405f4e66a")
+	)
+	(wire
+		(pts
+			(xy 123.19 133.35) (xy 125.73 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4020400d-1a99-4227-b3b1-aa018faff7c5")
 	)
 	(wire
 		(pts
@@ -4845,6 +4885,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 140.97) (xy 135.89 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caab8ff0-0fdc-4c6a-9e8f-169ccb69c2dc")
+	)
+	(wire
+		(pts
 			(xy 223.52 147.32) (xy 233.68 147.32)
 		)
 		(stroke
@@ -4905,6 +4955,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 133.35) (xy 135.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63ba5ab-254a-44a6-ad85-99840b333dc2")
+	)
+	(wire
+		(pts
 			(xy 52.07 19.05) (xy 57.15 19.05)
 		)
 		(stroke
@@ -4932,6 +4992,16 @@
 			(type default)
 		)
 		(uuid "d78059a1-6e76-4830-a954-b3c99110e031")
+	)
+	(wire
+		(pts
+			(xy 138.43 137.16) (xy 135.89 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89bc5ff-54e6-4788-a0ef-506f9652d72f")
 	)
 	(wire
 		(pts
@@ -4972,6 +5042,16 @@
 			(type default)
 		)
 		(uuid "e086b4ac-d6c8-4dd1-acb8-0c57b35a0ad6")
+	)
+	(wire
+		(pts
+			(xy 123.19 140.97) (xy 125.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f96e2d-12af-4c17-b69b-866a736ce63e")
 	)
 	(wire
 		(pts
@@ -5062,16 +5142,6 @@
 			(type default)
 		)
 		(uuid "ede6aa61-dc21-451d-a4e8-dfb26d9c38cb")
-	)
-	(wire
-		(pts
-			(xy 102.87 82.55) (xy 100.33 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf5c83b-0244-483b-a2f5-ad1c2535c3a3")
 	)
 	(wire
 		(pts
@@ -5293,6 +5363,16 @@
 		)
 		(uuid "03ba1d60-a702-4dbc-bf5a-9379b6588a2a")
 	)
+	(label "SCL^{3.3S}"
+		(at 123.19 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0677dfd3-bfcb-472e-9e78-6794c9c95774")
+	)
 	(label "RX1"
 		(at 184.15 102.87 0)
 		(effects
@@ -5313,6 +5393,16 @@
 		)
 		(uuid "148a0ca0-a906-44dc-86d3-cd0c95da7c0b")
 	)
+	(label "SDA^{3.3P}"
+		(at 138.43 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dc510ba-9cfb-4ccc-bea5-ed94440b049f")
+	)
 	(label "RX4"
 		(at 196.85 127 180)
 		(effects
@@ -5322,6 +5412,26 @@
 			(justify right bottom)
 		)
 		(uuid "22752445-5017-49f2-bfff-4cd7da1c73fc")
+	)
+	(label "~{RST}^{3.3P}"
+		(at 138.43 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "264b4e15-02d3-4ab0-bf2c-b20254560f96")
+	)
+	(label "SDA^{3.3S}"
+		(at 123.19 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b8cc330-01e7-428f-b8cc-b3083666e27b")
 	)
 	(label "TX11"
 		(at 184.15 128.27 0)
@@ -5352,6 +5462,16 @@
 			(justify left bottom)
 		)
 		(uuid "3e879292-9148-4726-9956-5e209c18e0d4")
+	)
+	(label "SCL^{3.3P}"
+		(at 138.43 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42bc8b18-5d58-4cec-bc14-f82a8b3ac2f2")
 	)
 	(label "SCL"
 		(at 29.21 92.71 180)
@@ -5675,6 +5795,16 @@
 		)
 		(uuid "e598f022-7444-4740-8727-e16931959bba")
 	)
+	(label "~{RST}^{3.3S}"
+		(at 123.19 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb6c0e1f-1bc7-40ab-92f7-2fdf4be82fcf")
+	)
 	(label "VREGD"
 		(at 190.5 59.69 0)
 		(effects
@@ -5744,6 +5874,25 @@
 			(justify right bottom)
 		)
 		(uuid "ff08b632-0ec0-4bfd-b9e7-a13ff309b532")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 114.3 128.27) (xy 147.32 128.27) (xy 147.32 144.78) (xy 114.3 144.78)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "28f47652-cf83-4fca-aea7-3cdd1e5ccfb4")
+		)
 	)
 	(rule_area
 		(exclude_from_sim no)
@@ -7707,6 +7856,87 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:Resistor")
+		(at 130.81 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2687c17a-fd71-439d-9ef7-290440b38560")
+		(property "Reference" "R8"
+			(at 129.032 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 131.572 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "megaprint:Resistor_0603"
+			(at 130.81 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f9fe97a-2629-43a0-868b-919738c82c0e")
+		)
+		(pin "2"
+			(uuid "b6f9de47-2b1e-4c48-86ab-4828476e2083")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "megasyms:PAD")
 		(at 232.41 101.6 0)
 		(unit 1)
@@ -8886,6 +9116,84 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:3.3V")
+		(at 102.87 83.82 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47b24ce7-7bbf-4fa6-9bfb-127a746289eb")
+		(property "Reference" "#PWR019"
+			(at 102.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 102.87 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4898cc5-76a2-4499-ad82-9cb9b9c9e09e")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "megasyms:Capacitor")
 		(at 187.96 67.31 0)
 		(mirror y)
@@ -9752,6 +10060,87 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
 					(reference "P33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:Resistor")
+		(at 130.81 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62509b88-9a91-443c-990a-262bb2a8c19c")
+		(property "Reference" "R7"
+			(at 129.286 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 131.826 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "megaprint:Resistor_0603"
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54efc84c-4eee-4f64-9b86-67c3d50d6861")
+		)
+		(pin "2"
+			(uuid "a14998d6-f943-4a2d-8213-c848c29c2c60")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10650,84 +11039,6 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "megasyms:GND")
-		(at 102.87 81.28 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "711234dc-57d9-48b3-bb55-9c4dd885e380")
-		(property "Reference" "#PWR019"
-			(at 102.87 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9715eace-8af3-4629-b7cd-8046d1a2b562")
-		)
-		(instances
-			(project "Splonkpad"
-				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11661,6 +11972,87 @@
 			(project "Splonkpad"
 				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:Resistor")
+		(at 130.81 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "863da903-2d4b-4329-9bc0-2f7ebb1d873c")
+		(property "Reference" "R9"
+			(at 129.286 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 131.826 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "megaprint:Resistor_0603"
+			(at 130.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e42cda0-6e9d-4b80-8242-732c0564100e")
+		)
+		(pin "2"
+			(uuid "874bab1b-c984-4d23-b3aa-c2d93831bb43")
+		)
+		(instances
+			(project "Splonkpad"
+				(path "/72fa6072-d998-4ea1-bb4c-df401cf05929"
+					(reference "R9")
 					(unit 1)
 				)
 			)
