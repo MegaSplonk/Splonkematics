@@ -2874,7 +2874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "megaprint:MaixCon-5P"
+		(property "Footprint" "megaprint:MaixCon-5P_CNC_format"
 			(at 35.56 34.29 0)
 			(hide yes)
 			(show_name no)
