@@ -1238,7 +1238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f9cf2f9-d5d8-4ef0-97db-f96a21f08677")
-		(property "Reference" "#FLAG1"
+		(property "Reference" "#FLAG01"
 			(at 46.482 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -1298,7 +1298,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#FLAG1")
+					(reference "#FLAG01")
 					(unit 1)
 				)
 			)
@@ -1315,7 +1315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fa714e6-74a0-4d02-b597-c5af284928a0")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 78.74 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -1375,7 +1375,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1393,7 +1393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "477e558d-db89-4335-948a-80401a48c8b6")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR03"
 			(at 63.5 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -1454,7 +1454,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR1")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1471,7 +1471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d22f07e-2a23-4ba4-8881-f2a832c6fedd")
-		(property "Reference" "#FLAG2"
+		(property "Reference" "#FLAG02"
 			(at 46.482 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -1531,7 +1531,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#FLAG2")
+					(reference "#FLAG02")
 					(unit 1)
 				)
 			)
@@ -1549,7 +1549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f8c92db-a6b9-43fe-bb11-9f1fa54b2111")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 63.5 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -1610,7 +1610,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1875,7 +1875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c833ac24-e8a3-4153-87ab-942305f90ad6")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR02"
 			(at 35.56 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -1936,7 +1936,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2034,7 +2034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dee26383-26e4-42ff-94d0-f936c895ce97")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR05"
 			(at 74.93 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2094,7 +2094,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR4")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2112,7 +2112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f60a47-b9b1-43f0-94ee-a170a3dabac2")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 35.56 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -2173,7 +2173,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2190,7 +2190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8251e64-2402-4101-9fc2-c96424cf982c")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR07"
 			(at 82.55 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2250,7 +2250,7 @@
 		(instances
 			(project "SplonkBlocks"
 				(path "/5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
-					(reference "#PWR6")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

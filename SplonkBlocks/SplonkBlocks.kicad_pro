@@ -415,6 +415,11 @@
         "filename": "SplonkBlocks.kicad_sch",
         "name": "SplonkulesBase",
         "uuid": "5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0"
+      },
+      {
+        "filename": "splonkconn.kicad_sch",
+        "name": "SplonkConn",
+        "uuid": "3b994014-95dd-4e2a-b470-1cbe8d539365"
       }
     ],
     "used_designators": "",
@@ -424,6 +429,10 @@
     [
       "5ffe5b95-45c0-43e4-8a2e-ed6da3fc9da0",
       "SplonkulesBase"
+    ],
+    [
+      "3b994014-95dd-4e2a-b470-1cbe8d539365",
+      "SplonkConn"
     ]
   ],
   "text_variables": {},
