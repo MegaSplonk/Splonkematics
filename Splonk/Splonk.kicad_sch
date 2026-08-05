@@ -3492,44 +3492,6 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
 					(hide yes)
@@ -3632,44 +3594,6 @@
 						)
 					)
 					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6251,6 +6175,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 33.02) (xy 168.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a95b51-3f11-4ad6-8860-072af4565e23")
+	)
+	(wire
+		(pts
 			(xy 74.93 233.68) (xy 73.66 233.68)
 		)
 		(stroke
@@ -6528,6 +6462,16 @@
 			(type default)
 		)
 		(uuid "5c11ddb5-026a-4c2f-a1d6-8020a2992f2e")
+	)
+	(wire
+		(pts
+			(xy 156.21 33.02) (xy 156.21 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6e883b-dbf7-41ff-b284-192ca8e0f551")
 	)
 	(wire
 		(pts
@@ -7118,6 +7062,16 @@
 			(type default)
 		)
 		(uuid "7811781b-5d6f-4ffd-8200-e7c07183e1fe")
+	)
+	(wire
+		(pts
+			(xy 143.51 33.02) (xy 143.51 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a8d562-5c60-4cac-9a6b-cff03e81b213")
 	)
 	(wire
 		(pts
@@ -10529,16 +10483,6 @@
 		)
 		(uuid "b45fb9bb-c176-4229-85c4-6562a7a148c4")
 	)
-	(label "VUSB"
-		(at 116.84 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4ea68fc-0ce2-4a44-9bb4-a3986e1c6f50")
-	)
 	(label "ROW^{4}"
 		(at 142.24 102.87 0)
 		(effects
@@ -12030,6 +11974,87 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:Capacitor")
+		(at 156.21 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08fd71bd-eed8-4cec-8b8c-72679d86c55b")
+		(property "Reference" "C18"
+			(at 160.02 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 160.02 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "megaprint:Capacitor_0603"
+			(at 156.21 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d98d30d5-8334-4ae0-9226-9905e867eb42")
+		)
+		(pin "1"
+			(uuid "c40e44f1-fa1a-4cf6-976a-323f135c9409")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -13529,6 +13554,85 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:VCC")
+		(at 156.21 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28c256f9-8b8f-4a88-810a-36c262bdab91")
+		(property "Reference" "#PWR072"
+			(at 156.21 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 157.48 20.9549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 156.21 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eca5a803-254a-4522-9892-f94e1e52b7c9")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "megasyms:Resistor")
 		(at 50.8 30.48 90)
 		(mirror x)
@@ -14928,26 +15032,17 @@
 		(pin "A6"
 			(uuid "acb4163f-48d4-4fe6-99a6-1d7a3c61f13f")
 		)
-		(pin "A9"
-			(uuid "7ec7fefe-42c0-4a58-bdcb-889b2d544d12")
-		)
 		(pin "A7"
 			(uuid "d1332a22-b719-424e-affa-5c1c235d97dd")
 		)
 		(pin "A4"
 			(uuid "9fe24c7d-cf29-45a0-9753-3f29db07a75c")
 		)
-		(pin "A12"
-			(uuid "520ba3d4-0393-4757-a982-2c1a9b13d165")
-		)
 		(pin "A5"
 			(uuid "e0a6576e-c34a-406d-a546-005c38dbe009")
 		)
 		(pin "B1"
 			(uuid "5d89cb48-f7d0-4c76-b6d5-e631f475740c")
-		)
-		(pin "B12"
-			(uuid "a40765fd-b098-4d58-86b8-6400852b7693")
 		)
 		(pin "A8"
 			(uuid "344d6bbe-cf98-4736-a5af-d2e1f474ac96")
@@ -14957,9 +15052,6 @@
 		)
 		(pin "B6"
 			(uuid "767a7115-5ea8-4a3b-beca-3d1dc368837f")
-		)
-		(pin "B9"
-			(uuid "23285034-8310-4a44-b6b2-2706259276a6")
 		)
 		(pin "B4"
 			(uuid "d840b200-1261-4659-9fcf-eb5fea9f13a6")
@@ -15724,6 +15816,83 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:VCC")
+		(at 116.84 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57265181-d813-4209-bb92-29f524618075")
+		(property "Reference" "#PWR069"
+			(at 116.84 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 116.84 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f4d2403-0cf6-4343-bc79-b0e5e16d4971")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -16945,6 +17114,84 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:GND")
+		(at 156.21 35.56 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73f61e54-b051-4daf-a819-2815b65e69da")
+		(property "Reference" "#PWR073"
+			(at 156.21 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b38f8cb6-e1ba-4a20-b9ae-a79df86d201d")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -18489,6 +18736,85 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:VCC")
+		(at 168.91 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "946ac8b6-358c-447f-8043-deaabc9471fa")
+		(property "Reference" "#PWR074"
+			(at 168.91 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 170.18 20.9549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f9b567a-7823-4298-a599-1b32691889cb")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "megasyms:GND")
 		(at 95.25 110.49 90)
 		(unit 1)
@@ -19015,6 +19341,87 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:Capacitor")
+		(at 143.51 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98cf0856-3192-4143-9b32-2db664642f44")
+		(property "Reference" "C17"
+			(at 147.32 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 147.32 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "megaprint:Capacitor_0603"
+			(at 143.51 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c02a3758-dcf6-4471-99b1-e1e690b6b2bd")
+		)
+		(pin "1"
+			(uuid "d6091d21-7498-4f2a-b422-dcd1f1130384")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "megasyms:VCC")
 		(at 219.71 261.62 180)
 		(unit 1)
@@ -19270,6 +19677,84 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "K20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:GND")
+		(at 143.51 35.56 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9df04ed6-314a-4dd1-87d7-9abe2f5f0b63")
+		(property "Reference" "#PWR071"
+			(at 143.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1171f4a-2fbe-4e95-bbf8-2119461e73e0")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -21585,6 +22070,87 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:Capacitor")
+		(at 168.91 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce0ceb16-4623-4cfb-abd2-e48014d40935")
+		(property "Reference" "C19"
+			(at 172.72 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 172.72 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "megaprint:Capacitor_0603"
+			(at 168.91 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a2e5b248-8f20-4313-8ffd-a6238d17ea91")
+		)
+		(pin "1"
+			(uuid "53ff4b1e-89b4-4bbc-9aef-5ac1c0309242")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "megasyms:GND")
 		(at 289.56 256.54 180)
 		(unit 1)
@@ -21908,6 +22474,84 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:GND")
+		(at 168.91 35.56 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d4444329-8052-4afd-83d1-e897647dd1f0")
+		(property "Reference" "#PWR075"
+			(at 168.91 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bc35d1f-2838-425f-97de-6b6ce81b37af")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -22947,6 +23591,85 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:VCC")
+		(at 143.51 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e283404f-619f-4049-a112-39bd7247110b")
+		(property "Reference" "#PWR070"
+			(at 143.51 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 144.78 20.9549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 143.51 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae9d656e-bfd9-4360-a640-b57cc5de4489")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
