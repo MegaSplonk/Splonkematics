@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -479,7 +479,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -692,17 +692,26 @@
     "top_level_sheets": [
       {
         "filename": "Splonk.kicad_sch",
-        "name": "Root",
+        "name": "logic",
         "uuid": "b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+      },
+      {
+        "filename": "matrix.kicad_sch",
+        "name": "matrix",
+        "uuid": "7b1e516c-92a4-4eb0-aa53-e3a09625bc9b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR27,#PWR33-34,#PWR36,#PWR43-46,#PWR49-50,#PWR53-54,#PWR63-64,#PWR76-89,C11-14,C20-23,J4-5,J8-9,J14-17,K1-48,R9-10,R13-14,R17-20",
     "variants": []
   },
   "sheets": [
     [
       "b1ff0c53-e6d8-4278-99c3-e41985af7a25",
-      "Root"
+      "logic"
+    ],
+    [
+      "7b1e516c-92a4-4eb0-aa53-e3a09625bc9b",
+      "matrix"
     ]
   ],
   "text_variables": {},
