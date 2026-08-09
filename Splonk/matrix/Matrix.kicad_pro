@@ -498,7 +498,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "megasyms"
+    ]
   },
   "meta": {
     "filename": "Matrix.kicad_pro",
@@ -681,7 +683,7 @@
         "uuid": "20cf76a9-c5a5-4733-bab6-a301dcfd0a3f"
       }
     ],
-    "used_designators": "R9-10,R13-14,K1-24,J4-5,J8-9,C11-14,#PWR27,#PWR33-34,#PWR36,#PWR43-46,#PWR49-50,#PWR53-54,#PWR63-64",
+    "used_designators": "AH1-3,R9-10,R13-14,K1-24,J4-5,J8-9,C11-14,#PWR27,#PWR33-34,#PWR36,#PWR43-46,#PWR49-50,#PWR53-54,#PWR63-64",
     "variants": []
   },
   "sheets": [
