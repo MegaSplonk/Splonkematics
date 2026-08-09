@@ -7,7 +7,8 @@
 		(at 0 -1.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c5c23a75-aa11-4c9b-a5b6-35ee1469a620")
+		(hide yes)
+		(uuid "e71d5150-669e-44bf-a2b2-45416f2cddde")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +20,8 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "db2bfc59-cd89-4533-bec3-f06c2c40fec0")
+		(hide yes)
+		(uuid "2935d849-a5d8-4da3-b798-a76150b9c075")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "86ae4d72-a568-4f11-b222-04222e03fefd")
+		(uuid "17599434-bd37-4147-94f4-182c37e7ffb3")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e2584f3-28d1-487d-8b3f-591b75225e38")
+		(uuid "ced966da-9550-4e38-885c-884bcae2ed3d")
 		(effects
 			(font
 				(size 1 1)
@@ -54,25 +56,13 @@
 		)
 	)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "ca5a7c65-e88b-4cde-bae0-f841c8910e49")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 1.5 1.5)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(thermal_bridge_angle 90)
-		(uuid "eb1e312b-f160-4196-8460-c9b267b9e562")
+		(uuid "d4b8d055-21a4-460a-92f0-1eca48445891")
 	)
 	(embedded_fonts no)
 )
