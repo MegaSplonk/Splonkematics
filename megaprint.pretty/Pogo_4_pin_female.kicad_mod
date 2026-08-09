@@ -7,11 +7,11 @@
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "25bd0157-9708-4b9f-9966-94c1feab2535")
+		(uuid "7e42495d-8f06-4985-ad77-2fc595fee21f")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "57f53f7d-fd6c-44e9-a1b4-4d81e6087a8e")
+		(uuid "a8389498-e529-4052-974a-417c6fce34c8")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a545b558-670a-44f6-8bba-c456f857b984")
+		(uuid "7f8d4fdc-a678-4d12-b41c-276212632c87")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f9a738f3-960b-4731-b48c-537268859d1a")
+		(uuid "8d6262d8-806a-45eb-8439-a8b0f3131aed")
 		(effects
 			(font
 				(size 1 1)
@@ -63,13 +63,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3f0b5716-79d5-4778-9b50-50be74224bc6")
+		(uuid "15189e3c-36b8-4b6f-b1b8-8aeae03c2fcc")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "78c20e5b-0507-48df-b107-ecfdda2f84c3")
+		(uuid "0695d057-032c-4582-a78f-e470eb481601")
 		(effects
 			(font
 				(size 1 1)
@@ -81,7 +81,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d67639fd-2545-4fb4-ab9c-6ac83291e323")
+		(uuid "acc1a24c-8613-43e9-b8f2-2e136aaf9fdf")
 		(effects
 			(font
 				(size 1 1)
@@ -93,30 +93,30 @@
 		(at -3.75 0)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7fd1b31d-9c6d-4fd3-a303-8b13aceb0287")
+		(uuid "dbd02c8f-b4b9-4930-914a-dd17c68c0bd5")
 	)
 	(pad "2" smd circle
 		(at -1.25 0)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "cd789738-4799-4247-a85a-07ca519e992d")
+		(uuid "646e4484-ad81-498c-b127-87d24bd167b3")
 	)
 	(pad "3" smd circle
 		(at 1.25 0)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "42cb1071-b25c-491e-8d1c-a7a66ed2828e")
+		(uuid "d6b4614c-6216-4b6d-8857-47f50b3c3001")
 	)
 	(pad "4" smd circle
 		(at 3.75 0)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "abb58a0d-2238-4f3f-bda6-707cfd966343")
+		(uuid "eb68703a-451c-46a9-b824-c6a6d281d595")
 	)
 	(group ""
-		(uuid "b501b1f5-4c74-447a-afd9-388916d47b5a")
-		(members "42cb1071-b25c-491e-8d1c-a7a66ed2828e" "7fd1b31d-9c6d-4fd3-a303-8b13aceb0287"
-			"abb58a0d-2238-4f3f-bda6-707cfd966343" "cd789738-4799-4247-a85a-07ca519e992d"
+		(uuid "d6913da2-45be-45c2-8f88-850c230feb48")
+		(members "646e4484-ad81-498c-b127-87d24bd167b3" "d6b4614c-6216-4b6d-8857-47f50b3c3001"
+			"dbd02c8f-b4b9-4930-914a-dd17c68c0bd5" "eb68703a-451c-46a9-b824-c6a6d281d595"
 		)
 	)
 	(embedded_fonts no)
