@@ -694,11 +694,6 @@
         "filename": "Splonk.kicad_sch",
         "name": "logic",
         "uuid": "b1ff0c53-e6d8-4278-99c3-e41985af7a25"
-      },
-      {
-        "filename": "matrix.kicad_sch",
-        "name": "matrix",
-        "uuid": "7b1e516c-92a4-4eb0-aa53-e3a09625bc9b"
       }
     ],
     "used_designators": "#PWR27,#PWR33-34,#PWR36,#PWR43-46,#PWR49-50,#PWR53-54,#PWR63-64,#PWR76-89,C11-14,C20-23,J4-5,J8-9,J14-17,K1-48,R9-10,R13-14,R17-20",
@@ -708,10 +703,6 @@
     [
       "b1ff0c53-e6d8-4278-99c3-e41985af7a25",
       "logic"
-    ],
-    [
-      "7b1e516c-92a4-4eb0-aa53-e3a09625bc9b",
-      "matrix"
     ]
   ],
   "text_variables": {},
