@@ -55,15 +55,15 @@
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
-          "hatch_gap": 0.5,
-          "hatch_orientation": 45.0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 0.5,
+          "hatch_thickness": 1.0,
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -501,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Splonkpad.kicad_pro",
+    "filename": "Splonkpad_logic.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -623,6 +623,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -632,24 +644,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -689,18 +689,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Splonkpad.kicad_sch",
-        "name": "Root",
-        "uuid": "72fa6072-d998-4ea1-bb4c-df401cf05929"
+        "filename": "Splonkpad_logic.kicad_sch",
+        "name": "Splonkpad_logic",
+        "uuid": "f3a51e79-09e9-4565-8c76-ac8f0851cf98"
       }
     ],
-    "used_designators": "#PWR19,R7-9",
+    "used_designators": "R1-6,#FLAG1-3,U1-3,P1-79,J1-4,C1-11,#PWR1-35",
     "variants": []
   },
   "sheets": [
     [
-      "72fa6072-d998-4ea1-bb4c-df401cf05929",
-      "Root"
+      "f3a51e79-09e9-4565-8c76-ac8f0851cf98",
+      "Splonkpad_logic"
     ]
   ],
   "text_variables": {},
