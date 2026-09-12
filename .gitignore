@@ -42,3 +42,7 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 /bom
+*.gbr
+*.gbrjob
+*.drl
+**/bom/
