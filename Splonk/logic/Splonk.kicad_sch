@@ -1314,7 +1314,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "megaprint:Pin_header_5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1499,6 +1499,256 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "megasyms:Connector6P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -1.524 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "megaprint:Pin_header_6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector6P_0_1"
+				(rectangle
+					(start 0 7.62)
+					(end 1.27 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0.508 6.477)
+					(end 1.27 6.223)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 3.937)
+					(end 1.27 3.683)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 1.397)
+					(end 1.27 1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 -3.683)
+					(end 1.27 -3.937)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.508 -6.223)
+					(end 1.27 -6.477)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Connector6P_1_1"
+				(pin passive line
+					(at 2.54 6.35 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 3.81 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 1.27 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -1.27 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -3.81 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -6.35 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1888,6 +2138,158 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "megasyms:LED"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 3.556 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -1.27 -0.762) (xy -1.27 -0.508) (xy -1.016 -0.762) (xy -1.27 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -1.27 -1.27) (xy -1.27 -1.016) (xy -1.016 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.635 0) (xy 0.635 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at 0 1.27 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3375,6 +3777,16 @@
 		)
 		(uuid "3a76c51d-9869-4efa-a94e-6a531cdb2a61")
 	)
+	(text "ACTIVITY LED"
+		(exclude_from_sim no)
+		(at 170.688 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "578ee85a-12d6-452d-a8d1-08ff050907ed")
+	)
 	(text "BUS ENABLE"
 		(exclude_from_sim no)
 		(at 334.01 77.978 0)
@@ -3535,6 +3947,16 @@
 		)
 		(uuid "ecb0f11b-2917-4827-ab56-a24d3a95d976")
 	)
+	(text "BOOTLOADER PINS"
+		(exclude_from_sim no)
+		(at 150.876 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f57ce939-c35b-450b-9ba1-8cfc8a0f6ccd")
+	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 393.446 17.018 0)
@@ -3630,10 +4052,6 @@
 		(uuid "fc0253ce-d34b-4f44-a308-f50ee34d7ae3")
 	)
 	(no_connect
-		(at 114.3 125.73)
-		(uuid "021088b8-9017-45f4-8770-1a855694dc6e")
-	)
-	(no_connect
 		(at 356.87 83.82)
 		(uuid "0999e59b-0fb0-4045-a03f-1d725f4b5f1f")
 	)
@@ -3646,24 +4064,16 @@
 		(uuid "1eecb3d4-edd1-44de-9f9b-5ceebf99e341")
 	)
 	(no_connect
-		(at 113.03 165.1)
-		(uuid "41d5b7d3-b39c-479e-9710-f638a51b6a64")
-	)
-	(no_connect
 		(at 356.87 114.3)
 		(uuid "492ca441-7871-464a-8367-2addb916ec1d")
-	)
-	(no_connect
-		(at 113.03 162.56)
-		(uuid "604f021e-11fa-46dc-acff-930040933588")
 	)
 	(no_connect
 		(at 43.18 53.34)
 		(uuid "6a09c78f-49a0-4a35-a9f0-4e65c15354f7")
 	)
 	(no_connect
-		(at 113.03 93.98)
-		(uuid "7d48675b-d8bf-472a-b3e1-e2086ab41bf8")
+		(at 115.57 135.89)
+		(uuid "77cc9838-e51b-4a60-8214-37bf458044f3")
 	)
 	(no_connect
 		(at 445.77 83.82)
@@ -3696,6 +4106,10 @@
 	(no_connect
 		(at 43.18 50.8)
 		(uuid "fc6b4ce4-2f0e-4e90-aa5d-35addc67b1e2")
+	)
+	(no_connect
+		(at 113.03 153.67)
+		(uuid "fccc2468-64ce-43f2-8fa3-21daaddd445c")
 	)
 	(wire
 		(pts
@@ -4069,6 +4483,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 165.1) (xy 113.03 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb41fe7-9941-421f-9aa9-a65a8acd90f9")
+	)
+	(wire
+		(pts
 			(xy 396.24 85.09) (xy 396.24 91.44)
 		)
 		(stroke
@@ -4126,16 +4550,6 @@
 			(type default)
 		)
 		(uuid "38410c6f-591d-42c7-8520-0d2269425583")
-	)
-	(wire
-		(pts
-			(xy 113.03 153.67) (xy 115.57 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c4e651-d30f-4e31-ba42-d13be47ef351")
 	)
 	(wire
 		(pts
@@ -5069,6 +5483,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 162.56) (xy 115.57 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab865c1c-deac-4998-96d6-34cc868ad6c6")
+	)
+	(wire
+		(pts
 			(xy 44.45 38.1) (xy 44.45 36.83)
 		)
 		(stroke
@@ -5189,6 +5613,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb367cd-4713-4c78-9c4d-afa2e077ca64")
+	)
+	(wire
+		(pts
 			(xy 431.8 99.06) (xy 435.61 99.06)
 		)
 		(stroke
@@ -5276,6 +5710,16 @@
 			(type default)
 		)
 		(uuid "c5e9a0ab-abe4-4942-9bd8-28f8a0034aaa")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6642148-e34f-4926-9009-034780ef6981")
 	)
 	(wire
 		(pts
@@ -5687,6 +6131,16 @@
 		)
 		(uuid "01a00ba4-3af1-446c-a0da-e6a10e8dee23")
 	)
+	(label "MOSI"
+		(at 149.86 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04b8cdb6-82ea-49db-abad-d87980de4dab")
+	)
 	(label "BUS_ENABLE^{4}"
 		(at 431.8 99.06 180)
 		(effects
@@ -5867,6 +6321,16 @@
 		)
 		(uuid "3ac3d7a2-4707-47ac-b6b5-0706a032f55b")
 	)
+	(label "ACT_LED"
+		(at 167.64 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c2c3c08-377a-458a-af8d-dc54ea24f977")
+	)
 	(label "SCLK"
 		(at 114.3 120.65 0)
 		(effects
@@ -5897,16 +6361,6 @@
 		)
 		(uuid "4febbc68-c9eb-4431-81f6-7d4dca20ed0d")
 	)
-	(label "BUS_ENABLE^{1}"
-		(at 115.57 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5011f83f-d60e-4e75-8e21-db93bb8c1ffa")
-	)
 	(label "ROW^{1}"
 		(at 27.94 74.93 180)
 		(effects
@@ -5917,6 +6371,16 @@
 		)
 		(uuid "534912e8-510d-4abe-902d-5cbb6bdfd0c3")
 	)
+	(label "SCLK"
+		(at 149.86 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5946b3c1-c9f7-477b-b22c-9bb8b1dcfa1f")
+	)
 	(label "BUS_ENABLE^{3}"
 		(at 316.23 130.81 180)
 		(effects
@@ -5926,6 +6390,16 @@
 			(justify right bottom)
 		)
 		(uuid "5db5d99a-cdff-4037-9f83-59cfeb30f78a")
+	)
+	(label "MISO"
+		(at 149.86 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fada99c-267f-4f0d-96a4-e97efbee1d64")
 	)
 	(label "SCLK"
 		(at 27.94 88.9 180)
@@ -6087,6 +6561,16 @@
 		)
 		(uuid "8a697b84-3c42-4f5f-81d8-ac3796b19a7c")
 	)
+	(label "BUS_ENABLE^{4}"
+		(at 114.3 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8dc3675a-ad5c-4184-8199-f905f4a356a3")
+	)
 	(label "COL^{1}"
 		(at 115.57 151.13 0)
 		(effects
@@ -6106,6 +6590,16 @@
 			(justify right bottom)
 		)
 		(uuid "925bca3c-0fef-4a5d-9151-6f946416b8bb")
+	)
+	(label "BUS_ENABLE^{1}"
+		(at 115.57 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95b7e348-f63e-4969-a476-f8b01234e08a")
 	)
 	(label "SCL"
 		(at 334.01 49.53 180)
@@ -6127,15 +6621,15 @@
 		)
 		(uuid "9a1abdb1-50d2-40df-b71e-4c8e187f1eb9")
 	)
-	(label "BUS_ENABLE^{4}"
-		(at 115.57 135.89 0)
+	(label "MISO"
+		(at 114.3 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9c53ab33-7e5a-4e01-bd00-3cc2927ed278")
+		(uuid "9a315e60-2bf5-4856-b46d-280da9793b2e")
 	)
 	(label "BUS_ENABLE^{4}"
 		(at 463.55 102.87 180)
@@ -6277,6 +6771,16 @@
 		)
 		(uuid "da0a1bdf-3b83-4332-8568-5fa4521465dc")
 	)
+	(label "ACT_LED"
+		(at 115.57 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db9c576b-6bbb-44ed-a3c1-2762d9086f0a")
+	)
 	(label "D-"
 		(at 58.42 36.83 0)
 		(effects
@@ -6296,6 +6800,16 @@
 			(justify left bottom)
 		)
 		(uuid "e3ab6c17-baea-4796-971b-65628585bcd4")
+	)
+	(label "~{RST}"
+		(at 149.86 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8b0cd5f-572e-4153-b568-40ab991e4dbc")
 	)
 	(label "SCL"
 		(at 422.91 49.53 180)
@@ -6401,7 +6915,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 66.04 13.97) (xy 139.7 13.97) (xy 139.7 38.1) (xy 66.04 38.1)
+				(xy 66.04 13.97) (xy 179.07 13.97) (xy 179.07 38.1) (xy 66.04 38.1)
 			)
 			(stroke
 				(width 0)
@@ -6430,6 +6944,25 @@
 				(type none)
 			)
 			(uuid "2cdacdc1-e2fa-41ae-a501-a9972969225b")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 140.97 39.37) (xy 140.97 67.31) (xy 161.29 67.31) (xy 161.29 39.37)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "3df4f08e-c12c-4860-a309-6f3f2d0ce8cd")
 		)
 	)
 	(rule_area
@@ -6563,6 +7096,25 @@
 				(type none)
 			)
 			(uuid "87bd0af7-aab9-4cd5-bdc1-21241ebdabe0")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 162.56 39.37) (xy 162.56 67.31) (xy 179.07 67.31) (xy 179.07 39.37)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "8ca8e644-188a-4105-951e-6e330c63ab95")
 		)
 	)
 	(rule_area
@@ -8253,7 +8805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "megaprint:MaixCon-5P"
+		(property "Footprint" "megaprint:Pin_header_5"
 			(at 381 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8868,7 +9420,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Alignment_Hole")
-		(at 149.86 54.61 0)
+		(at 186.69 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8879,7 +9431,7 @@
 		(fields_autoplaced yes)
 		(uuid "363daff9-e5c1-41bb-9a3b-6c3ceb87da7c")
 		(property "Reference" "AH1"
-			(at 152.4 54.6099 0)
+			(at 189.23 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8890,7 +9442,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 149.86 54.61 0)
+			(at 186.69 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8900,7 +9452,7 @@
 			)
 		)
 		(property "Footprint" "megaprint:Alignment_Hole"
-			(at 149.86 54.61 0)
+			(at 186.69 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,7 +9463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 54.61 0)
+			(at 186.69 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +9474,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 54.61 0)
+			(at 186.69 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +9495,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Alignment_Hole")
-		(at 149.86 58.42 0)
+		(at 186.69 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8954,7 +9506,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b1a1eb7-7c02-440d-a0b2-4eff03fb1e1d")
 		(property "Reference" "AH2"
-			(at 152.4 58.4199 0)
+			(at 189.23 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8965,7 +9517,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 149.86 58.42 0)
+			(at 186.69 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8975,7 +9527,7 @@
 			)
 		)
 		(property "Footprint" "megaprint:Alignment_Hole"
-			(at 149.86 58.42 0)
+			(at 186.69 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8986,7 +9538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 58.42 0)
+			(at 186.69 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8997,7 +9549,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 58.42 0)
+			(at 186.69 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,7 +9601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "megaprint:MaixCon-5P"
+		(property "Footprint" "megaprint:Pin_header_5"
 			(at 469.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9502,6 +10054,88 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:Resistor")
+		(at 167.64 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46f1aedd-857f-4c1c-886a-907d110e040e")
+		(property "Reference" "R9"
+			(at 170.18 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 170.18 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "megaprint:Resistor_0603"
+			(at 167.64 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c33f17d-f202-4a54-9b58-b1862fb8d8ef")
+		)
+		(pin "1"
+			(uuid "beccc75e-9824-4570-a2d6-96714f863e2b")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11884,7 +12518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "megaprint:MaixCon-5P"
+		(property "Footprint" "megaprint:Pin_header_5"
 			(at 469.9 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11936,6 +12570,164 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:LED")
+		(at 167.64 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9209ed9c-927d-4d51-8255-f57e62038059")
+		(property "Reference" "LED1"
+			(at 168.91 50.1649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 167.64 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "megaprint:Diode_0603"
+			(at 167.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4eecc73-8e94-4de2-8d35-7db8cae99bc3")
+		)
+		(pin "1"
+			(uuid "21945d15-65ce-4dbe-b5e4-a863b82866ba")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:VCC")
+		(at 151.13 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92ec12ea-6304-47da-bc0f-3788dc10ca60")
+		(property "Reference" "#PWR033"
+			(at 147.32 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 154.94 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 151.13 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43bc9f17-f1cf-46e4-acf7-a27d460e12c9")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12332,6 +13124,84 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:GND")
+		(at 167.64 63.5 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "946fcde0-5e26-47e9-9afd-df59441c6205")
+		(property "Reference" "#PWR076"
+			(at 167.64 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2adef0c7-5128-41da-88a7-04556567136e")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -13007,7 +13877,7 @@
 	)
 	(symbol
 		(lib_id "megasyms:Alignment_Hole")
-		(at 149.86 62.23 0)
+		(at 186.69 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13018,7 +13888,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d0c566c-409f-4771-a59c-a7056429d973")
 		(property "Reference" "AH3"
-			(at 152.4 62.2299 0)
+			(at 189.23 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13029,7 +13899,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 149.86 62.23 0)
+			(at 186.69 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13039,7 +13909,7 @@
 			)
 		)
 		(property "Footprint" "megaprint:Alignment_Hole"
-			(at 149.86 62.23 0)
+			(at 186.69 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13050,7 +13920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 62.23 0)
+			(at 186.69 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13061,7 +13931,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 62.23 0)
+			(at 186.69 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14761,6 +15631,98 @@
 		)
 	)
 	(symbol
+		(lib_id "megasyms:Connector6P")
+		(at 147.32 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfbfa0e9-a02d-43d7-8106-d44fb38cdeda")
+		(property "Reference" "J8"
+			(at 147.955 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 147.32 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "megaprint:Pin_header_6"
+			(at 147.32 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "a8f98f7c-561a-459d-9ccd-76eea8e6efb7")
+		)
+		(pin "1"
+			(uuid "0650d90e-9c22-4c34-a0be-d8bc4626b427")
+		)
+		(pin "4"
+			(uuid "a0e8bed3-3280-4565-9513-6faa848beb8b")
+		)
+		(pin "5"
+			(uuid "7655a7d9-b225-4c54-9748-04e1c468a73f")
+		)
+		(pin "3"
+			(uuid "7f0ed28b-e2ed-45d8-8a93-d23d819564e7")
+		)
+		(pin "2"
+			(uuid "c59c2851-9407-432a-a8ea-87a6a68b16a4")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "megasyms:GND")
 		(at 44.45 92.71 270)
 		(mirror x)
@@ -15504,6 +16466,83 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:GND")
+		(at 151.13 63.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df065dd6-569d-44e4-987c-ef4b7280913d")
+		(property "Reference" "#PWR027"
+			(at 144.78 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.178 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28cf8ec4-87e6-41ed-9b2e-c98504fc8cac")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16413,7 +17452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "megaprint:MaixCon-5P"
+		(property "Footprint" "megaprint:Pin_header_5"
 			(at 381 39.37 0)
 			(hide yes)
 			(show_name no)
