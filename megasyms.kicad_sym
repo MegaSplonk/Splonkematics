@@ -7307,9 +7307,9 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -8.89 180)
+				(at 15.24 -11.43 180)
 				(length 2.54)
-				(name "PB3/D14"
+				(name "MOSI/PB2/D16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7325,16 +7325,16 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -11.43 180)
+				(at 15.24 -8.89 180)
 				(length 2.54)
-				(name "PB2/D16"
+				(name "MISO/PB3/D14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7345,14 +7345,14 @@
 			(pin passive line
 				(at 15.24 -6.35 180)
 				(length 2.54)
-				(name "PB1/D15"
+				(name "SCLK/PB1/D15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7370,7 +7370,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7388,7 +7388,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7406,7 +7406,7 @@
 						)
 					)
 				)
-				(number "18"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7424,7 +7424,7 @@
 						)
 					)
 				)
-				(number "19"
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7442,7 +7442,7 @@
 						)
 					)
 				)
-				(number "20"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7460,7 +7460,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7478,7 +7478,7 @@
 						)
 					)
 				)
-				(number "22"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7496,7 +7496,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
