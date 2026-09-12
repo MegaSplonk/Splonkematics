@@ -3877,6 +3877,16 @@
 		)
 		(uuid "7f461acb-bbd2-48e7-bcea-f18678448bde")
 	)
+	(text "POWER LED"
+		(exclude_from_sim no)
+		(at 188.468 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d928bef-7e55-49a6-84c7-129a1a3336ff")
+	)
 	(text "BUS ENABLE"
 		(exclude_from_sim no)
 		(at 334.01 17.018 0)
@@ -4490,6 +4500,16 @@
 			(type default)
 		)
 		(uuid "2fb41fe7-9941-421f-9aa9-a65a8acd90f9")
+	)
+	(wire
+		(pts
+			(xy 185.42 46.99) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307aad3e-48d8-4386-bf7c-425ba1581f35")
 	)
 	(wire
 		(pts
@@ -6131,16 +6151,6 @@
 		)
 		(uuid "01a00ba4-3af1-446c-a0da-e6a10e8dee23")
 	)
-	(label "MOSI"
-		(at 149.86 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04b8cdb6-82ea-49db-abad-d87980de4dab")
-	)
 	(label "BUS_ENABLE^{4}"
 		(at 431.8 99.06 180)
 		(effects
@@ -6391,7 +6401,7 @@
 		)
 		(uuid "5db5d99a-cdff-4037-9f83-59cfeb30f78a")
 	)
-	(label "MISO"
+	(label "MOSI"
 		(at 149.86 58.42 0)
 		(effects
 			(font
@@ -6399,7 +6409,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5fada99c-267f-4f0d-96a4-e97efbee1d64")
+		(uuid "61715fc4-5551-48b3-8555-017ba77786b2")
 	)
 	(label "SCLK"
 		(at 27.94 88.9 180)
@@ -6831,6 +6841,16 @@
 		)
 		(uuid "efa8ad0e-7c7d-4beb-bd83-41f942fc998d")
 	)
+	(label "MISO"
+		(at 149.86 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f16dd1b8-6033-4306-832b-11e746a57ef0")
+	)
 	(label "UCAP"
 		(at 69.85 111.76 180)
 		(effects
@@ -7020,6 +7040,25 @@
 				(type none)
 			)
 			(uuid "4b9f40b4-7b5d-4b17-bb39-a89610dd1187")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 180.34 39.37) (xy 180.34 67.31) (xy 196.85 67.31) (xy 196.85 39.37)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "54eed13d-95ff-40b0-807c-df2162578037")
 		)
 	)
 	(rule_area
@@ -7637,6 +7676,87 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:LED")
+		(at 185.42 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06540de3-7c55-408d-8c56-fcbe2cca25ed")
+		(property "Reference" "LED2"
+			(at 186.69 50.1649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 185.42 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "megaprint:Diode_0603"
+			(at 185.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f96e8ef-baa6-4f0a-b705-9d6dbff5a860")
+		)
+		(pin "1"
+			(uuid "f09b3272-7a95-4e01-9230-42060c02495b")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -8523,6 +8643,83 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:VCC")
+		(at 185.42 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1bae597d-2b7e-459a-b29f-e2c8f9bc8367")
+		(property "Reference" "#PWR034"
+			(at 185.42 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 189.23 43.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57eceaeb-92a4-4f98-99c2-31822b52d5a2")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10010,7 +10207,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "megaprint:Diode_0603"
+		(property "Footprint" "megaprint:Fuse_1206"
 			(at 110.49 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10330,6 +10527,84 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:GND")
+		(at 185.42 63.5 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4bf88fc1-645f-442e-9d51-997fb984806d")
+		(property "Reference" "#PWR077"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bac33804-5b30-4951-81d1-bddfa1336c53")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -11254,6 +11529,88 @@
 			(project "Splonk"
 				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "megasyms:Resistor")
+		(at 185.42 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65887635-9075-4c79-9865-701ba99e3cd7")
+		(property "Reference" "R10"
+			(at 187.96 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 187.96 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "megaprint:Resistor_0603"
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d6380d9d-5185-420f-847a-9be86ef6cf15")
+		)
+		(pin "1"
+			(uuid "d4108ded-10ed-4c77-a01d-042e4408bde0")
+		)
+		(instances
+			(project "Splonk"
+				(path "/b1ff0c53-e6d8-4278-99c3-e41985af7a25"
+					(reference "R10")
 					(unit 1)
 				)
 			)
