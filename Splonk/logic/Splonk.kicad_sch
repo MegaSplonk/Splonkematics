@@ -189,7 +189,7 @@
 				(pin bidirectional line
 					(at -21.59 25.4 0)
 					(length 2.54)
-					(name "D^{+}"
+					(name "D^{-}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -207,7 +207,7 @@
 				(pin bidirectional line
 					(at -21.59 22.86 0)
 					(length 2.54)
-					(name "D^{-}"
+					(name "D^{+}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6286,6 +6286,16 @@
 		)
 		(uuid "01a00ba4-3af1-446c-a0da-e6a10e8dee23")
 	)
+	(label "D+"
+		(at 68.58 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "067d95d3-0b25-472f-8750-193fb94c8023")
+	)
 	(label "BUS_ENABLE^{4}"
 		(at 431.8 99.06 180)
 		(effects
@@ -6406,7 +6416,7 @@
 		)
 		(uuid "2fb2a412-ab9e-4b44-aa85-6a473de9b7c6")
 	)
-	(label "D+"
+	(label "D-"
 		(at 68.58 104.14 180)
 		(effects
 			(font
@@ -6414,7 +6424,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "31b358fb-662f-44e6-ae93-4434f62c2671")
+		(uuid "3013a5e9-4ac7-4095-9172-19332735138a")
 	)
 	(label "COL^{3}"
 		(at 115.57 158.75 0)
@@ -6685,16 +6695,6 @@
 			(justify right bottom)
 		)
 		(uuid "84b713e4-bc6d-4134-ae08-f80fb13f0882")
-	)
-	(label "D-"
-		(at 68.58 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86d125ed-90f7-4a31-a783-f05563079ebd")
 	)
 	(label "MOSI"
 		(at 27.94 86.36 180)
