@@ -637,7 +637,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "megaprint:Pin_header_5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2058,7 +2058,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05cdde18-c692-4a08-a5eb-9d46f36ce239")
@@ -2495,7 +2495,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ed5b6ca-c362-4663-a6e9-8bbc56568ed0")
@@ -3108,7 +3108,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d4d3597-f158-486b-9600-34b33a6a34c7")
@@ -3434,7 +3434,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "914f47c2-f120-44ce-abea-d5bc720df316")
@@ -3544,7 +3544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "megaprint:MaixCon-5P"
+		(property "Footprint" "megaprint:Pin_header_5"
 			(at 40.64 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3638,7 +3638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "megaprint:MaixCon-2P"
+		(property "Footprint" "megaprint:Pin_header_2"
 			(at 73.66 62.23 0)
 			(hide yes)
 			(show_name no)

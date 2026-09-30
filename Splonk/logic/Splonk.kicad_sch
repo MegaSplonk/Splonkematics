@@ -11165,7 +11165,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "22"
 			(at 55.88 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12433,7 +12433,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "22"
 			(at 55.88 34.798 90)
 			(show_name no)
 			(do_not_autoplace no)
