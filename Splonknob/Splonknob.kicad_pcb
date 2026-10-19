@@ -192,12 +192,6 @@
 		(path "/5b776631-e7cf-442d-a0a7-530bee732beb")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -274,7 +268,7 @@
 			(uuid "e1069df3-05fe-4d2b-8673-8c5117e6efd8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -352,12 +346,6 @@
 		(path "/6d22180b-aaa3-46ce-b902-ebd0e891a245")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -432,7 +420,7 @@
 			(uuid "135d345f-867f-4f68-90b4-41e9813a12d4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -509,12 +497,6 @@
 		(path "/489239d1-e249-4ae1-8e1d-61f211b86246")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -591,7 +573,7 @@
 			(uuid "9839f5d2-7dde-44de-85a5-4c53af819e8f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -669,12 +651,6 @@
 		(path "/03db81ca-5c3e-419d-b331-4ee2b2a707b6")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -749,7 +725,7 @@
 			(uuid "c8d4b6fd-8f20-420d-b0d3-ea3886e7a9b9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -826,12 +802,6 @@
 		(path "/4c4356c4-0283-4e53-bd32-51a0df84d523")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -908,7 +878,7 @@
 			(uuid "f0c15a4e-b146-485f-a5bc-c2d75519da03")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -985,12 +955,6 @@
 		(path "/ebe85748-85fc-4bcd-84d5-f3491ef07fa8")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1067,7 +1031,7 @@
 			(uuid "a7fe65ee-86b8-470b-8266-79b75aaa31b3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1136,12 +1100,6 @@
 		(path "/bc7a9c7a-92f2-4a2d-9db1-8c0ba98d9aee")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start 0 -1)
@@ -1277,12 +1235,6 @@
 		(path "/1e77388d-4acb-4b36-83bc-678996dbd4ec")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1359,7 +1311,7 @@
 			(uuid "7d8af1c3-e203-4a0b-b9f4-3ae0e19099f1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1436,12 +1388,6 @@
 		(path "/72310c3a-449d-406b-b338-18e31a151970")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1518,7 +1464,7 @@
 			(uuid "e6af14ec-c6c4-4588-8a6e-e3a4fc69e943")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1596,12 +1542,6 @@
 		(path "/7c22041c-c382-4d61-a5b2-81ad47bfabf5")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1678,7 +1618,7 @@
 			(uuid "96f22997-44de-4926-b70c-153a8e0778ec")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1756,12 +1696,6 @@
 		(path "/1cb84799-3e12-4511-87ee-b8c0fa2e8df9")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1836,7 +1770,7 @@
 			(uuid "cc13e897-a2bf-4d2f-a478-c45652e32cb5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1905,12 +1839,6 @@
 		(path "/92615ddc-2f8d-4880-9e98-e015535345a5")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -5 -1)
@@ -2065,12 +1993,6 @@
 		(path "/e08294d0-a479-4325-8c32-14bc60941ee3")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "10" "9" "8" "7" "6" "1" "14" "11" "12" "13" "2" "3" "4" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2363,12 +2285,6 @@
 		(path "/dcc073ba-ff85-488e-a29c-2ef1a582950c")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2512,12 +2428,6 @@
 		(path "/9575e474-38aa-4942-89df-d59acebb5cde")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2594,7 +2504,7 @@
 			(uuid "cc5c74fe-f463-4056-b934-5f84bf0a4d4e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2671,12 +2581,6 @@
 		(path "/a2b98df0-e273-435f-a4ad-6996ff9d28a6")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2753,7 +2657,7 @@
 			(uuid "2a8730d7-1ec6-4add-823c-8e07a7251ed2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2830,12 +2734,6 @@
 		(path "/badbad98-8ee9-4e68-9d17-85c8b2ef3362")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2912,7 +2810,7 @@
 			(uuid "6e26e13a-cc11-48ba-8ada-8fcd56a6cd76")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2990,12 +2888,6 @@
 		(path "/299b52c3-fa42-47e0-a2db-5482a7b35d7f")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3070,7 +2962,7 @@
 			(uuid "75b7efa6-5683-4019-9fd8-9521ff2e4aed")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3148,12 +3040,6 @@
 		(path "/b0c26955-22ef-4557-bff9-143fa803d578")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3228,7 +3114,7 @@
 			(uuid "dd857279-b434-4efd-b77b-a2321b1658e0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3305,12 +3191,6 @@
 		(path "/fc1a0249-1aca-4674-b083-65c9d5bb2775")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3387,7 +3267,7 @@
 			(uuid "31d43051-0a57-469e-83bc-10b375d7f9f6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3464,12 +3344,6 @@
 		(path "/38edc68c-2ddf-4457-b3c9-b93e36cc8c23")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3546,7 +3420,7 @@
 			(uuid "1cb01e30-6b8e-4e47-a89c-3e1ba506087a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3623,12 +3497,6 @@
 		(path "/a1be5b8a-8642-4c21-8048-e6e85b7c8ef4")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3705,7 +3573,7 @@
 			(uuid "b58a6919-be30-4fa7-bec4-8ac7461b0d7b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3782,12 +3650,6 @@
 		(path "/97e13120-0b54-43e6-be3d-4a4dc0a1e4d9")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3864,7 +3726,7 @@
 			(uuid "af8b6c6b-d655-4380-bae0-ae631f855a5f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3927,36 +3789,6 @@
 		(path "/17a98be5-d4fe-4e34-bebf-15d5025c091a")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-			(unit
-				(name "B")
-				(pins "3" "4")
-			)
-			(unit
-				(name "C")
-				(pins "5" "6")
-			)
-			(unit
-				(name "D")
-				(pins "9" "8")
-			)
-			(unit
-				(name "E")
-				(pins "11" "10")
-			)
-			(unit
-				(name "F")
-				(pins "13" "12")
-			)
-			(unit
-				(name "G")
-				(pins "14" "7")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4246,12 +4078,6 @@
 		(path "/dfff2299-49c3-4ea6-acf9-755bce4c3eee")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4326,7 +4152,7 @@
 			(uuid "a4b8a37a-dd0b-43c9-97b7-9fb4de6055aa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.stpZ"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4399,12 +4225,6 @@
 		(path "/5abf68f8-99a1-43a6-9588-1812f865b518")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "3" "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4687,12 +4507,6 @@
 		(path "/914f47c2-f120-44ce-abea-d5bc720df316")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "+" "-")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.4 -3.4)
@@ -5129,12 +4943,6 @@
 		(path "/82bdee8d-2e39-4ae2-8aea-fc7f361ebef1")
 		(sheetname "/")
 		(sheetfile "Splonknob.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "3" "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5861,214 +5669,6 @@
 		(uuid "890f651a-1055-43ca-b0e6-5fa8d5512d6e")
 	)
 	(segment
-		(start 124.525 69.03)
-		(end 124.525 61.221393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/A1")
-		(uuid "26b7c7cf-779e-470b-bf08-ad02022772b0")
-	)
-	(segment
-		(start 125.62 60.126393)
-		(end 125.975 60.126393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/A1")
-		(uuid "a5752aaa-c392-4451-aed4-6384dd42a359")
-	)
-	(segment
-		(start 124.525 61.221393)
-		(end 125.62 60.126393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/A1")
-		(uuid "a99ac9fb-3bde-4863-ba52-0c3cf34757a3")
-	)
-	(segment
-		(start 125.725 70.23)
-		(end 124.525 69.03)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/A1")
-		(uuid "c5c16f8e-128a-4f3f-be7d-646f0acf0be1")
-	)
-	(segment
-		(start 126.2 70.23)
-		(end 125.725 70.23)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/A1")
-		(uuid "d259f3ed-edce-4a96-bf73-3417b1bf1c94")
-	)
-	(segment
-		(start 140 64.2125)
-		(end 140 63.5625)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C5-Pad1)")
-		(uuid "0c709e60-590f-48e4-b388-046efbc159d8")
-	)
-	(segment
-		(start 140 63.5625)
-		(end 141.25 62.3125)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C5-Pad1)")
-		(uuid "1044d3a9-5517-4ab7-8227-4367467a55a0")
-	)
-	(segment
-		(start 140.4375 61.5)
-		(end 129.093607 61.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C5-Pad1)")
-		(uuid "15760216-68a1-4000-a21f-913bbf7635cd")
-	)
-	(segment
-		(start 126.45 58.856393)
-		(end 125.975 58.856393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C5-Pad1)")
-		(uuid "69f53e9e-6394-4854-9395-70d1c5d050f4")
-	)
-	(segment
-		(start 129.093607 61.5)
-		(end 126.45 58.856393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C5-Pad1)")
-		(uuid "ce4acdad-a5fe-41a2-af7a-8e97c6a93785")
-	)
-	(segment
-		(start 141.25 62.3125)
-		(end 140.4375 61.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C5-Pad1)")
-		(uuid "dd58826f-12a0-4127-9159-9cf0b6faa270")
-	)
-	(segment
-		(start 125.975 57.586393)
-		(end 125.5 57.586393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B1")
-		(uuid "18fc70a6-5c35-4eb2-8f73-c6a95427705e")
-	)
-	(segment
-		(start 125.845 71.5)
-		(end 126.2 71.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B1")
-		(uuid "3ea930e4-6447-4598-8b09-16d835b7b4fc")
-	)
-	(segment
-		(start 125.5 57.586393)
-		(end 124.125 58.961393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B1")
-		(uuid "8edc4bdf-303d-4601-b23a-a4703ef0cede")
-	)
-	(segment
-		(start 124.125 69.78)
-		(end 125.845 71.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B1")
-		(uuid "d87eee28-8f07-4279-8f5c-46ee17a8e315")
-	)
-	(segment
-		(start 124.125 58.961393)
-		(end 124.125 69.78)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B1")
-		(uuid "e2cdc49c-1506-4053-87e1-0d4b8a78f8ff")
-	)
-	(segment
-		(start 124.925 68.16)
-		(end 124.925 63.241393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S1")
-		(uuid "00506342-a333-47d7-9939-93d6ae5c7d8c")
-	)
-	(segment
-		(start 124.925 63.241393)
-		(end 125.5 62.666393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S1")
-		(uuid "a4e5f295-6520-4f83-9c9a-6aab2ca0d812")
-	)
-	(segment
-		(start 125.5 62.666393)
-		(end 125.975 62.666393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S1")
-		(uuid "ce1be506-8fb4-4253-8976-73e6355f9fec")
-	)
-	(segment
-		(start 126.2 68.96)
-		(end 125.725 68.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S1")
-		(uuid "d8816006-d960-45fa-aed5-28cd688a90cb")
-	)
-	(segment
-		(start 125.725 68.96)
-		(end 124.925 68.16)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S1")
-		(uuid "f2e4f89d-7b20-420d-ae4a-c1aa48c83527")
-	)
-	(segment
-		(start 121.205 56.23)
-		(end 123.4 58.425)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B2")
-		(uuid "22df0b48-c115-4d71-8dc8-9dad32930b61")
-	)
-	(segment
-		(start 121.275 71.5)
-		(end 120.8 71.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B2")
-		(uuid "36e09077-d863-402b-815f-d06250dfefa5")
-	)
-	(segment
-		(start 120.85 56.23)
-		(end 121.205 56.23)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B2")
-		(uuid "7582f0c0-951d-4906-8e40-27c900c3dfe7")
-	)
-	(segment
-		(start 123.4 58.425)
-		(end 123.4 69.375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B2")
-		(uuid "85dc446a-a2fc-4b0e-bc08-483c1b3c1a30")
-	)
-	(segment
-		(start 123.4 69.375)
-		(end 121.275 71.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/B2")
-		(uuid "fb3cca09-06ef-4a98-b2d8-4461225e03c2")
-	)
-	(segment
 		(start 112 63.55)
 		(end 113.25 62.3)
 		(width 0.2)
@@ -6109,172 +5709,36 @@
 		(uuid "c33f3804-7867-4058-be39-6b3b301eeaee")
 	)
 	(segment
-		(start 123 60.445)
-		(end 123 68.46)
+		(start 108.925 70.8)
+		(end 107 72.725)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/A2")
-		(uuid "4252ec62-718c-4130-b0c2-561ad878005b")
+		(net "Net-(SW2-Switch^{1})")
+		(uuid "59ded9f5-eeda-4458-b064-69211c6f307c")
 	)
 	(segment
-		(start 120.85 58.77)
-		(end 121.325 58.77)
+		(start 107 72.725)
+		(end 106.075 71.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/A2")
-		(uuid "63032185-1c31-4df9-92b0-6ac73cb08482")
+		(net "Net-(SW2-Switch^{1})")
+		(uuid "60fe499c-96e0-4a76-b645-3ba491dbbc4f")
 	)
 	(segment
-		(start 123 68.46)
-		(end 121.23 70.23)
+		(start 109.5 70.8)
+		(end 108.925 70.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/A2")
-		(uuid "721ba014-75e5-461d-b595-f3186386fd33")
+		(net "Net-(SW2-Switch^{1})")
+		(uuid "bb3d64fe-5c46-4d3c-bd94-3ba13c95ce78")
 	)
 	(segment
-		(start 121.23 70.23)
-		(end 120.8 70.23)
+		(start 106.075 71.8)
+		(end 104.75 71.8)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/A2")
-		(uuid "f3b46fa5-0784-43eb-8e47-27ef7c8ba63e")
-	)
-	(segment
-		(start 121.325 58.77)
-		(end 123 60.445)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/A2")
-		(uuid "f62c495a-f54b-4428-b136-030a0d9796f0")
-	)
-	(segment
-		(start 117.876393 60.126393)
-		(end 120.575 60.126393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "379989c8-4f29-45ad-8cf0-bc562a3fe886")
-	)
-	(segment
-		(start 107 63.55)
-		(end 105.75 62.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "380d15ad-7461-4048-8937-30c898bacf76")
-	)
-	(segment
-		(start 116.549265 58.950735)
-		(end 114 61.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "569ce3dc-c18f-42b4-a0fc-b04500dd6a11")
-	)
-	(segment
-		(start 117.549265 59.799265)
-		(end 117.876393 60.126393)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "569e76e7-905c-4151-a6d7-4a9e9899be1a")
-	)
-	(segment
-		(start 116.700735 58.950735)
-		(end 116.549265 58.950735)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "ac48fac7-8574-40f4-b3d4-e7c13ec6d938")
-	)
-	(segment
-		(start 106.55 61.5)
-		(end 105.75 62.3)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "e0077f20-3369-4737-a9ff-ba610738696c")
-	)
-	(segment
-		(start 107 64.2)
-		(end 107 63.55)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "e5a563cc-4fa7-418e-a880-71cc330bd4b8")
-	)
-	(segment
-		(start 114 61.5)
-		(end 106.55 61.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "f2498db5-7699-4f7b-8dac-0da50a557ecb")
-	)
-	(via
-		(at 116.700735 58.950735)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "6a2d36bc-96cd-4846-b0b4-cf453db332cd")
-	)
-	(via
-		(at 117.549265 59.799265)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "e4d28cd6-93ec-4e36-befc-a9b2c2bb0c98")
-	)
-	(segment
-		(start 116.700735 58.950735)
-		(end 117.549265 59.799265)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(C8-Pad1)")
-		(uuid "4b3a8555-2bf4-44a8-a4b7-4d497677abfa")
-	)
-	(segment
-		(start 122.6 67.9)
-		(end 121.54 68.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S2")
-		(uuid "17f10442-fab7-4113-ad7d-e5a436f13eed")
-	)
-	(segment
-		(start 121.205 61.31)
-		(end 122.6 62.705)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S2")
-		(uuid "2915251a-b990-452e-8a0c-4abae23fdde7")
-	)
-	(segment
-		(start 120.85 61.31)
-		(end 121.205 61.31)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S2")
-		(uuid "368fec42-3545-402a-b3b4-fdbc81a997e3")
-	)
-	(segment
-		(start 122.6 62.705)
-		(end 122.6 67.9)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S2")
-		(uuid "5245cbab-e047-433e-bbce-0809eb389feb")
-	)
-	(segment
-		(start 121.54 68.96)
-		(end 120.8 68.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/S2")
-		(uuid "7cc1b2df-89b6-47d5-baa2-d0e7b41dbc0d")
+		(net "Net-(SW2-Switch^{1})")
+		(uuid "f6697613-3433-405e-a6bd-369f97155c44")
 	)
 	(segment
 		(start 106.5 69.275)
@@ -6373,38 +5837,6 @@
 		(uuid "bbb3de5e-8125-4590-917a-adfbd92764ed")
 	)
 	(segment
-		(start 108.925 70.8)
-		(end 107 72.725)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(SW2-Switch^{1})")
-		(uuid "59ded9f5-eeda-4458-b064-69211c6f307c")
-	)
-	(segment
-		(start 107 72.725)
-		(end 106.075 71.8)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(SW2-Switch^{1})")
-		(uuid "60fe499c-96e0-4a76-b645-3ba491dbbc4f")
-	)
-	(segment
-		(start 109.5 70.8)
-		(end 108.925 70.8)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(SW2-Switch^{1})")
-		(uuid "bb3d64fe-5c46-4d3c-bd94-3ba13c95ce78")
-	)
-	(segment
-		(start 106.075 71.8)
-		(end 104.75 71.8)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(SW2-Switch^{1})")
-		(uuid "f6697613-3433-405e-a6bd-369f97155c44")
-	)
-	(segment
 		(start 138.75 60.6625)
 		(end 138.75 59.4875)
 		(width 0.2)
@@ -6469,6 +5901,38 @@
 		(uuid "cfa33f53-bea3-4c95-975c-d500fc52fd20")
 	)
 	(segment
+		(start 137.5 70.8125)
+		(end 141.25 70.8125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(SW1-Switch^{2})")
+		(uuid "81c57713-20e3-41ff-903d-929c28159529")
+	)
+	(segment
+		(start 140.925 71.8125)
+		(end 142.25 71.8125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(SW1-Switch^{2})")
+		(uuid "b49a04b4-43ce-45f2-b179-883871a72f6f")
+	)
+	(segment
+		(start 140 72.7375)
+		(end 140.925 71.8125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(SW1-Switch^{2})")
+		(uuid "bf35b0f5-0bc3-4589-b61c-0dce00e39f8e")
+	)
+	(segment
+		(start 141.25 70.8125)
+		(end 142.25 71.8125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(SW1-Switch^{2})")
+		(uuid "e079784f-d388-4239-b810-2b348527519c")
+	)
+	(segment
 		(start 105.75 60.65)
 		(end 105.75 59.475)
 		(width 0.2)
@@ -6499,6 +5963,94 @@
 		(layer "F.Cu")
 		(net "Net-(R8-Pad1)")
 		(uuid "b1a6dcb7-fef4-4905-90a7-400bd747c49e")
+	)
+	(segment
+		(start 117.876393 60.126393)
+		(end 120.575 60.126393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "379989c8-4f29-45ad-8cf0-bc562a3fe886")
+	)
+	(segment
+		(start 107 63.55)
+		(end 105.75 62.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "380d15ad-7461-4048-8937-30c898bacf76")
+	)
+	(segment
+		(start 116.549265 58.950735)
+		(end 114 61.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "569ce3dc-c18f-42b4-a0fc-b04500dd6a11")
+	)
+	(segment
+		(start 117.549265 59.799265)
+		(end 117.876393 60.126393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "569e76e7-905c-4151-a6d7-4a9e9899be1a")
+	)
+	(segment
+		(start 116.700735 58.950735)
+		(end 116.549265 58.950735)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "ac48fac7-8574-40f4-b3d4-e7c13ec6d938")
+	)
+	(segment
+		(start 106.55 61.5)
+		(end 105.75 62.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "e0077f20-3369-4737-a9ff-ba610738696c")
+	)
+	(segment
+		(start 107 64.2)
+		(end 107 63.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "e5a563cc-4fa7-418e-a880-71cc330bd4b8")
+	)
+	(segment
+		(start 114 61.5)
+		(end 106.55 61.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "f2498db5-7699-4f7b-8dac-0da50a557ecb")
+	)
+	(via
+		(at 116.700735 58.950735)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "6a2d36bc-96cd-4846-b0b4-cf453db332cd")
+	)
+	(via
+		(at 117.549265 59.799265)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "e4d28cd6-93ec-4e36-befc-a9b2c2bb0c98")
+	)
+	(segment
+		(start 116.700735 58.950735)
+		(end 117.549265 59.799265)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(C8-Pad1)")
+		(uuid "4b3a8555-2bf4-44a8-a4b7-4d497677abfa")
 	)
 	(segment
 		(start 129 73.25)
@@ -6573,6 +6125,246 @@
 		(uuid "da60e0e2-a100-4c3f-875c-dcb6ee9c5fe4")
 	)
 	(segment
+		(start 122.6 67.9)
+		(end 121.54 68.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S2")
+		(uuid "17f10442-fab7-4113-ad7d-e5a436f13eed")
+	)
+	(segment
+		(start 121.205 61.31)
+		(end 122.6 62.705)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S2")
+		(uuid "2915251a-b990-452e-8a0c-4abae23fdde7")
+	)
+	(segment
+		(start 120.85 61.31)
+		(end 121.205 61.31)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S2")
+		(uuid "368fec42-3545-402a-b3b4-fdbc81a997e3")
+	)
+	(segment
+		(start 122.6 62.705)
+		(end 122.6 67.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S2")
+		(uuid "5245cbab-e047-433e-bbce-0809eb389feb")
+	)
+	(segment
+		(start 121.54 68.96)
+		(end 120.8 68.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S2")
+		(uuid "7cc1b2df-89b6-47d5-baa2-d0e7b41dbc0d")
+	)
+	(segment
+		(start 123 60.445)
+		(end 123 68.46)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A2")
+		(uuid "4252ec62-718c-4130-b0c2-561ad878005b")
+	)
+	(segment
+		(start 120.85 58.77)
+		(end 121.325 58.77)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A2")
+		(uuid "63032185-1c31-4df9-92b0-6ac73cb08482")
+	)
+	(segment
+		(start 123 68.46)
+		(end 121.23 70.23)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A2")
+		(uuid "721ba014-75e5-461d-b595-f3186386fd33")
+	)
+	(segment
+		(start 121.23 70.23)
+		(end 120.8 70.23)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A2")
+		(uuid "f3b46fa5-0784-43eb-8e47-27ef7c8ba63e")
+	)
+	(segment
+		(start 121.325 58.77)
+		(end 123 60.445)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A2")
+		(uuid "f62c495a-f54b-4428-b136-030a0d9796f0")
+	)
+	(segment
+		(start 121.205 56.23)
+		(end 123.4 58.425)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B2")
+		(uuid "22df0b48-c115-4d71-8dc8-9dad32930b61")
+	)
+	(segment
+		(start 121.275 71.5)
+		(end 120.8 71.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B2")
+		(uuid "36e09077-d863-402b-815f-d06250dfefa5")
+	)
+	(segment
+		(start 120.85 56.23)
+		(end 121.205 56.23)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B2")
+		(uuid "7582f0c0-951d-4906-8e40-27c900c3dfe7")
+	)
+	(segment
+		(start 123.4 58.425)
+		(end 123.4 69.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B2")
+		(uuid "85dc446a-a2fc-4b0e-bc08-483c1b3c1a30")
+	)
+	(segment
+		(start 123.4 69.375)
+		(end 121.275 71.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B2")
+		(uuid "fb3cca09-06ef-4a98-b2d8-4461225e03c2")
+	)
+	(segment
+		(start 125.975 57.586393)
+		(end 125.5 57.586393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B1")
+		(uuid "18fc70a6-5c35-4eb2-8f73-c6a95427705e")
+	)
+	(segment
+		(start 125.845 71.5)
+		(end 126.2 71.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B1")
+		(uuid "3ea930e4-6447-4598-8b09-16d835b7b4fc")
+	)
+	(segment
+		(start 125.5 57.586393)
+		(end 124.125 58.961393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B1")
+		(uuid "8edc4bdf-303d-4601-b23a-a4703ef0cede")
+	)
+	(segment
+		(start 124.125 69.78)
+		(end 125.845 71.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B1")
+		(uuid "d87eee28-8f07-4279-8f5c-46ee17a8e315")
+	)
+	(segment
+		(start 124.125 58.961393)
+		(end 124.125 69.78)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/B1")
+		(uuid "e2cdc49c-1506-4053-87e1-0d4b8a78f8ff")
+	)
+	(segment
+		(start 124.525 69.03)
+		(end 124.525 61.221393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A1")
+		(uuid "26b7c7cf-779e-470b-bf08-ad02022772b0")
+	)
+	(segment
+		(start 125.62 60.126393)
+		(end 125.975 60.126393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A1")
+		(uuid "a5752aaa-c392-4451-aed4-6384dd42a359")
+	)
+	(segment
+		(start 124.525 61.221393)
+		(end 125.62 60.126393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A1")
+		(uuid "a99ac9fb-3bde-4863-ba52-0c3cf34757a3")
+	)
+	(segment
+		(start 125.725 70.23)
+		(end 124.525 69.03)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A1")
+		(uuid "c5c16f8e-128a-4f3f-be7d-646f0acf0be1")
+	)
+	(segment
+		(start 126.2 70.23)
+		(end 125.725 70.23)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/A1")
+		(uuid "d259f3ed-edce-4a96-bf73-3417b1bf1c94")
+	)
+	(segment
+		(start 124.925 68.16)
+		(end 124.925 63.241393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S1")
+		(uuid "00506342-a333-47d7-9939-93d6ae5c7d8c")
+	)
+	(segment
+		(start 124.925 63.241393)
+		(end 125.5 62.666393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S1")
+		(uuid "a4e5f295-6520-4f83-9c9a-6aab2ca0d812")
+	)
+	(segment
+		(start 125.5 62.666393)
+		(end 125.975 62.666393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S1")
+		(uuid "ce1be506-8fb4-4253-8976-73e6355f9fec")
+	)
+	(segment
+		(start 126.2 68.96)
+		(end 125.725 68.96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S1")
+		(uuid "d8816006-d960-45fa-aed5-28cd688a90cb")
+	)
+	(segment
+		(start 125.725 68.96)
+		(end 124.925 68.16)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/S1")
+		(uuid "f2e4f89d-7b20-420d-ae4a-c1aa48c83527")
+	)
+	(segment
 		(start 110.75 59.475)
 		(end 112 58.225)
 		(width 0.2)
@@ -6605,36 +6397,52 @@
 		(uuid "c132100d-ce81-47f0-b62f-c55dfcebfd85")
 	)
 	(segment
-		(start 137.5 70.8125)
-		(end 141.25 70.8125)
+		(start 140 64.2125)
+		(end 140 63.5625)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(SW1-Switch^{2})")
-		(uuid "81c57713-20e3-41ff-903d-929c28159529")
+		(net "Net-(C5-Pad1)")
+		(uuid "0c709e60-590f-48e4-b388-046efbc159d8")
 	)
 	(segment
-		(start 140.925 71.8125)
-		(end 142.25 71.8125)
+		(start 140 63.5625)
+		(end 141.25 62.3125)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(SW1-Switch^{2})")
-		(uuid "b49a04b4-43ce-45f2-b179-883871a72f6f")
+		(net "Net-(C5-Pad1)")
+		(uuid "1044d3a9-5517-4ab7-8227-4367467a55a0")
 	)
 	(segment
-		(start 140 72.7375)
-		(end 140.925 71.8125)
+		(start 140.4375 61.5)
+		(end 129.093607 61.5)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(SW1-Switch^{2})")
-		(uuid "bf35b0f5-0bc3-4589-b61c-0dce00e39f8e")
+		(net "Net-(C5-Pad1)")
+		(uuid "15760216-68a1-4000-a21f-913bbf7635cd")
 	)
 	(segment
-		(start 141.25 70.8125)
-		(end 142.25 71.8125)
+		(start 126.45 58.856393)
+		(end 125.975 58.856393)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(SW1-Switch^{2})")
-		(uuid "e079784f-d388-4239-b810-2b348527519c")
+		(net "Net-(C5-Pad1)")
+		(uuid "69f53e9e-6394-4854-9395-70d1c5d050f4")
+	)
+	(segment
+		(start 129.093607 61.5)
+		(end 126.45 58.856393)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C5-Pad1)")
+		(uuid "ce4acdad-a5fe-41a2-af7a-8e97c6a93785")
+	)
+	(segment
+		(start 141.25 62.3125)
+		(end 140.4375 61.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(C5-Pad1)")
+		(uuid "dd58826f-12a0-4127-9159-9cf0b6faa270")
 	)
 	(zone
 		(net "GND")
